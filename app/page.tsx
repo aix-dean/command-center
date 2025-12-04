@@ -16,6 +16,7 @@ import {
 import { Button } from "@/components/ui/button"
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
+import { SidebarInset } from "@/components/ui/sidebar"
 import { getFilenameFromUrl } from "@/lib/utils"
 import { useToast } from "@/hooks/use-toast"
 import { ReviewDialog } from "@/components/review-dialog"
@@ -253,68 +254,70 @@ export default function CommandCenter() {
   }
 
   return (
-    <main className="min-h-screen bg-background p-4 md:p-8">
-      <div className="mx-auto max-w-7xl">
-        <div className="mb-8 flex items-center justify-between">
-          <h1 className="text-4xl font-bold text-foreground">Command Center</h1>
+    <SidebarInset>
+      <main className="min-h-screen bg-background p-4 md:p-8">
+        <div className="mx-auto max-w-7xl">
+          <div className="mb-8 flex items-center justify-between">
+            <h1 className="text-4xl font-bold text-foreground">Command Center</h1>
+          </div>
+
+          <Card>
+            <CardHeader>
+              <CardTitle>Booking Censorship</CardTitle>
+            </CardHeader>
+            <CardContent>
+              {loading ? (
+                <div className="flex justify-center py-8">
+                  <p className="text-muted-foreground">Loading bookings...</p>
+                </div>
+              ) : bookings.length === 0 ? (
+                <div className="flex justify-center py-8">
+                  <p className="text-muted-foreground">No bookings found for review.</p>
+                </div>
+              ) : (
+                <div className="overflow-x-auto">
+                  <Table>
+                    <TableHeader>
+                      <TableRow>
+                        <TableHead className="w-[120px]">Booking ID</TableHead>
+                        <TableHead>Start Date</TableHead>
+                        <TableHead>End Date</TableHead>
+                        <TableHead className="min-w-[200px]">Content</TableHead>
+                        <TableHead className="text-right">Action</TableHead>
+                      </TableRow>
+                    </TableHeader>
+                    <TableBody>
+                      {bookings.map((booking) => (
+                        <TableRow key={booking.id}>
+                          <TableCell className="font-medium">{booking.bookingId}</TableCell>
+                          <TableCell>{booking.start_date?.toLocaleDateString()}</TableCell>
+                          <TableCell>{booking.end_date?.toLocaleDateString()}</TableCell>
+                          <TableCell className="truncate max-w-xs" title={booking.content}>
+                            {getFilenameFromUrl(booking.content)}
+                          </TableCell>
+                          <TableCell className="text-right">
+                            <div className="flex justify-end gap-2">
+                              <Button onClick={() => handleReviewClick(booking)}>Review</Button>
+                            </div>
+                          </TableCell>
+                        </TableRow>
+                      ))}
+                    </TableBody>
+                  </Table>
+                </div>
+              )}
+            </CardContent>
+          </Card>
         </div>
 
-        <Card>
-          <CardHeader>
-            <CardTitle>Booking Censorship</CardTitle>
-          </CardHeader>
-          <CardContent>
-            {loading ? (
-              <div className="flex justify-center py-8">
-                <p className="text-muted-foreground">Loading bookings...</p>
-              </div>
-            ) : bookings.length === 0 ? (
-              <div className="flex justify-center py-8">
-                <p className="text-muted-foreground">No bookings found for review.</p>
-              </div>
-            ) : (
-              <div className="overflow-x-auto">
-                <Table>
-                  <TableHeader>
-                    <TableRow>
-                      <TableHead className="w-[120px]">Booking ID</TableHead>
-                      <TableHead>Start Date</TableHead>
-                      <TableHead>End Date</TableHead>
-                      <TableHead className="min-w-[200px]">Content</TableHead>
-                      <TableHead className="text-right">Action</TableHead>
-                    </TableRow>
-                  </TableHeader>
-                  <TableBody>
-                    {bookings.map((booking) => (
-                      <TableRow key={booking.id}>
-                        <TableCell className="font-medium">{booking.bookingId}</TableCell>
-                        <TableCell>{booking.start_date?.toLocaleDateString()}</TableCell>
-                        <TableCell>{booking.end_date?.toLocaleDateString()}</TableCell>
-                        <TableCell className="truncate max-w-xs" title={booking.content}>
-                          {getFilenameFromUrl(booking.content)}
-                        </TableCell>
-                        <TableCell className="text-right">
-                          <div className="flex justify-end gap-2">
-                            <Button onClick={() => handleReviewClick(booking)}>Review</Button>
-                          </div>
-                        </TableCell>
-                      </TableRow>
-                    ))}
-                  </TableBody>
-                </Table>
-              </div>
-            )}
-          </CardContent>
-        </Card>
-      </div>
-
-      <ReviewDialog
-        booking={reviewingBooking}
-        open={reviewDialogOpen}
-        onOpenChange={setReviewDialogOpen}
-        onApprove={handleApprove}
-        onReject={handleReject}
-      />
-    </main>
+        <ReviewDialog
+          booking={reviewingBooking}
+          open={reviewDialogOpen}
+          onOpenChange={setReviewDialogOpen}
+          onApprove={handleApprove}
+          onReject={handleReject}
+        />
+      </main>
+    </SidebarInset>
   )
 }
