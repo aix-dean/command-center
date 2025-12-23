@@ -355,7 +355,7 @@ function SidebarHeader({ className, ...props }: React.ComponentProps<'div'>) {
           <Button
             variant="outline"
             size="sm"
-            className="ml-auto w-fit gap-2 hover:bg-sidebar-accent hover:text-sidebar-accent-foreground border-sidebar-border"
+            className="w-fit gap-2 hover:bg-sidebar-accent hover:text-sidebar-accent-foreground border-sidebar-border"
           >
             <UserIcon className="h-4 w-4" />
             {department}
