@@ -1,377 +1,268 @@
-[00:00:00.582] Server  LOG      ✓ Ready in 356ms
-[00:00:03.619] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:03.867] Browser LOG     [v0] Checking environment variables...
-[00:00:03.867] Browser LOG     [v0] All environment variables present
-[00:00:03.867] Browser LOG     [v0] Starting Firebase initialization...
-[00:00:03.867] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:00:03.867] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:00:03.867] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1764040258853}
-[00:00:03.867] Browser LOG     [v0] Creating new Firebase app...
-[00:00:03.867] Browser LOG     [v0] Firebase app created
-[00:00:03.968] Browser LOG     [v0] Getting Firestore instance...
-[00:00:03.968] Browser LOG     [v0] Firestore instance obtained
-[00:00:04.633] Browser LOG     [v0] Snapshot received, found 41 documents
-[00:00:04.883] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:05.099] Browser LOG     [v0] Checking environment variables...
-[00:00:05.099] Browser LOG     [v0] All environment variables present
-[00:00:05.099] Browser LOG     [v0] Starting Firebase initialization...
-[00:00:05.099] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:00:05.099] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:00:05.099] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1764040260082}
-[00:00:05.099] Browser LOG     [v0] Creating new Firebase app...
-[00:00:05.099] Browser LOG     [v0] Firebase app created
-[00:00:05.200] Browser LOG     [v0] Getting Firestore instance...
-[00:00:05.200] Browser LOG     [v0] Firestore instance obtained
-[00:00:05.710] Browser LOG     [v0] Snapshot received, found 41 documents
-[00:00:23.152] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:23.372] Browser LOG     [v0] Checking environment variables...
-[00:00:23.372] Browser LOG     [v0] All environment variables present
-[00:00:23.372] Browser LOG     [v0] Starting Firebase initialization...
-[00:00:23.372] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:00:23.372] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:00:23.372] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1764040278354}
-[00:00:23.372] Browser LOG     [v0] Creating new Firebase app...
-[00:00:23.372] Browser LOG     [v0] Firebase app created
-[00:00:23.472] Browser LOG     [v0] Getting Firestore instance...
-[00:00:23.472] Browser LOG     [v0] Firestore instance obtained
-[00:00:24.033] Browser LOG     [v0] Snapshot received, found 41 documents
-[00:00:51.185] Server  LOG      ✓ Compiled in 59ms
-[00:01:09.113] Server  LOG      ✓ Compiled in 0ms
-[00:01:09.229] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:01:09.460] Browser LOG     [v0] Checking environment variables...
-[00:01:09.460] Browser LOG     [v0] All environment variables present
-[00:01:09.460] Browser LOG     [v0] Starting Firebase initialization...
-[00:01:09.460] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:01:09.460] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:01:09.460] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1764040324445}
-[00:01:09.460] Browser LOG     [v0] Creating new Firebase app...
-[00:01:09.460] Browser LOG     [v0] Firebase app created
-[00:01:09.561] Browser LOG     [v0] Getting Firestore instance...
-[00:01:09.561] Browser LOG     [v0] Firestore instance obtained
-[00:01:10.117] Browser LOG     [v0] Snapshot received, found 41 documents
-[00:01:10.117] Browser LOG     [v0] firstLoadRef.current: true
-[00:01:10.117] Browser LOG     [v0] First load, skipping notifications
-[00:04:55.758] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:04:55.977] Browser LOG     [v0] Checking environment variables...
-[00:04:55.977] Browser LOG     [v0] All environment variables present
-[00:04:55.977] Browser LOG     [v0] Starting Firebase initialization...
-[00:04:55.977] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:04:55.977] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:04:55.977] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1764040550963}
-[00:04:55.977] Browser LOG     [v0] Creating new Firebase app...
-[00:04:55.977] Browser LOG     [v0] Firebase app created
-[00:04:56.078] Browser LOG     [v0] Getting Firestore instance...
-[00:04:56.078] Browser LOG     [v0] Firestore instance obtained
-[00:04:57.684] Browser LOG     [v0] Snapshot received, found 41 documents
-[00:04:57.684] Browser LOG     [v0] firstLoadRef.current: true
-[00:04:57.684] Browser LOG     [v0] First load, skipping notifications
-[00:05:01.998] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:05:02.223] Browser LOG     [v0] Checking environment variables...
-[00:05:02.223] Browser LOG     [v0] All environment variables present
-[00:05:02.223] Browser LOG     [v0] Starting Firebase initialization...
-[00:05:02.223] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:05:02.223] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:05:02.223] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1764040557208}
-[00:05:02.223] Browser LOG     [v0] Creating new Firebase app...
-[00:05:02.223] Browser LOG     [v0] Firebase app created
-[00:05:02.324] Browser LOG     [v0] Getting Firestore instance...
-[00:05:02.324] Browser LOG     [v0] Firestore instance obtained
-[00:05:03.165] Browser LOG     [v0] Snapshot received, found 41 documents
-[00:05:03.165] Browser LOG     [v0] firstLoadRef.current: true
-[00:05:03.165] Browser LOG     [v0] First load, skipping notifications
-[00:05:17.741] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:05:17.962] Browser LOG     [v0] Checking environment variables...
-[00:05:17.962] Browser LOG     [v0] All environment variables present
-[00:05:17.962] Browser LOG     [v0] Starting Firebase initialization...
-[00:05:17.962] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:05:17.962] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:05:17.962] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1764040572946}
-[00:05:17.962] Browser LOG     [v0] Creating new Firebase app...
-[00:05:17.962] Browser LOG     [v0] Firebase app created
-[00:05:18.065] Browser LOG     [v0] Getting Firestore instance...
-[00:05:18.065] Browser LOG     [v0] Firestore instance obtained
-[00:05:18.656] Browser LOG     [v0] Snapshot received, found 41 documents
-[00:05:18.656] Browser LOG     [v0] firstLoadRef.current: true
-[00:05:18.656] Browser LOG     [v0] First load, skipping notifications
-[00:05:46.472] Browser LOG     [v0] Snapshot received, found 42 documents
-[00:05:46.472] Browser LOG     [v0] firstLoadRef.current: false
-[00:05:46.472] Browser LOG     [v0] Processing docChanges...
-[00:05:46.472] Browser LOG     [v0] Document change: added for booking: 123
-[00:05:46.472] Browser LOG     [v0] Showing toast for new booking
-[00:05:46.472] Browser ERROR   Error extracting filename: {}
-[00:05:46.472] Browser ERROR   Error extracting filename: {}
-[00:05:54.164] Browser ERROR   Error extracting filename: {}
-[00:05:54.164] Browser ERROR   Error extracting filename: {}
-[00:06:06.684] Browser LOG     [v0] Snapshot received, found 41 documents
-[00:06:06.684] Browser LOG     [v0] firstLoadRef.current: false
-[00:06:06.684] Browser LOG     [v0] Processing docChanges...
-[00:06:06.684] Browser LOG     [v0] Document change: removed for booking: 123
-[00:06:08.684] Browser LOG     [v0] Snapshot received, found 42 documents
-[00:06:08.684] Browser LOG     [v0] firstLoadRef.current: false
-[00:06:08.684] Browser LOG     [v0] Processing docChanges...
-[00:06:08.684] Browser LOG     [v0] Document change: added for booking: 123
-[00:06:08.684] Browser LOG     [v0] Showing toast for new booking
-[00:06:08.684] Browser ERROR   Error extracting filename: {}
-[00:06:08.684] Browser ERROR   Error extracting filename: {}
-[00:06:40.465] Browser LOG     [v0] Snapshot received, found 43 documents
-[00:06:40.465] Browser LOG     [v0] firstLoadRef.current: false
-[00:06:40.465] Browser LOG     [v0] Processing docChanges...
-[00:06:40.465] Browser LOG     [v0] Document change: added for booking: RV-1763992151433
-[00:06:40.465] Browser LOG     [v0] Showing toast for new booking
-[00:06:40.465] Browser ERROR   Error extracting filename: {}
-[00:06:40.465] Browser ERROR   Error extracting filename: {}
-[00:06:43.450] Browser LOG     [v0] Snapshot received, found 42 documents
-[00:06:43.450] Browser LOG     [v0] firstLoadRef.current: false
-[00:06:43.450] Browser LOG     [v0] Processing docChanges...
-[00:06:43.450] Browser LOG     [v0] Document change: removed for booking: RV-1763992151433
-[00:06:43.450] Browser ERROR   Error extracting filename: {}
-[00:06:43.450] Browser ERROR   Error extracting filename: {}
-[00:06:48.989] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:06:49.210] Browser LOG     [v0] Checking environment variables...
-[00:06:49.210] Browser LOG     [v0] All environment variables present
-[00:06:49.210] Browser LOG     [v0] Starting Firebase initialization...
-[00:06:49.210] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:06:49.210] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:06:49.210] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1764040664197}
-[00:06:49.210] Browser LOG     [v0] Creating new Firebase app...
-[00:06:49.210] Browser LOG     [v0] Firebase app created
-[00:06:49.312] Browser LOG     [v0] Getting Firestore instance...
-[00:06:49.312] Browser LOG     [v0] Firestore instance obtained
-[00:06:49.606] Browser LOG     [v0] Snapshot received, found 42 documents
-[00:06:49.606] Browser LOG     [v0] firstLoadRef.current: true
-[00:06:49.606] Browser LOG     [v0] First load, skipping notifications
-[00:06:49.606] Browser ERROR   Error extracting filename: {}
-[00:06:49.606] Browser ERROR   Error extracting filename: {}
-[00:08:03.053] Server  ERROR    ⨯ Error: The default export is not a React Component in "/page"
-[00:08:03.312] Server  ERROR    ⨯ Error: The default export is not a React Component in "/page"
-[00:08:03.664] Server  ERROR    ⨯ Error: The default export is not a React Component in "/page"
-[00:08:03.968] Server  ERROR    ⨯ Error: The default export is not a React Component in "/page"
-[00:08:04.471] Browser ERROR   uncaughtError: Error: The default export is not a React Component in "/page"
-[00:08:24.772] Server  LOG      ✓ Compiled in 62ms
-[00:08:44.908] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:08:45.126] Browser LOG     [v0] Checking environment variables...
-[00:08:45.126] Browser LOG     [v0] All environment variables present
-[00:08:45.126] Browser LOG     [v0] Starting Firebase initialization...
-[00:08:45.126] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:08:45.126] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:08:45.126] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1764040780112}
-[00:08:45.126] Browser LOG     [v0] Creating new Firebase app...
-[00:08:45.126] Browser LOG     [v0] Firebase app created
-[00:08:45.227] Browser LOG     [v0] Getting Firestore instance...
-[00:08:45.228] Browser LOG     [v0] Firestore instance obtained
-[00:08:46.006] Browser LOG     [v0] Snapshot received, found 42 documents
-[00:08:46.006] Browser LOG     [v0] firstLoadRef.current: true
-[00:08:46.006] Browser LOG     [v0] First load, skipping notifications
-[00:08:46.006] Browser ERROR   Error extracting filename: {}
-[00:08:46.006] Browser ERROR   Error extracting filename: {}
-[00:08:51.684] Browser LOG     [v0] Snapshot received, found 41 documents
-[00:08:51.684] Browser LOG     [v0] firstLoadRef.current: false
-[00:08:51.684] Browser LOG     [v0] Processing docChanges...
-[00:08:51.684] Browser LOG     [v0] Document change: removed for booking: 123
-[00:08:52.684] Browser LOG     [v0] Snapshot received, found 42 documents
-[00:08:52.684] Browser LOG     [v0] firstLoadRef.current: false
-[00:08:52.684] Browser LOG     [v0] Processing docChanges...
-[00:08:52.684] Browser LOG     [v0] Document change: added for booking: 123
-[00:08:52.684] Browser LOG     [v0] Showing toast for new booking
-[00:08:52.684] Browser ERROR   Error extracting filename: {}
-[00:08:52.684] Browser ERROR   Error extracting filename: {}
-[00:08:55.014] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:08:55.230] Browser LOG     [v0] Checking environment variables...
-[00:08:55.230] Browser LOG     [v0] All environment variables present
-[00:08:55.230] Browser LOG     [v0] Starting Firebase initialization...
-[00:08:55.230] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:08:55.230] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:08:55.230] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1764040790215}
-[00:08:55.230] Browser LOG     [v0] Creating new Firebase app...
-[00:08:55.230] Browser LOG     [v0] Firebase app created
-[00:08:55.330] Browser LOG     [v0] Getting Firestore instance...
-[00:08:55.330] Browser LOG     [v0] Firestore instance obtained
-[00:08:55.880] Browser LOG     [v0] Snapshot received, found 42 documents
-[00:08:55.880] Browser LOG     [v0] firstLoadRef.current: true
-[00:08:55.880] Browser LOG     [v0] First load, skipping notifications
-[00:08:55.880] Browser ERROR   Error extracting filename: {}
-[00:08:55.880] Browser ERROR   Error extracting filename: {}
-[00:09:16.513] Server  LOG      ✓ Compiled in 44ms
-[00:09:16.593] Browser ERROR   Error extracting filename: {}
-[00:09:16.593] Browser ERROR   Error extracting filename: {}
-[00:09:59.684] Browser LOG     [v0] Snapshot received, found 41 documents
-[00:09:59.684] Browser LOG     [v0] firstLoadRef.current: false
-[00:09:59.684] Browser LOG     [v0] Processing docChanges...
-[00:09:59.684] Browser LOG     [v0] Document change: removed for booking: 123
-[00:10:02.684] Browser LOG     [v0] Snapshot received, found 42 documents
-[00:10:02.684] Browser LOG     [v0] firstLoadRef.current: false
-[00:10:02.684] Browser LOG     [v0] Processing docChanges...
-[00:10:02.684] Browser LOG     [v0] Document change: added for booking: 123
-[00:10:02.684] Browser LOG     [v0] Showing toast for new booking
-[00:10:02.684] Browser ERROR   Error extracting filename: {}
-[00:10:02.684] Browser ERROR   Error extracting filename: {}
-[00:10:22.174] Browser ERROR   Error extracting filename: {}
-[00:10:22.174] Browser ERROR   Error extracting filename: {}
-[00:10:27.684] Browser LOG     [v0] Snapshot received, found 41 documents
-[00:10:27.684] Browser LOG     [v0] firstLoadRef.current: false
-[00:10:27.684] Browser LOG     [v0] Processing docChanges...
-[00:10:27.684] Browser LOG     [v0] Document change: removed for booking: 123
-[00:10:31.684] Browser LOG     [v0] Snapshot received, found 42 documents
-[00:10:31.684] Browser LOG     [v0] firstLoadRef.current: false
-[00:10:31.684] Browser LOG     [v0] Processing docChanges...
-[00:10:31.684] Browser LOG     [v0] Document change: added for booking: 123
-[00:10:31.684] Browser LOG     [v0] Showing toast for new booking
-[00:10:31.684] Browser ERROR   Error extracting filename: {}
-[00:10:31.684] Browser ERROR   Error extracting filename: {}
-[00:10:34.808] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:10:35.030] Browser LOG     [v0] Checking environment variables...
-[00:10:35.030] Browser LOG     [v0] All environment variables present
-[00:10:35.030] Browser LOG     [v0] Starting Firebase initialization...
-[00:10:35.030] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:10:35.030] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:10:35.030] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1764040890014}
-[00:10:35.030] Browser LOG     [v0] Creating new Firebase app...
-[00:10:35.030] Browser LOG     [v0] Firebase app created
-[00:10:35.131] Browser LOG     [v0] Getting Firestore instance...
-[00:10:35.131] Browser LOG     [v0] Firestore instance obtained
-[00:10:35.962] Browser LOG     [v0] Snapshot received, found 42 documents
-[00:10:35.962] Browser LOG     [v0] firstLoadRef.current: true
-[00:10:35.962] Browser LOG     [v0] First load, skipping notifications
-[00:10:35.962] Browser ERROR   Error extracting filename: {}
-[00:10:35.962] Browser ERROR   Error extracting filename: {}
-[00:11:03.684] Browser LOG     [v0] Snapshot received, found 41 documents
-[00:11:03.684] Browser LOG     [v0] firstLoadRef.current: false
-[00:11:03.684] Browser LOG     [v0] Processing docChanges...
-[00:11:03.684] Browser LOG     [v0] Document change: removed for booking: 123
-[00:11:07.567] Browser LOG     [v0] Snapshot received, found 42 documents
-[00:11:07.567] Browser LOG     [v0] firstLoadRef.current: false
-[00:11:07.567] Browser LOG     [v0] Processing docChanges...
-[00:11:07.567] Browser LOG     [v0] Document change: added for booking: 123
-[00:11:07.567] Browser LOG     [v0] Showing toast for new booking
-[00:11:07.567] Browser ERROR   Error extracting filename: {}
-[00:11:07.567] Browser ERROR   Error extracting filename: {}
-[00:11:12.926] Browser ERROR   Error extracting filename: {}
-[00:11:12.926] Browser ERROR   Error extracting filename: {}
-[00:11:23.040] Browser LOG     [v0] Snapshot received, found 43 documents
-[00:11:23.040] Browser LOG     [v0] firstLoadRef.current: false
-[00:11:23.040] Browser LOG     [v0] Processing docChanges...
-[00:11:23.040] Browser LOG     [v0] Document change: added for booking: RV-1763992151433
-[00:11:23.040] Browser LOG     [v0] Showing toast for new booking
-[00:11:23.040] Browser ERROR   Error extracting filename: {}
-[00:11:23.040] Browser ERROR   Error extracting filename: {}
-[00:11:25.962] Browser LOG     [v0] Snapshot received, found 42 documents
-[00:11:25.962] Browser LOG     [v0] firstLoadRef.current: false
-[00:11:25.962] Browser LOG     [v0] Processing docChanges...
-[00:11:25.962] Browser LOG     [v0] Document change: removed for booking: RV-1763992151433
-[00:11:25.962] Browser ERROR   Error extracting filename: {}
-[00:11:25.962] Browser ERROR   Error extracting filename: {}
-[00:11:27.876] Browser ERROR   Error extracting filename: {}
-[00:11:27.876] Browser ERROR   Error extracting filename: {}
-[00:12:11.150] Server  ERROR    ⨯ Error: The default export is not a React Component in "/page"
-[00:12:11.426] Server  ERROR    ⨯ Error: The default export is not a React Component in "/page"
-[00:12:11.786] Server  ERROR    ⨯ Error: The default export is not a React Component in "/page"
-[00:12:12.105] Server  ERROR    ⨯ Error: The default export is not a React Component in "/page"
-[00:12:12.370] Server  ERROR    ⨯ Error: The default export is not a React Component in "/page"
-[00:12:12.636] Server  ERROR    ⨯ Error: The default export is not a React Component in "/page"
-[00:12:12.772] Browser ERROR   uncaughtError: Error: The default export is not a React Component in "/page"
-[00:13:07.356] Server  LOG      ✓ Compiled in 54ms
-[00:13:19.824] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:13:20.053] Browser LOG     [v0] Checking environment variables...
-[00:13:20.053] Browser LOG     [v0] All environment variables present
-[00:13:20.053] Browser LOG     [v0] Starting Firebase initialization...
-[00:13:20.053] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:13:20.053] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:13:20.053] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1764041055046}
-[00:13:20.053] Browser LOG     [v0] Creating new Firebase app...
-[00:13:20.053] Browser LOG     [v0] Firebase app created
-[00:13:20.154] Browser LOG     [v0] Getting Firestore instance...
-[00:13:20.154] Browser LOG     [v0] Firestore instance obtained
-[00:13:20.826] Browser LOG     [v0] Snapshot received, found 42 documents
-[00:13:20.826] Browser LOG     [v0] firstLoadRef.current: true
-[00:13:20.826] Browser LOG     [v0] First load, skipping notifications
-[00:13:20.826] Browser ERROR   Error extracting filename: {}
-[00:13:20.826] Browser ERROR   Error extracting filename: {}
-[00:13:21.560] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:13:21.778] Browser LOG     [v0] Checking environment variables...
-[00:13:21.778] Browser LOG     [v0] All environment variables present
-[00:13:21.778] Browser LOG     [v0] Starting Firebase initialization...
-[00:13:21.778] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:13:21.778] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:13:21.778] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1764041056762}
-[00:13:21.778] Browser LOG     [v0] Creating new Firebase app...
-[00:13:21.778] Browser LOG     [v0] Firebase app created
-[00:13:21.879] Browser LOG     [v0] Getting Firestore instance...
-[00:13:21.879] Browser LOG     [v0] Firestore instance obtained
-[00:13:22.500] Browser LOG     [v0] Snapshot received, found 42 documents
-[00:13:22.500] Browser LOG     [v0] firstLoadRef.current: true
-[00:13:22.500] Browser LOG     [v0] First load, skipping notifications
-[00:13:22.500] Browser ERROR   Error extracting filename: {}
-[00:13:22.500] Browser ERROR   Error extracting filename: {}
-[00:13:29.684] Browser LOG     [v0] Snapshot received, found 43 documents
-[00:13:29.684] Browser LOG     [v0] firstLoadRef.current: false
-[00:13:29.684] Browser LOG     [v0] Processing docChanges...
-[00:13:29.684] Browser LOG     [v0] Document change: added for booking: RV-1763992151433
-[00:13:29.684] Browser LOG     [v0] Showing toast for new booking
-[00:13:29.684] Browser ERROR   Error extracting filename: {}
-[00:13:29.684] Browser ERROR   Error extracting filename: {}
-[00:13:36.684] Browser LOG     [v0] Snapshot received, found 42 documents
-[00:13:36.684] Browser LOG     [v0] firstLoadRef.current: false
-[00:13:36.684] Browser LOG     [v0] Processing docChanges...
-[00:13:36.684] Browser LOG     [v0] Document change: removed for booking: RV-1763992151433
-[00:13:36.684] Browser ERROR   Error extracting filename: {}
-[00:13:36.684] Browser ERROR   Error extracting filename: {}
-[00:13:40.684] Browser LOG     [v0] Snapshot received, found 43 documents
-[00:13:40.684] Browser LOG     [v0] firstLoadRef.current: false
-[00:13:40.684] Browser LOG     [v0] Processing docChanges...
-[00:13:40.684] Browser LOG     [v0] Document change: added for booking: RV-1763992151433
-[00:13:40.684] Browser LOG     [v0] Showing toast for new booking
-[00:13:40.684] Browser ERROR   Error extracting filename: {}
-[00:13:40.684] Browser ERROR   Error extracting filename: {}
-[00:14:08.847] Server  ERROR    ⨯ Error: The default export is not a React Component in "/page"
-[00:14:09.099] Server  ERROR    ⨯ Error: The default export is not a React Component in "/page"
-[00:14:09.418] Server  ERROR    ⨯ Error: The default export is not a React Component in "/page"
-[00:14:09.670] Server  ERROR    ⨯ Error: The default export is not a React Component in "/page"
-[00:14:09.957] Server  ERROR    ⨯ Error: The default export is not a React Component in "/page"
-[00:14:10.200] Server  ERROR    ⨯ Error: The default export is not a React Component in "/page"
-[00:14:10.320] Browser ERROR   uncaughtError: Error: The default export is not a React Component in "/page"
-[00:14:18.792] Server  ERROR    ⨯ Error: The default export is not a React Component in "/page"
-[00:14:19.031] Server  ERROR    ⨯ Error: The default export is not a React Component in "/page"
-[00:14:19.113] Browser ERROR   uncaughtError: Error: The default export is not a React Component in "/page"
-[00:14:20.918] Server  ERROR    ⨯ Error: The default export is not a React Component in "/page"
-[00:14:21.163] Server  ERROR    ⨯ Error: The default export is not a React Component in "/page"
-[00:14:21.412] Server  ERROR    ⨯ Error: The default export is not a React Component in "/page"
-[00:14:21.644] Server  ERROR    ⨯ Error: The default export is not a React Component in "/page"
-[00:14:21.888] Server  ERROR    ⨯ Error: The default export is not a React Component in "/page"
-[00:14:22.125] Server  ERROR    ⨯ Error: The default export is not a React Component in "/page"
-[00:14:22.206] Browser ERROR   uncaughtError: Error: The default export is not a React Component in "/page"
-[00:14:30.692] Server  LOG      ✓ Compiled in 69ms
-[00:14:31.147] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:14:31.429] Browser LOG     [v0] Checking environment variables...
-[00:14:31.429] Browser LOG     [v0] All environment variables present
-[00:14:31.429] Browser LOG     [v0] Starting Firebase initialization...
-[00:14:31.429] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:14:31.429] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:14:31.429] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1764041126418}
-[00:14:31.429] Browser LOG     [v0] Creating new Firebase app...
-[00:14:31.429] Browser LOG     [v0] Firebase app created
-[00:14:31.529] Browser LOG     [v0] Getting Firestore instance...
-[00:14:31.529] Browser LOG     [v0] Firestore instance obtained
-[00:14:31.960] Browser LOG     [v0] Snapshot received, found 43 documents
-[00:14:31.960] Browser LOG     [v0] firstLoadRef.current: true
-[00:14:31.960] Browser LOG     [v0] First load, skipping notifications
-[00:14:31.960] Browser ERROR   Error extracting filename: {}
-[00:14:31.960] Browser ERROR   Error extracting filename: {}
-[00:14:39.684] Browser LOG     [v0] Snapshot received, found 42 documents
-[00:14:39.684] Browser LOG     [v0] firstLoadRef.current: false
-[00:14:39.684] Browser LOG     [v0] Processing docChanges...
-[00:14:39.684] Browser LOG     [v0] Document change: removed for booking: RV-1763992151433
-[00:14:39.684] Browser ERROR   Error extracting filename: {}
-[00:14:39.684] Browser ERROR   Error extracting filename: {}
-[00:14:41.941] Browser LOG     [v0] Snapshot received, found 43 documents
-[00:14:41.941] Browser LOG     [v0] firstLoadRef.current: false
-[00:14:41.941] Browser LOG     [v0] Processing docChanges...
-[00:14:41.941] Browser LOG     [v0] Document change: added for booking: RV-1763992151433
-[00:14:41.941] Browser LOG     [v0] Showing toast for new booking
-[00:14:41.941] Browser ERROR   Error extracting filename: {}
-[00:14:41.941] Browser ERROR   Error extracting filename: {}
-[00:14:45.748] Browser ERROR   Error extracting filename: {}
-[00:14:45.749] Browser ERROR   Error extracting filename: {}
-[00:14:51.113] Browser LOG     [v0] Snapshot received, found 42 documents
-[00:14:51.113] Browser LOG     [v0] firstLoadRef.current: false
-[00:14:51.113] Browser LOG     [v0] Processing docChanges...
-[00:14:51.113] Browser LOG     [v0] Document change: removed for booking: 123
+[00:00:01.391] Server  LOG      ✓ Ready in 1016ms
+[00:00:10.430] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:10.661] Browser LOG     [v0] Checking environment variables...
+[00:00:10.661] Browser LOG     [v0] All environment variables present
+[00:00:10.661] Browser LOG     [v0] Starting Firebase initialization...
+[00:00:10.661] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:10.661] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:00:10.661] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1764825153998}
+[00:00:10.661] Browser LOG     [v0] Creating new Firebase app...
+[00:00:10.661] Browser LOG     [v0] Firebase app created
+[00:00:10.764] Browser LOG     [v0] Getting Firestore instance...
+[00:00:10.764] Browser LOG     [v0] Firestore instance obtained
+[00:00:12.507] Browser LOG     [v0] Snapshot received, found 84 documents
+[00:00:12.507] Browser LOG     [v0] firstLoadRef.current: true
+[00:00:12.507] Browser LOG     [v0] First load, skipping notifications
+[00:00:12.507] Browser ERROR   Error extracting filename: {}
+[00:00:12.507] Browser ERROR   Error extracting filename: {}
+[00:00:12.507] Browser ERROR   Error extracting filename: {}
+[00:00:12.507] Browser ERROR   Error extracting filename: {}
+[00:00:12.507] Browser ERROR   Error extracting filename: {}
+[00:00:12.507] Browser ERROR   Error extracting filename: {}
+[00:00:12.507] Browser ERROR   Error extracting filename: {}
+[00:00:12.507] Browser ERROR   Error extracting filename: {}
+[00:00:12.507] Browser ERROR   Error extracting filename: {}
+[00:00:12.507] Browser ERROR   Error extracting filename: {}
+[00:00:12.507] Browser ERROR   Error extracting filename: {}
+[00:00:12.507] Browser ERROR   Error extracting filename: {}
+[00:00:12.636] Browser LOG     [v0] Using existing Firebase app
+[00:00:12.636] Browser LOG     [v0] Firestore instance created
+[00:00:12.636] Browser LOG     [v0] Using existing Firebase app
+[00:00:12.636] Browser LOG     [v0] Firestore instance created
+[00:00:12.636] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/products color: rgb(120, 120, 120) color: inherit {"dp":"/products","o":"http://localhost:3000/products","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1764825156051}
+[00:00:16.700] Browser LOG     [v0] Using existing Firebase app
+[00:00:16.700] Browser LOG     [v0] Firestore instance created
+[00:00:16.700] Browser LOG     [v0] Using existing Firebase app
+[00:00:16.700] Browser LOG     [v0] Firestore instance created
+[00:00:16.700] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/companies color: rgb(120, 120, 120) color: inherit {"dp":"/companies","o":"http://localhost:3000/companies","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1764825160115}
+[00:00:17.182] Browser LOG     [v0] Using existing Firebase app
+[00:00:17.182] Browser LOG     [v0] Firestore instance created
+[00:00:17.182] Browser LOG     [v0] Using existing Firebase app
+[00:00:17.182] Browser LOG     [v0] Firestore instance created
+[00:00:17.182] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/products color: rgb(120, 120, 120) color: inherit {"dp":"/products","o":"http://localhost:3000/products","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1764825160597}
+[00:00:21.960] Browser LOG     [v0] Checking environment variables...
+[00:00:21.960] Browser LOG     [v0] All environment variables present
+[00:00:21.960] Browser LOG     [v0] Starting Firebase initialization...
+[00:00:21.960] Browser LOG     [v0] Checking environment variables...
+[00:00:21.960] Browser LOG     [v0] All environment variables present
+[00:00:21.960] Browser LOG     [v0] Starting Firebase initialization...
+[00:00:21.960] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1764825164982}
+[00:00:21.960] Browser LOG     [v0] Using existing Firebase app
+[00:00:21.960] Browser LOG     [v0] Using existing Firebase app
+[00:00:21.960] Browser LOG     [v0] Getting Firestore instance...
+[00:00:21.960] Browser LOG     [v0] Firestore instance obtained
+[00:00:21.960] Browser LOG     [v0] Snapshot received, found 84 documents
+[00:00:21.960] Browser LOG     [v0] firstLoadRef.current: true
+[00:00:21.960] Browser LOG     [v0] First load, skipping notifications
+[00:00:21.960] Browser LOG     [v0] Getting Firestore instance...
+[00:00:21.960] Browser LOG     [v0] Firestore instance obtained
+[00:00:21.960] Browser ERROR   Error extracting filename: {}
+[00:00:21.961] Browser ERROR   Error extracting filename: {}
+[00:00:21.961] Browser ERROR   Error extracting filename: {}
+[00:00:21.961] Browser ERROR   Error extracting filename: {}
+[00:00:21.961] Browser ERROR   Error extracting filename: {}
+[00:00:21.961] Browser ERROR   Error extracting filename: {}
+[00:00:21.961] Browser ERROR   Error extracting filename: {}
+[00:00:21.961] Browser ERROR   Error extracting filename: {}
+[00:00:21.961] Browser ERROR   Error extracting filename: {}
+[00:00:21.961] Browser ERROR   Error extracting filename: {}
+[00:00:21.961] Browser ERROR   Error extracting filename: {}
+[00:00:21.961] Browser ERROR   Error extracting filename: {}
+[00:00:21.961] Browser LOG     [v0] Snapshot received, found 84 documents
+[00:00:21.961] Browser LOG     [v0] firstLoadRef.current: false
+[00:00:21.961] Browser LOG     [v0] Processing docChanges...
+[00:00:21.961] Browser LOG     [v0] Document change: added for booking: RV-1764557019825
+[00:00:21.961] Browser LOG     [v0] Showing toast for new booking
+[00:00:21.961] Browser LOG     [v0] Document change: added for booking: RV-1764406547672
+[00:00:21.961] Browser LOG     [v0] Showing toast for new booking
+[00:00:21.961] Browser LOG     [v0] Document change: added for booking: RV-1764372619674
+[00:00:21.961] Browser LOG     [v0] Showing toast for new booking
+[00:00:21.961] Browser LOG     [v0] Document change: added for booking: RV-1764324321477
+[00:00:21.961] Browser LOG     [v0] Showing toast for new booking
+[00:00:21.961] Browser LOG     [v0] Document change: added for booking: RV-1764321594316
+[00:00:21.961] Browser LOG     [v0] Showing toast for new booking
+[00:00:21.961] Browser LOG     [v0] Document change: added for booking: RV-1764321407557
+[00:00:21.961] Browser LOG     [v0] Showing toast for new booking
+[00:00:21.961] Browser LOG     [v0] Document change: added for booking: RV-1764321359397
+[00:00:21.961] Browser LOG     [v0] Showing toast for new booking
+[00:00:21.961] Browser LOG     [v0] Document change: added for booking: RV-1764321215638
+[00:00:21.961] Browser LOG     [v0] Showing toast for new booking
+[00:00:21.961] Browser LOG     [v0] Document change: added for booking: RV-1764320841117
+[00:00:21.961] Browser LOG     [v0] Showing toast for new booking
+[00:00:21.961] Browser LOG     [v0] Document change: added for booking: RV-1764320383280
+[00:00:21.961] Browser LOG     [v0] Showing toast for new booking
+[00:00:21.961] Browser LOG     [v0] Document change: added for booking: RV-1764320147338
+[00:00:21.961] Browser LOG     [v0] Showing toast for new booking
+[00:00:21.961] Browser LOG     [v0] Document change: added for booking: RV-1764320092866
+[00:00:21.961] Browser LOG     [v0] Showing toast for new booking
+[00:00:21.961] Browser LOG     [v0] Document change: added for booking: RV-1764320077671
+[00:00:21.961] Browser LOG     [v0] Showing toast for new booking
+[00:00:21.961] Browser LOG     [v0] Document change: added for booking: RV-1764320052983
+[00:00:21.961] Browser LOG     [v0] Showing toast for new booking
+[00:00:21.961] Browser LOG     [v0] Document change: added for booking: RV-1764318368817
+[00:00:21.961] Browser LOG     [v0] Showing toast for new booking
+[00:00:21.961] Browser LOG     [v0] Document change: added for booking: RV-1764316731467
+[00:00:21.961] Browser LOG     [v0] Showing toast for new booking
+[00:00:21.961] Browser LOG     [v0] Document change: added for booking: RV-1764298220161
+[00:00:21.961] Browser LOG     [v0] Showing toast for new booking
+[00:00:21.961] Browser LOG     [v0] Document change: added for booking: RV-1764297130335
+[00:00:21.961] Browser LOG     [v0] Showing toast for new booking
+[00:00:21.961] Browser LOG     [v0] Document change: added for booking: RV-1764297093112
+[00:00:21.961] Browser LOG     [v0] Showing toast for new booking
+[00:00:21.961] Browser LOG     [v0] Document change: added for booking: RV-1764297059414
+[00:00:21.961] Browser LOG     [v0] Showing toast for new booking
+[00:00:21.961] Browser LOG     [v0] Document change: added for booking: RV-1764296387102
+[00:00:21.961] Browser LOG     [v0] Showing toast for new booking
+[00:00:21.961] Browser LOG     [v0] Document change: added for booking: RV-1764294428766
+[00:00:21.961] Browser LOG     [v0] Showing toast for new booking
+[00:00:21.961] Browser LOG     [v0] Document change: added for booking: RV-1764294428763
+[00:00:21.961] Browser LOG     [v0] Showing toast for new booking
+[00:00:21.961] Browser LOG     [v0] Document change: added for booking: RV-1764294380057
+[00:00:21.961] Browser LOG     [v0] Showing toast for new booking
+[00:00:21.961] Browser LOG     [v0] Document change: added for booking: RV-1764211324873
+[00:00:21.961] Browser LOG     [v0] Showing toast for new booking
+[00:00:21.961] Browser LOG     [v0] Document change: added for booking: RV-1764211323015
+[00:00:21.961] Browser LOG     [v0] Showing toast for new booking
+[00:00:21.961] Browser LOG     [v0] Document change: added for booking: RV-1764137811113
+[00:00:21.961] Browser LOG     [v0] Showing toast for new booking
+[00:00:21.961] Browser LOG     [v0] Document change: added for booking: RV-1764126256353
+[00:00:21.961] Browser LOG     [v0] Showing toast for new booking
+[00:00:21.961] Browser LOG     [v0] Document change: added for booking: RV-1764126248472
+[00:00:21.961] Browser LOG     [v0] Showing toast for new booking
+[00:00:21.961] Browser LOG     [v0] Document change: added for booking: RV-1764126239317
+[00:00:21.961] Browser LOG     [v0] Showing toast for new booking
+[00:00:21.961] Browser LOG     [v0] Document change: added for booking: RV-1764125215207
+[00:00:21.961] Browser LOG     [v0] Showing toast for new booking
+[00:00:21.961] Browser LOG     [v0] Document change: added for booking: RV-1764125204989
+[00:00:21.961] Browser LOG     [v0] Showing toast for new booking
+[00:00:21.961] Browser LOG     [v0] Document change: added for booking: RV-1764125130784
+[00:00:21.961] Browser LOG     [v0] Showing toast for new booking
+[00:00:21.961] Browser LOG     [v0] Document change: added for booking: RV-1764125129692
+[00:00:21.961] Browser LOG     [v0] Showing toast for new booking
+[00:00:21.961] Browser LOG     [v0] Document change: added for booking: RV-1764122952934
+[00:00:21.961] Browser LOG     [v0] Showing toast for new booking
+[00:00:21.961] Browser LOG     [v0] Document change: added for booking: RV-1764122847403
+[00:00:21.961] Browser LOG     [v0] Showing toast for new booking
+[00:00:21.961] Browser LOG     [v0] Document change: added for booking: RV-1764050998129
+[00:00:21.961] Browser LOG     [v0] Showing toast for new booking
+[00:00:21.961] Browser LOG     [v0] Document change: added for booking: RV-1764050332102
+[00:00:21.961] Browser LOG     [v0] Showing toast for new booking
+[00:00:21.961] Browser LOG     [v0] Document change: added for booking: RV-1764049754953
+[00:00:21.961] Browser LOG     [v0] Showing toast for new booking
+[00:00:21.961] Browser LOG     [v0] Document change: added for booking: RV-1764044963071
+[00:00:21.961] Browser LOG     [v0] Showing toast for new booking
+[00:00:21.961] Browser LOG     [v0] Document change: added for booking: RV-1764044769247
+[00:00:21.961] Browser LOG     [v0] Showing toast for new booking
+[00:00:21.961] Browser LOG     [v0] Document change: added for booking: RV-1764042441386
+[00:00:21.961] Browser LOG     [v0] Showing toast for new booking
+[00:00:21.961] Browser LOG     [v0] Document change: added for booking: RV-1763992151433
+[00:00:21.961] Browser LOG     [v0] Showing toast for new booking
+[00:00:21.961] Browser LOG     [v0] Document change: added for booking: RV-1763709858571
+[00:00:21.961] Browser LOG     [v0] Showing toast for new booking
+[00:00:21.961] Browser LOG     [v0] Document change: added for booking: RV-1763693573293
+[00:00:21.961] Browser LOG     [v0] Showing toast for new booking
+[00:00:21.961] Browser LOG     [v0] Document change: added for booking: RV-1763690519802
+[00:00:21.961] Browser LOG     [v0] Showing toast for new booking
+[00:00:21.961] Browser LOG     [v0] Document change: added for booking: RV-1763624702024
+[00:00:21.961] Browser LOG     [v0] Showing toast for new booking
+[00:00:21.961] Browser LOG     [v0] Document change: added for booking: RV-1763560514420
+[00:00:21.961] Browser LOG     [v0] Showing toast for new booking
+[00:00:21.961] Browser LOG     [v0] Document change: added for booking: RV-1763553846377
+[00:00:21.961] Browser LOG     [v0] Showing toast for new booking
+[00:00:21.961] Browser LOG     [v0] Document change: added for booking: RV-1763553661692
+[00:00:21.961] Browser LOG     [v0] Showing toast for new booking
+[00:00:21.961] Browser LOG     [v0] Document change: added for booking: RV-1763552591557
+[00:00:21.961] Browser LOG     [v0] Showing toast for new booking
+[00:00:21.961] Browser LOG     [v0] Document change: added for booking: 1231321
+[00:00:21.961] Browser LOG     [v0] Showing toast for new booking
+[00:00:21.961] Browser LOG     [v0] Document change: added for booking: RV231321
+[00:00:21.961] Browser LOG     [v0] Showing toast for new booking
+[00:00:21.961] Browser LOG     [v0] Document change: added for booking: RV-1763531889376
+[00:00:21.961] Browser LOG     [v0] Showing toast for new booking
+[00:00:21.961] Browser LOG     [v0] Document change: added for booking: RV-1763108388697
+[00:00:21.961] Browser LOG     [v0] Showing toast for new booking
+[00:00:21.961] Browser LOG     [v0] Document change: added for booking: RV-1763065226630
+[00:00:21.961] Browser LOG     [v0] Showing toast for new booking
+[00:00:21.961] Browser LOG     [v0] Document change: added for booking: RV-1763063258097
+[00:00:21.961] Browser LOG     [v0] Showing toast for new booking
+[00:00:21.961] Browser LOG     [v0] Document change: added for booking: RV-1763063193746
+[00:00:21.961] Browser LOG     [v0] Showing toast for new booking
+[00:00:21.961] Browser LOG     [v0] Document change: added for booking: RV-1763062941718
+[00:00:21.961] Browser LOG     [v0] Showing toast for new booking
+[00:00:21.961] Browser LOG     [v0] Document change: added for booking: RV-1763062586773
+[00:00:21.961] Browser LOG     [v0] Showing toast for new booking
+[00:00:21.961] Browser LOG     [v0] Document change: added for booking: RV-1763033110499
+[00:00:21.961] Browser LOG     [v0] Showing toast for new booking
+[00:00:21.961] Browser LOG     [v0] Document change: added for booking: RV-1763032811126
+[00:00:21.961] Browser LOG     [v0] Showing toast for new booking
+[00:00:21.961] Browser LOG     [v0] Document change: added for booking: RV-1763019409264
+[00:00:21.961] Browser LOG     [v0] Showing toast for new booking
+[00:00:21.961] Browser LOG     [v0] Document change: added for booking: RV-1763019289964
+[00:00:21.961] Browser LOG     [v0] Showing toast for new booking
+[00:00:21.961] Browser LOG     [v0] Document change: added for booking: RV-1763015968236
+[00:00:21.961] Browser LOG     [v0] Showing toast for new booking
+[00:00:21.961] Browser LOG     [v0] Document change: added for booking: RV-1763015147629
+[00:00:21.961] Browser LOG     [v0] Showing toast for new booking
+[00:00:21.961] Browser LOG     [v0] Document change: added for booking: RV-1763011957259
+[00:00:21.961] Browser LOG     [v0] Showing toast for new booking
+[00:00:21.961] Browser LOG     [v0] Document change: added for booking: Fbn6YFbbyQuRjswIrUbK
+[00:00:21.961] Browser LOG     [v0] Showing toast for new booking
+[00:00:21.961] Browser LOG     [v0] Document change: added for booking: 4iPujHEsFNhhh06A4u12
+[00:00:21.961] Browser LOG     [v0] Showing toast for new booking
+[00:00:21.961] Browser LOG     [v0] Document change: added for booking: teLdz8lzhELmml6L2eto
+[00:00:21.962] Browser LOG     [v0] Showing toast for new booking
+[00:00:21.962] Browser LOG     [v0] Document change: added for booking: Ea5jAOADVSWoHcAmTvlP
+[00:00:21.962] Browser LOG     [v0] Showing toast for new booking
+[00:00:21.962] Browser LOG     [v0] Document change: added for booking: EZ1beq0nina7N1BM7kPF
+[00:00:21.962] Browser LOG     [v0] Showing toast for new booking
+[00:00:21.962] Browser LOG     [v0] Document change: added for booking: vdhtRXJ2SmrKorSUsKob
+[00:00:21.962] Browser LOG     [v0] Showing toast for new booking
+[00:00:21.962] Browser LOG     [v0] Document change: added for booking: 6eywrkdFr0XXeSg3nXYY
+[00:00:21.962] Browser LOG     [v0] Showing toast for new booking
+[00:00:21.962] Browser LOG     [v0] Document change: added for booking: kHpfmyVzwWRdouNZu1fo
+[00:00:21.962] Browser LOG     [v0] Showing toast for new booking
+[00:00:21.962] Browser LOG     [v0] Document change: added for booking: SFWWCoOQOwrg2BdkCPts
+[00:00:21.962] Browser LOG     [v0] Showing toast for new booking
+[00:00:21.962] Browser LOG     [v0] Document change: added for booking: 1762929057905
+[00:00:21.962] Browser LOG     [v0] Showing toast for new booking
+[00:00:21.962] Browser LOG     [v0] Document change: added for booking: CbeYrQI0yFacOe8q6vLO
+[00:00:21.962] Browser LOG     [v0] Showing toast for new booking
+[00:00:21.962] Browser LOG     [v0] Document change: added for booking: ZJhdXNjamhQB9in8cehZ
+[00:00:21.962] Browser LOG     [v0] Showing toast for new booking
+[00:00:21.962] Browser LOG     [v0] Document change: added for booking: G7MOgaPdrSMBjRRKZJPN
+[00:00:21.962] Browser LOG     [v0] Showing toast for new booking
+[00:00:21.962] Browser LOG     [v0] Document change: added for booking: dh8tNZNC6Ks0cCAQJaNz
+[00:00:21.962] Browser LOG     [v0] Showing toast for new booking
+[00:00:21.962] Browser LOG     [v0] Document change: added for booking: whKhfnaOD6duYxZxtSwf
+[00:00:21.962] Browser LOG     [v0] Showing toast for new booking
+[00:00:21.962] Browser LOG     [v0] Document change: added for booking: xksXKCFRQHeZ9J70yjbl
+[00:00:21.962] Browser LOG     [v0] Showing toast for new booking
+[00:00:21.962] Browser LOG     [v0] Document change: added for booking: qeKdMwFcAke6gns1Qxmp
+[00:00:21.962] Browser LOG     [v0] Showing toast for new booking
+[00:00:21.962] Browser ERROR   Error extracting filename: {}
+[00:00:21.962] Browser ERROR   Error extracting filename: {}
+[00:00:21.962] Browser ERROR   Error extracting filename: {}
+[00:00:21.962] Browser ERROR   Error extracting filename: {}
+[00:00:21.962] Browser ERROR   Error extracting filename: {}
+[00:00:21.962] Browser ERROR   Error extracting filename: {}
+[00:00:21.962] Browser ERROR   Error extracting filename: {}
+[00:00:21.962] Browser ERROR   Error extracting filename: {}
+[00:00:21.962] Browser ERROR   Error extracting filename: {}
+[00:00:21.962] Browser ERROR   Error extracting filename: {}
+[00:00:21.962] Browser ERROR   Error extracting filename: {}
+[00:00:21.962] Browser ERROR   Error extracting filename: {}
+[00:00:24.860] Browser LOG     [v0] Using existing Firebase app
+[00:00:24.860] Browser LOG     [v0] Firestore instance created
+[00:00:24.860] Browser LOG     [v0] Using existing Firebase app
+[00:00:24.860] Browser LOG     [v0] Firestore instance created
+[00:00:24.860] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/products color: rgb(120, 120, 120) color: inherit {"dp":"/products","o":"http://localhost:3000/products","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1764825168276}
+[00:00:27.203] Browser LOG     [v0] Using existing Firebase app
+[00:00:27.203] Browser LOG     [v0] Firestore instance created
+[00:00:27.203] Browser LOG     [v0] Using existing Firebase app
+[00:00:27.203] Browser LOG     [v0] Firestore instance created
+[00:00:27.203] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/products/NeXCxg5SOUOlk7SITErz color: rgb(120, 120, 120) color: inherit {"dp":"/products/[id]","o":"http://localhost:3000/products/NeXCxg5SOUOlk7SITErz","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1764825170619}
+[00:00:31.328] Browser LOG     [v0] Using existing Firebase app
+[00:00:31.328] Browser LOG     [v0] Firestore instance created
+[00:00:31.328] Browser LOG     [v0] Using existing Firebase app
+[00:00:31.328] Browser LOG     [v0] Firestore instance created
+[00:00:31.328] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/products color: rgb(120, 120, 120) color: inherit {"dp":"/products","o":"http://localhost:3000/products","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1764825174744}
