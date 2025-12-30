@@ -1963,3 +1963,1149 @@
 [00:05:07.003] Browser LOG     [Booking Censorship] Showing toast for new booking
 [00:05:07.003] Browser LOG     [Booking Censorship] Document change: added for booking: qeKdMwFcAke6gns1Qxmp
 [00:05:07.003] Browser LOG     [Booking Censorship] Showing toast for new booking
+[00:11:25.817] Server  LOG     ✓ Compiled in 591ms
+[00:11:26.204] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./command-center/contexts/department-context.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:11:26.533] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:11:27.539] Browser LOG     [Booking Censorship] Checking environment variables...
+[00:11:27.539] Browser LOG     [Booking Censorship] All environment variables present
+[00:11:27.539] Browser LOG     [Booking Censorship] Starting Firebase initialization...
+[00:11:27.539] Browser LOG     Auth state changed: {"user":"not authenticated"}
+[00:11:27.539] Browser LOG     Auth state changed - user signed out
+[00:11:27.879] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:11:28.590] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:11:28.590] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/login","route":"/login"}
+[00:11:28.590] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/login color: rgb(120, 120, 120) color: inherit {"dp":"/login","o":"http://localhost:3000/login","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767065568521}
+[00:11:28.590] Browser LOG     Auth state changed: {"user":"not authenticated"}
+[00:11:28.590] Browser LOG     Auth state changed - user signed out
+[00:11:43.303] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./command-center/lib/firebase.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:11:43.701] Server  LOG     ✓ Compiled in 55ms
+[00:11:43.834] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:11:44.597] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <CardContent>
+      <div data-slot="card-content" className="px-6">
+        ...
+          <form onSubmit={function} className="space-y-4">
+            <FormField control={{...}} name="email" render={function render}>
+              <Controller control={{...}} name="email" render={function render}>
+                <FormItem>
+                  <div data-slot="form-item" className="grid gap-2">
+                    <FormLabel>
+                      <Label data-slot="form-label" data-error={false} className="data-[erro..." htmlFor="_R_1d5esne...">
+                        <Label data-slot="form-label" className="flex items..." data-error={false} ...>
+                          <Primitive.label data-slot="form-label" className="flex items..." data-error={false} ...>
+                            <label
+                              data-slot="form-label"
+                              className="flex items-center gap-2 text-sm leading-none font-medium select-none group-da..."
+                              data-error={false}
++                             htmlFor="_R_1d5esnelb_-form-item"
+-                             htmlFor="_R_5klritplb_-form-item"
+                              onMouseDown={function onMouseDown}
+                              ref={null}
+                            >
++                             Email
+                    <FormControl>
+                      <Slot data-slot="form-control" id="_R_1d5esne..." aria-describedby="_R_1d5esne..." ...>
+                        <SlotClone data-slot="form-control" id="_R_1d5esne..." aria-describedby="_R_1d5esne..." ...>
+                          <Input type="email" placeholder="Enter your..." name="email" value="" ...>
+                            <input
+                              type="email"
+                              data-slot="form-control"
+                              className="file:text-foreground placeholder:text-muted-foreground selection:bg-primary s..."
+                              placeholder="Enter your email"
+                              name="email"
+                              value=""
+                              onChange={function useController.useCallback[onChange]}
+                              onBlur={function useController.useCallback[onBlur]}
+                              ref={function useController.useCallback[ref]}
++                             id="_R_1d5esnelb_-form-item"
+-                             id="_R_5klritplb_-form-item"
++                             aria-describedby="_R_1d5esnelb_-form-item-description"
+-                             aria-describedby="_R_5klritplb_-form-item-description"
+                              aria-invalid={false}
+                            >
+                    ...
+            <FormField control={{...}} name="password" render={function render}>
+              <Controller control={{...}} name="password" render={function render}>
+                <FormItem>
+                  <div data-slot="form-item" className="grid gap-2">
+                    <FormLabel>
+                      <Label data-slot="form-label" data-error={false} className="data-[erro..." htmlFor="_R_2d5esne...">
+                        <Label data-slot="form-label" className="flex items..." data-error={false} ...>
+                          <Primitive.label data-slot="form-label" className="flex items..." data-error={false} ...>
+                            <label
+                              data-slot="form-label"
+                              className="flex items-center gap-2 text-sm leading-none font-medium select-none group-da..."
+                              data-error={false}
++                             htmlFor="_R_2d5esnelb_-form-item"
+-                             htmlFor="_R_9klritplb_-form-item"
+                              onMouseDown={function onMouseDown}
+                              ref={null}
+                            >
++                             Password
+                    <FormControl>
+                      <Slot data-slot="form-control" id="_R_2d5esne..." aria-describedby="_R_2d5esne..." ...>
+                        <SlotClone data-slot="form-control" id="_R_2d5esne..." aria-describedby="_R_2d5esne..." ...>
+                          <Input type="password" placeholder="Enter your..." name="password" value="" ...>
+                            <input
+                              type="password"
+                              data-slot="form-control"
+                              className="file:text-foreground placeholder:text-muted-foreground selection:bg-primary s..."
+                              placeholder="Enter your password"
+                              name="password"
+                              value=""
+                              onChange={function useController.useCallback[onChange]}
+                              onBlur={function useController.useCallback[onBlur]}
+                              ref={function useController.useCallback[ref]}
++                             id="_R_2d5esnelb_-form-item"
+-                             id="_R_9klritplb_-form-item"
++                             aria-describedby="_R_2d5esnelb_-form-item-description"
+-                             aria-describedby="_R_9klritplb_-form-item-description"
+                              aria-invalid={false}
+                            >
+                    ...
+            ...
+        ...
+
+[00:11:44.597] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:11:44.597] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/login","route":"/login"}
+[00:11:44.597] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/login color: rgb(120, 120, 120) color: inherit {"dp":"/login","o":"http://localhost:3000/login","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767065584479}
+[00:11:44.597] Browser LOG     Auth state changed: {"user":"not authenticated"}
+[00:11:44.597] Browser LOG     Auth state changed - user signed out
+[00:11:59.487] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./command-center/contexts/auth-context.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:11:59.889] Server  LOG     ✓ Compiled in 117ms
+[00:12:00.012] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:12:00.602] Browser ERROR   uncaughtError: ReferenceError: tenantManager is not defined
+[00:12:04.690] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:12:04.690] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./command-center/contexts/auth-context.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:12:04.691] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:12:05.101] Server  LOG     ✓ Compiled in 82ms
+[00:12:05.180] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:12:08.590] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:12:08.590] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/login","route":"/login"}
+[00:12:08.590] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/login color: rgb(120, 120, 120) color: inherit {"dp":"/login","o":"http://localhost:3000/login","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767065605809}
+[00:12:08.590] Browser LOG     Auth state changed: {"uid":"ltYLlCUXSkWVibJBf1Q3i80cXC03","user":"authenticated"}
+[00:12:08.590] Browser LOG     Auth state changed - user authenticated: cc@gmail.com ltYLlCUXSkWVibJBf1Q3i80cXC03
+[00:12:08.590] Browser LOG     Looking for user doc at: command-center/command-center-rep5o/command_center_users/ltYLlCUXSkWVibJBf1Q3i80cXC03
+[00:12:08.590] Browser LOG     Department check: {"allowedRoutes":["/","/companies","/products"],"department":"ADMIN","pathname":"/login"}
+[00:12:08.590] Browser LOG     Redirecting to department default: /
+[00:12:08.590] Browser LOG     [Booking Censorship] Checking environment variables...
+[00:12:08.590] Browser LOG     [Booking Censorship] All environment variables present
+[00:12:08.590] Browser LOG     [Booking Censorship] Starting Firebase initialization...
+[00:12:08.590] Browser LOG     Department check: {"allowedRoutes":["/","/companies","/products"],"department":"ADMIN","pathname":"/"}
+[00:12:08.590] Browser LOG     [Booking Censorship] Checking environment variables...
+[00:12:08.590] Browser LOG     [Booking Censorship] All environment variables present
+[00:12:08.590] Browser LOG     [Booking Censorship] Starting Firebase initialization...
+[00:12:08.590] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767065606267}
+[00:12:08.590] Browser LOG     [Booking Censorship] Using existing Firebase app
+[00:12:08.590] Browser LOG     [Booking Censorship] Using existing Firebase app
+[00:12:08.590] Browser LOG     [Booking Censorship] Getting Firestore instance...
+[00:12:08.590] Browser LOG     [Booking Censorship] Firestore instance obtained
+[00:12:08.590] Browser LOG     [Booking Censorship] Getting Firestore instance...
+[00:12:08.590] Browser LOG     [Booking Censorship] Firestore instance obtained
+[00:12:11.224] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./command-center/contexts/auth-context.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:12:11.512] Server  LOG     ✓ Compiled in 73ms
+[00:12:11.607] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:12:14.599] Browser LOG     [Booking Censorship] Checking environment variables...
+[00:12:14.599] Browser LOG     [Booking Censorship] All environment variables present
+[00:12:14.599] Browser LOG     [Booking Censorship] Starting Firebase initialization...
+[00:12:14.599] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:12:14.599] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:12:14.599] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767065612379}
+[00:12:14.599] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/login color: rgb(120, 120, 120) color: inherit {"dp":"/login","o":"http://localhost:3000/login","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767065612384}
+[00:12:14.599] Browser LOG     Auth state changed: {"uid":"ltYLlCUXSkWVibJBf1Q3i80cXC03","user":"authenticated"}
+[00:12:14.599] Browser LOG     Auth state changed - user authenticated: cc@gmail.com ltYLlCUXSkWVibJBf1Q3i80cXC03
+[00:12:14.599] Browser LOG     Looking for user doc at: command-center/command-center-rep5o/command_center_users/ltYLlCUXSkWVibJBf1Q3i80cXC03
+[00:12:14.599] Browser LOG     Department check: {"allowedRoutes":["/","/companies","/products"],"department":"ADMIN","pathname":"/login"}
+[00:12:14.599] Browser LOG     Redirecting to department default: /
+[00:12:14.599] Browser LOG     [Booking Censorship] Checking environment variables...
+[00:12:14.599] Browser LOG     [Booking Censorship] All environment variables present
+[00:12:14.599] Browser LOG     [Booking Censorship] Starting Firebase initialization...
+[00:12:14.599] Browser LOG     Department check: {"allowedRoutes":["/","/companies","/products"],"department":"ADMIN","pathname":"/"}
+[00:12:14.599] Browser LOG     [Booking Censorship] Checking environment variables...
+[00:12:14.599] Browser LOG     [Booking Censorship] All environment variables present
+[00:12:14.599] Browser LOG     [Booking Censorship] Starting Firebase initialization...
+[00:12:14.599] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767065612551}
+[00:12:14.599] Browser LOG     [Booking Censorship] Using existing Firebase app
+[00:12:14.599] Browser LOG     [Booking Censorship] Using existing Firebase app
+[00:12:14.599] Browser LOG     [Booking Censorship] Using existing Firebase app
+[00:12:14.599] Browser LOG     [Booking Censorship] Getting Firestore instance...
+[00:12:14.599] Browser LOG     [Booking Censorship] Firestore instance obtained
+[00:12:14.599] Browser LOG     [Booking Censorship] Getting Firestore instance...
+[00:12:14.599] Browser LOG     [Booking Censorship] Firestore instance obtained
+[00:12:14.599] Browser LOG     [Booking Censorship] Getting Firestore instance...
+[00:12:14.599] Browser LOG     [Booking Censorship] Firestore instance obtained
+[00:12:18.509] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./command-center/contexts/auth-context.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:12:18.814] Server  LOG     ✓ Compiled in 70ms
+[00:12:18.967] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:12:21.592] Browser LOG     [Booking Censorship] Checking environment variables...
+[00:12:21.592] Browser LOG     [Booking Censorship] All environment variables present
+[00:12:21.593] Browser LOG     [Booking Censorship] Starting Firebase initialization...
+[00:12:21.593] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:12:21.593] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:12:21.593] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/login","route":"/login"}
+[00:12:21.593] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767065619717}
+[00:12:21.593] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/login color: rgb(120, 120, 120) color: inherit {"dp":"/login","o":"http://localhost:3000/login","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767065619718}
+[00:12:21.593] Browser LOG     Auth state changed: {"uid":"ltYLlCUXSkWVibJBf1Q3i80cXC03","user":"authenticated"}
+[00:12:21.593] Browser LOG     Auth state changed - user authenticated: cc@gmail.com ltYLlCUXSkWVibJBf1Q3i80cXC03
+[00:12:21.593] Browser LOG     Looking for user doc at: command-center/command-center-rep5o/command_center_users/ltYLlCUXSkWVibJBf1Q3i80cXC03
+[00:12:21.593] Browser LOG     Department check: {"allowedRoutes":["/","/companies","/products"],"department":"ADMIN","pathname":"/login"}
+[00:12:21.593] Browser LOG     Redirecting to department default: /
+[00:12:21.593] Browser LOG     [Booking Censorship] Checking environment variables...
+[00:12:21.593] Browser LOG     [Booking Censorship] All environment variables present
+[00:12:21.593] Browser LOG     [Booking Censorship] Starting Firebase initialization...
+[00:12:21.593] Browser LOG     Department check: {"allowedRoutes":["/","/companies","/products"],"department":"ADMIN","pathname":"/"}
+[00:12:21.593] Browser LOG     [Booking Censorship] Checking environment variables...
+[00:12:21.593] Browser LOG     [Booking Censorship] All environment variables present
+[00:12:21.593] Browser LOG     [Booking Censorship] Starting Firebase initialization...
+[00:12:21.593] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767065619908}
+[00:12:21.593] Browser LOG     [Booking Censorship] Using existing Firebase app
+[00:12:21.593] Browser LOG     [Booking Censorship] Using existing Firebase app
+[00:12:21.593] Browser LOG     [Booking Censorship] Using existing Firebase app
+[00:12:21.593] Browser LOG     [Booking Censorship] Getting Firestore instance...
+[00:12:21.593] Browser LOG     [Booking Censorship] Firestore instance obtained
+[00:12:21.593] Browser LOG     [Booking Censorship] Getting Firestore instance...
+[00:12:21.593] Browser LOG     [Booking Censorship] Firestore instance obtained
+[00:12:21.593] Browser LOG     [Booking Censorship] Getting Firestore instance...
+[00:12:21.593] Browser LOG     [Booking Censorship] Firestore instance obtained
+[00:12:24.729] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./command-center/contexts/auth-context.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:12:25.053] Server  LOG     ✓ Compiled in 53ms
+[00:12:25.140] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:12:28.592] Browser LOG     [Booking Censorship] Checking environment variables...
+[00:12:28.592] Browser LOG     [Booking Censorship] All environment variables present
+[00:12:28.592] Browser LOG     [Booking Censorship] Starting Firebase initialization...
+[00:12:28.592] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:12:28.592] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:12:28.593] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/login","route":"/login"}
+[00:12:28.593] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767065625916}
+[00:12:28.593] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/login color: rgb(120, 120, 120) color: inherit {"dp":"/login","o":"http://localhost:3000/login","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767065625916}
+[00:12:28.593] Browser LOG     Auth state changed: {"uid":"ltYLlCUXSkWVibJBf1Q3i80cXC03","user":"authenticated"}
+[00:12:28.593] Browser LOG     Auth state changed - user authenticated: cc@gmail.com ltYLlCUXSkWVibJBf1Q3i80cXC03
+[00:12:28.593] Browser LOG     Looking for user doc at: command-center/command-center-rep5o/command_center_users/ltYLlCUXSkWVibJBf1Q3i80cXC03
+[00:12:28.593] Browser LOG     Department check: {"allowedRoutes":["/","/companies","/products"],"department":"ADMIN","pathname":"/login"}
+[00:12:28.593] Browser LOG     Redirecting to department default: /
+[00:12:28.593] Browser LOG     [Booking Censorship] Checking environment variables...
+[00:12:28.593] Browser LOG     [Booking Censorship] All environment variables present
+[00:12:28.593] Browser LOG     [Booking Censorship] Starting Firebase initialization...
+[00:12:28.593] Browser LOG     Department check: {"allowedRoutes":["/","/companies","/products"],"department":"ADMIN","pathname":"/"}
+[00:12:28.593] Browser LOG     [Booking Censorship] Checking environment variables...
+[00:12:28.593] Browser LOG     [Booking Censorship] All environment variables present
+[00:12:28.593] Browser LOG     [Booking Censorship] Starting Firebase initialization...
+[00:12:28.593] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767065626081}
+[00:12:28.593] Browser LOG     [Booking Censorship] Using existing Firebase app
+[00:12:28.593] Browser LOG     [Booking Censorship] Using existing Firebase app
+[00:12:28.593] Browser LOG     [Booking Censorship] Using existing Firebase app
+[00:12:28.593] Browser LOG     [Booking Censorship] Getting Firestore instance...
+[00:12:28.593] Browser LOG     [Booking Censorship] Firestore instance obtained
+[00:12:28.593] Browser LOG     [Booking Censorship] Getting Firestore instance...
+[00:12:28.593] Browser LOG     [Booking Censorship] Firestore instance obtained
+[00:12:28.593] Browser LOG     [Booking Censorship] Getting Firestore instance...
+[00:12:28.593] Browser LOG     [Booking Censorship] Firestore instance obtained
+[00:12:30.905] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./command-center/contexts/auth-context.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:12:31.239] Server  LOG     ✓ Compiled in 71ms
+[00:12:31.403] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:12:31.590] Browser LOG     [Booking Censorship] Checking environment variables...
+[00:12:31.590] Browser LOG     [Booking Censorship] All environment variables present
+[00:12:31.590] Browser LOG     [Booking Censorship] Starting Firebase initialization...
+[00:12:34.594] Browser LOG     [Booking Censorship] Using existing Firebase app
+[00:12:34.594] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:12:34.594] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:12:34.594] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767065632179}
+[00:12:34.594] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/login color: rgb(120, 120, 120) color: inherit {"dp":"/login","o":"http://localhost:3000/login","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767065632186}
+[00:12:34.594] Browser LOG     Auth state changed: {"uid":"ltYLlCUXSkWVibJBf1Q3i80cXC03","user":"authenticated"}
+[00:12:34.594] Browser LOG     Auth state changed - user authenticated: cc@gmail.com ltYLlCUXSkWVibJBf1Q3i80cXC03
+[00:12:34.594] Browser LOG     Looking for user doc at: command-center/command-center-rep5o/command_center_users/ltYLlCUXSkWVibJBf1Q3i80cXC03
+[00:12:34.594] Browser LOG     Department check: {"allowedRoutes":["/","/companies","/products"],"department":"ADMIN","pathname":"/login"}
+[00:12:34.594] Browser LOG     Redirecting to department default: /
+[00:12:34.594] Browser LOG     [Booking Censorship] Checking environment variables...
+[00:12:34.594] Browser LOG     [Booking Censorship] All environment variables present
+[00:12:34.594] Browser LOG     [Booking Censorship] Starting Firebase initialization...
+[00:12:34.594] Browser LOG     Department check: {"allowedRoutes":["/","/companies","/products"],"department":"ADMIN","pathname":"/"}
+[00:12:34.594] Browser LOG     [Booking Censorship] Checking environment variables...
+[00:12:34.594] Browser LOG     [Booking Censorship] All environment variables present
+[00:12:34.594] Browser LOG     [Booking Censorship] Starting Firebase initialization...
+[00:12:34.594] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767065632349}
+[00:12:34.594] Browser LOG     [Booking Censorship] Getting Firestore instance...
+[00:12:34.594] Browser LOG     [Booking Censorship] Firestore instance obtained
+[00:12:34.594] Browser LOG     [Booking Censorship] Using existing Firebase app
+[00:12:34.594] Browser LOG     [Booking Censorship] Using existing Firebase app
+[00:12:34.594] Browser LOG     [Booking Censorship] Getting Firestore instance...
+[00:12:34.594] Browser LOG     [Booking Censorship] Firestore instance obtained
+[00:12:34.594] Browser LOG     [Booking Censorship] Getting Firestore instance...
+[00:12:34.594] Browser LOG     [Booking Censorship] Firestore instance obtained
+[00:13:11.596] Browser LOG     [Booking Censorship] Snapshot received, found 0 documents
+[00:13:11.596] Browser LOG     [Booking Censorship] firstLoadRef.current: true
+[00:13:11.596] Browser LOG     [Booking Censorship] First load, skipping notifications
+[00:13:11.596] Browser LOG     [Booking Censorship] Snapshot received, found 0 documents
+[00:13:11.596] Browser LOG     [Booking Censorship] firstLoadRef.current: true
+[00:13:11.596] Browser LOG     [Booking Censorship] First load, skipping notifications
+[00:13:11.596] Browser LOG     [Booking Censorship] Snapshot received, found 0 documents
+[00:13:11.596] Browser LOG     [Booking Censorship] firstLoadRef.current: false
+[00:13:11.596] Browser LOG     [Booking Censorship] Processing docChanges...
+[00:13:11.596] Browser ERROR   unhandledRejection: FirebaseError: Failed to get document because the client is offline.
+[00:16:49.168] Server  LOG     ✓ Compiled in 814ms
+[00:16:49.202] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./command-center/lib/firebase.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:16:49.440] Server  WARN    [2025-12-30T03:38:10.000Z]  @firebase/firestore: "Firestore (12.6.0): enableIndexedDbPersistence() will be deprecated in the future, you can use `FirestoreSettings.cache` instead."
+[00:16:49.619] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:16:49.770] Browser WARN    [2025-12-30T03:38:10.189Z]  @firebase/firestore: Firestore (12.6.0): enableIndexedDbPersistence() will be deprecated in the future, you can use `FirestoreSettings.cache` instead.
+[00:16:49.770] Browser LOG     [Booking Censorship] Checking environment variables...
+[00:16:49.770] Browser LOG     [Booking Censorship] All environment variables present
+[00:16:49.770] Browser LOG     [Booking Censorship] Starting Firebase initialization...
+[00:16:49.983] Browser LOG     [Booking Censorship] Using existing Firebase app
+[00:16:49.983] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:16:49.983] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:16:49.983] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/login","route":"/login"}
+[00:16:49.983] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767065890374}
+[00:16:49.983] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/login color: rgb(120, 120, 120) color: inherit {"dp":"/login","o":"http://localhost:3000/login","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767065890374}
+[00:16:49.983] Browser LOG     [Booking Censorship] Getting Firestore instance...
+[00:16:49.983] Browser LOG     [Booking Censorship] Firestore instance obtained
+[00:16:49.983] Browser LOG     [Booking Censorship] Querying tenant collection: command-center/command-center-rep5o/booking
+[00:16:49.983] Browser LOG     [Booking Censorship] Filter: for_censorship == 0
+[00:16:50.468] Browser LOG     Auth state changed: {"tenantId":"command-center-rep5o","uid":"ltYLlCUXSkWVibJBf1Q3i80cXC03","user":"authenticated"}
+[00:16:50.468] Browser LOG     Auth state changed - user authenticated: cc@gmail.com ltYLlCUXSkWVibJBf1Q3i80cXC03
+[00:16:50.468] Browser LOG     Looking for user doc at: command-center/command-center-rep5o/command_center_users/ltYLlCUXSkWVibJBf1Q3i80cXC03
+[00:16:50.468] Browser LOG     Department check: {"allowedRoutes":["/","/companies","/products"],"department":"ADMIN","pathname":"/login"}
+[00:16:50.468] Browser LOG     Redirecting to department default: /
+[00:16:50.468] Browser LOG     [Booking Censorship] Checking environment variables...
+[00:16:50.468] Browser LOG     [Booking Censorship] All environment variables present
+[00:16:50.468] Browser LOG     [Booking Censorship] Starting Firebase initialization...
+[00:16:50.468] Browser LOG     Department check: {"allowedRoutes":["/","/companies","/products"],"department":"ADMIN","pathname":"/"}
+[00:16:50.468] Browser LOG     [Booking Censorship] Checking environment variables...
+[00:16:50.468] Browser LOG     [Booking Censorship] All environment variables present
+[00:16:50.468] Browser LOG     [Booking Censorship] Starting Firebase initialization...
+[00:16:50.468] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767065890708}
+[00:16:50.468] Browser LOG     [Booking Censorship] Using existing Firebase app
+[00:16:50.468] Browser LOG     [Booking Censorship] Using existing Firebase app
+[00:16:50.468] Browser LOG     [Booking Censorship] Getting Firestore instance...
+[00:16:50.468] Browser LOG     [Booking Censorship] Firestore instance obtained
+[00:16:50.468] Browser LOG     [Booking Censorship] Querying tenant collection: command-center/command-center-rep5o/booking
+[00:16:50.468] Browser LOG     [Booking Censorship] Filter: for_censorship == 0
+[00:16:50.468] Browser LOG     [Booking Censorship] Getting Firestore instance...
+[00:16:50.468] Browser LOG     [Booking Censorship] Firestore instance obtained
+[00:16:50.468] Browser LOG     [Booking Censorship] Querying tenant collection: command-center/command-center-rep5o/booking
+[00:16:50.468] Browser LOG     [Booking Censorship] Filter: for_censorship == 0
+[00:16:52.682] Browser LOG     [Booking Censorship] Snapshot received, found 0 documents
+[00:16:52.682] Browser LOG     [Booking Censorship] firstLoadRef.current: true
+[00:16:52.682] Browser LOG     [Booking Censorship] First load, skipping notifications
+[00:16:52.682] Browser LOG     [Booking Censorship] Snapshot received, found 0 documents
+[00:16:52.682] Browser LOG     [Booking Censorship] firstLoadRef.current: true
+[00:16:52.682] Browser LOG     [Booking Censorship] First load, skipping notifications
+[00:16:52.682] Browser LOG     [Booking Censorship] Snapshot received, found 0 documents
+[00:16:52.682] Browser LOG     [Booking Censorship] firstLoadRef.current: false
+[00:16:52.682] Browser LOG     [Booking Censorship] Processing docChanges...
+[00:16:52.682] Browser LOG     User document not found in tenant path, checking old paths
+[00:16:52.682] Browser LOG     Checking old path: command_center_users/ltYLlCUXSkWVibJBf1Q3i80cXC03
+[00:16:53.776] Browser LOG     Starting logout process
+[00:16:53.776] Browser LOG     Auth state changed: {"tenantId":"command-center-rep5o","user":"not authenticated"}
+[00:16:53.776] Browser LOG     Auth state changed - user signed out
+[00:16:53.776] Browser LOG     Logout completed
+[00:16:53.776] Browser LOG     Navigation to /login initiated
+[00:16:53.776] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/login color: rgb(120, 120, 120) color: inherit {"dp":"/login","o":"http://localhost:3000/login","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767065894232}
+[00:16:55.979] Browser LOG     Checking old path: users/ltYLlCUXSkWVibJBf1Q3i80cXC03
+[00:16:56.684] Browser LOG     No existing user document found, creating new one
+[00:17:03.308] Browser LOG     === LOGIN DEBUG START ===
+[00:17:03.309] Browser LOG     Tenant ID: command-center-rep5o
+[00:17:03.309] Browser LOG     Logging in user with tenant ID: command-center-rep5o
+[00:17:04.101] Browser LOG     Auth state changed: {"tenantId":"command-center-rep5o","uid":"ltYLlCUXSkWVibJBf1Q3i80cXC03","user":"authenticated"}
+[00:17:04.101] Browser LOG     Auth state changed - user authenticated: cc@gmail.com ltYLlCUXSkWVibJBf1Q3i80cXC03
+[00:17:04.101] Browser LOG     Looking for user doc at: command-center/command-center-rep5o/command_center_users/ltYLlCUXSkWVibJBf1Q3i80cXC03
+[00:17:04.101] Browser LOG     ✅ Tenant auth successful for user: ltYLlCUXSkWVibJBf1Q3i80cXC03
+[00:17:04.101] Browser LOG     Department check: {"allowedRoutes":["/","/companies","/products"],"department":"ADMIN","pathname":"/login"}
+[00:17:04.101] Browser LOG     Redirecting to department default: /
+[00:17:04.101] Browser LOG     [Booking Censorship] Checking environment variables...
+[00:17:04.101] Browser LOG     [Booking Censorship] All environment variables present
+[00:17:04.101] Browser LOG     [Booking Censorship] Starting Firebase initialization...
+[00:17:04.101] Browser LOG     Department check: {"allowedRoutes":["/","/companies","/products"],"department":"ADMIN","pathname":"/"}
+[00:17:04.101] Browser LOG     [Booking Censorship] Checking environment variables...
+[00:17:04.101] Browser LOG     [Booking Censorship] All environment variables present
+[00:17:04.101] Browser LOG     [Booking Censorship] Starting Firebase initialization...
+[00:17:04.101] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767065904337}
+[00:17:04.101] Browser LOG     [Booking Censorship] Using existing Firebase app
+[00:17:04.101] Browser LOG     [Booking Censorship] Using existing Firebase app
+[00:17:04.101] Browser LOG     [Booking Censorship] Getting Firestore instance...
+[00:17:04.101] Browser LOG     [Booking Censorship] Firestore instance obtained
+[00:17:04.101] Browser LOG     [Booking Censorship] Querying tenant collection: command-center/command-center-rep5o/booking
+[00:17:04.101] Browser LOG     [Booking Censorship] Filter: for_censorship == 0
+[00:17:04.101] Browser LOG     [Booking Censorship] Getting Firestore instance...
+[00:17:04.101] Browser LOG     [Booking Censorship] Firestore instance obtained
+[00:17:04.101] Browser LOG     [Booking Censorship] Querying tenant collection: command-center/command-center-rep5o/booking
+[00:17:04.101] Browser LOG     [Booking Censorship] Filter: for_censorship == 0
+[00:17:04.101] Browser LOG     [Booking Censorship] Snapshot received, found 0 documents
+[00:17:04.101] Browser LOG     [Booking Censorship] firstLoadRef.current: true
+[00:17:04.101] Browser LOG     [Booking Censorship] First load, skipping notifications
+[00:17:04.101] Browser LOG     [Booking Censorship] Snapshot received, found 0 documents
+[00:17:04.101] Browser LOG     [Booking Censorship] firstLoadRef.current: false
+[00:17:04.101] Browser LOG     [Booking Censorship] Processing docChanges...
+[00:17:05.371] Browser LOG     User document found in tenant path
+[00:18:50.202] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:18:50.434] Browser WARN    [2025-12-30T03:40:10.775Z]  @firebase/firestore: Firestore (12.6.0): enableIndexedDbPersistence() will be deprecated in the future, you can use `FirestoreSettings.cache` instead.
+[00:18:50.434] Browser LOG     [Booking Censorship] Checking environment variables...
+[00:18:50.434] Browser LOG     [Booking Censorship] All environment variables present
+[00:18:50.434] Browser LOG     [Booking Censorship] Starting Firebase initialization...
+[00:18:50.434] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:18:50.434] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:18:50.434] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767066010826}
+[00:18:50.434] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/login color: rgb(120, 120, 120) color: inherit {"dp":"/login","o":"http://localhost:3000/login","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767066010833}
+[00:18:50.434] Browser LOG     [Booking Censorship] Using existing Firebase app
+[00:18:50.537] Browser LOG     [Booking Censorship] Getting Firestore instance...
+[00:18:50.537] Browser LOG     [Booking Censorship] Firestore instance obtained
+[00:18:50.537] Browser LOG     [Booking Censorship] Querying tenant collection: command-center/command-center-rep5o/booking
+[00:18:50.537] Browser LOG     [Booking Censorship] Filter: for_censorship == 0
+[00:18:51.027] Browser LOG     Auth state changed: {"tenantId":"command-center-rep5o","uid":"ltYLlCUXSkWVibJBf1Q3i80cXC03","user":"authenticated"}
+[00:18:51.027] Browser LOG     Auth state changed - user authenticated: cc@gmail.com ltYLlCUXSkWVibJBf1Q3i80cXC03
+[00:18:51.028] Browser LOG     Looking for user doc at: command-center/command-center-rep5o/command_center_users/ltYLlCUXSkWVibJBf1Q3i80cXC03
+[00:18:51.028] Browser LOG     Department check: {"allowedRoutes":["/","/companies","/products"],"department":"ADMIN","pathname":"/login"}
+[00:18:51.028] Browser LOG     Redirecting to department default: /
+[00:18:51.028] Browser LOG     [Booking Censorship] Snapshot received, found 0 documents
+[00:18:51.028] Browser LOG     [Booking Censorship] firstLoadRef.current: true
+[00:18:51.028] Browser LOG     [Booking Censorship] First load, skipping notifications
+[00:18:51.028] Browser LOG     [Booking Censorship] Checking environment variables...
+[00:18:51.028] Browser LOG     [Booking Censorship] All environment variables present
+[00:18:51.028] Browser LOG     [Booking Censorship] Starting Firebase initialization...
+[00:18:51.028] Browser LOG     Department check: {"allowedRoutes":["/","/companies","/products"],"department":"ADMIN","pathname":"/"}
+[00:18:51.028] Browser LOG     [Booking Censorship] Checking environment variables...
+[00:18:51.028] Browser LOG     [Booking Censorship] All environment variables present
+[00:18:51.028] Browser LOG     [Booking Censorship] Starting Firebase initialization...
+[00:18:51.028] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767066011259}
+[00:18:51.028] Browser LOG     [Booking Censorship] Using existing Firebase app
+[00:18:51.028] Browser LOG     [Booking Censorship] Using existing Firebase app
+[00:18:51.028] Browser LOG     [Booking Censorship] Getting Firestore instance...
+[00:18:51.028] Browser LOG     [Booking Censorship] Firestore instance obtained
+[00:18:51.028] Browser LOG     [Booking Censorship] Querying tenant collection: command-center/command-center-rep5o/booking
+[00:18:51.028] Browser LOG     [Booking Censorship] Filter: for_censorship == 0
+[00:18:51.028] Browser LOG     [Booking Censorship] Getting Firestore instance...
+[00:18:51.028] Browser LOG     [Booking Censorship] Firestore instance obtained
+[00:18:51.028] Browser LOG     [Booking Censorship] Querying tenant collection: command-center/command-center-rep5o/booking
+[00:18:51.028] Browser LOG     [Booking Censorship] Filter: for_censorship == 0
+[00:18:51.028] Browser LOG     [Booking Censorship] Snapshot received, found 0 documents
+[00:18:51.028] Browser LOG     [Booking Censorship] firstLoadRef.current: true
+[00:18:51.028] Browser LOG     [Booking Censorship] First load, skipping notifications
+[00:18:51.028] Browser LOG     [Booking Censorship] Snapshot received, found 0 documents
+[00:18:51.028] Browser LOG     [Booking Censorship] firstLoadRef.current: false
+[00:18:51.028] Browser LOG     [Booking Censorship] Processing docChanges...
+[00:18:53.034] Browser LOG     User document found in tenant path
+[00:18:53.631] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:18:53.860] Browser WARN    [2025-12-30T03:40:14.202Z]  @firebase/firestore: Firestore (12.6.0): enableIndexedDbPersistence() will be deprecated in the future, you can use `FirestoreSettings.cache` instead.
+[00:18:53.860] Browser LOG     [Booking Censorship] Checking environment variables...
+[00:18:53.860] Browser LOG     [Booking Censorship] All environment variables present
+[00:18:53.860] Browser LOG     [Booking Censorship] Starting Firebase initialization...
+[00:18:53.860] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:18:53.860] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:18:53.860] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/login","route":"/login"}
+[00:18:53.860] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767066014262}
+[00:18:53.860] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/login color: rgb(120, 120, 120) color: inherit {"dp":"/login","o":"http://localhost:3000/login","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767066014262}
+[00:18:53.860] Browser LOG     [Booking Censorship] Using existing Firebase app
+[00:18:54.294] Browser LOG     [Booking Censorship] Getting Firestore instance...
+[00:18:54.294] Browser LOG     [Booking Censorship] Firestore instance obtained
+[00:18:54.294] Browser LOG     [Booking Censorship] Querying tenant collection: command-center/command-center-rep5o/booking
+[00:18:54.294] Browser LOG     [Booking Censorship] Filter: for_censorship == 0
+[00:18:54.294] Browser LOG     Auth state changed: {"tenantId":"command-center-rep5o","uid":"ltYLlCUXSkWVibJBf1Q3i80cXC03","user":"authenticated"}
+[00:18:54.294] Browser LOG     Auth state changed - user authenticated: cc@gmail.com ltYLlCUXSkWVibJBf1Q3i80cXC03
+[00:18:54.294] Browser LOG     Looking for user doc at: command-center/command-center-rep5o/command_center_users/ltYLlCUXSkWVibJBf1Q3i80cXC03
+[00:18:54.294] Browser LOG     Department check: {"allowedRoutes":["/","/companies","/products"],"department":"ADMIN","pathname":"/login"}
+[00:18:54.294] Browser LOG     Redirecting to department default: /
+[00:18:54.294] Browser LOG     [Booking Censorship] Snapshot received, found 0 documents
+[00:18:54.294] Browser LOG     [Booking Censorship] firstLoadRef.current: true
+[00:18:54.294] Browser LOG     [Booking Censorship] First load, skipping notifications
+[00:18:54.294] Browser LOG     [Booking Censorship] Checking environment variables...
+[00:18:54.294] Browser LOG     [Booking Censorship] All environment variables present
+[00:18:54.294] Browser LOG     [Booking Censorship] Starting Firebase initialization...
+[00:18:54.294] Browser LOG     Department check: {"allowedRoutes":["/","/companies","/products"],"department":"ADMIN","pathname":"/"}
+[00:18:54.294] Browser LOG     [Booking Censorship] Checking environment variables...
+[00:18:54.294] Browser LOG     [Booking Censorship] All environment variables present
+[00:18:54.294] Browser LOG     [Booking Censorship] Starting Firebase initialization...
+[00:18:54.294] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767066014538}
+[00:18:54.294] Browser LOG     [Booking Censorship] Using existing Firebase app
+[00:18:54.294] Browser LOG     [Booking Censorship] Using existing Firebase app
+[00:18:54.294] Browser LOG     [Booking Censorship] Getting Firestore instance...
+[00:18:54.294] Browser LOG     [Booking Censorship] Firestore instance obtained
+[00:18:54.294] Browser LOG     [Booking Censorship] Querying tenant collection: command-center/command-center-rep5o/booking
+[00:18:54.294] Browser LOG     [Booking Censorship] Filter: for_censorship == 0
+[00:18:54.294] Browser LOG     [Booking Censorship] Getting Firestore instance...
+[00:18:54.294] Browser LOG     [Booking Censorship] Firestore instance obtained
+[00:18:54.294] Browser LOG     [Booking Censorship] Querying tenant collection: command-center/command-center-rep5o/booking
+[00:18:54.294] Browser LOG     [Booking Censorship] Filter: for_censorship == 0
+[00:18:54.294] Browser LOG     [Booking Censorship] Snapshot received, found 0 documents
+[00:18:54.294] Browser LOG     [Booking Censorship] firstLoadRef.current: true
+[00:18:54.294] Browser LOG     [Booking Censorship] First load, skipping notifications
+[00:18:54.294] Browser LOG     [Booking Censorship] Snapshot received, found 0 documents
+[00:18:54.294] Browser LOG     [Booking Censorship] firstLoadRef.current: false
+[00:18:54.294] Browser LOG     [Booking Censorship] Processing docChanges...
+[00:18:56.305] Browser LOG     User document found in tenant path
+[00:20:01.325] Server  LOG     ✓ Compiled in 67ms
+[00:20:01.531] Browser LOG     [Booking Censorship] Checking environment variables...
+[00:20:01.531] Browser LOG     [Booking Censorship] All environment variables present
+[00:20:01.531] Browser LOG     [Booking Censorship] Starting Firebase initialization...
+[00:20:01.531] Browser LOG     Department check: {"allowedRoutes":["/","/companies","/products"],"department":"ADMIN","pathname":"/"}
+[00:20:01.531] Browser LOG     [Booking Censorship] Using existing Firebase app
+[00:20:01.642] Browser LOG     [Booking Censorship] Getting Firestore instance...
+[00:20:01.642] Browser LOG     [Booking Censorship] Firestore instance obtained
+[00:20:01.642] Browser LOG     [Booking Censorship] Querying tenant collection: command-center/command-center-rep5o/booking
+[00:20:01.642] Browser LOG     [Booking Censorship] Filter: for_censorship == 0
+[00:20:01.642] Browser LOG     [Booking Censorship] Snapshot received, found 0 documents
+[00:20:01.642] Browser LOG     [Booking Censorship] firstLoadRef.current: true
+[00:20:01.642] Browser LOG     [Booking Censorship] First load, skipping notifications
+[00:20:06.210] Server  LOG     ✓ Compiled in 63ms
+[00:20:06.501] Browser ERROR   The final argument passed to %s changed size between renders. The order and size of this array must remain constant.
+
+Previous: %s
+Incoming: %s useEffect [ADMIN, /, [object Object], [object Object]] [ADMIN, /, [object Object], [object Object], false]
+[00:20:06.501] Browser LOG     [Booking Censorship] Checking environment variables...
+[00:20:06.501] Browser LOG     [Booking Censorship] All environment variables present
+[00:20:06.501] Browser LOG     [Booking Censorship] Starting Firebase initialization...
+[00:20:06.501] Browser LOG     [Booking Censorship] Checking environment variables...
+[00:20:06.501] Browser LOG     [Booking Censorship] All environment variables present
+[00:20:06.501] Browser LOG     [Booking Censorship] Starting Firebase initialization...
+[00:20:06.501] Browser LOG     [Booking Censorship] Using existing Firebase app
+[00:20:06.501] Browser LOG     [Booking Censorship] Using existing Firebase app
+[00:20:06.501] Browser LOG     [Booking Censorship] Getting Firestore instance...
+[00:20:06.501] Browser LOG     [Booking Censorship] Firestore instance obtained
+[00:20:06.501] Browser LOG     [Booking Censorship] Querying tenant collection: command-center/command-center-rep5o/booking
+[00:20:06.501] Browser LOG     [Booking Censorship] Filter: for_censorship == 0
+[00:20:06.501] Browser LOG     [Booking Censorship] Snapshot received, found 0 documents
+[00:20:06.501] Browser LOG     [Booking Censorship] firstLoadRef.current: true
+[00:20:06.501] Browser LOG     [Booking Censorship] First load, skipping notifications
+[00:20:06.501] Browser LOG     [Booking Censorship] Getting Firestore instance...
+[00:20:06.501] Browser LOG     [Booking Censorship] Firestore instance obtained
+[00:20:06.501] Browser LOG     [Booking Censorship] Querying tenant collection: command-center/command-center-rep5o/booking
+[00:20:06.501] Browser LOG     [Booking Censorship] Filter: for_censorship == 0
+[00:20:06.501] Browser LOG     [Booking Censorship] Snapshot received, found 0 documents
+[00:20:06.501] Browser LOG     [Booking Censorship] firstLoadRef.current: false
+[00:20:06.501] Browser LOG     [Booking Censorship] Processing docChanges...
+[00:22:25.241] Server  WARN    [2025-12-30T03:43:45.801Z]  @firebase/firestore: "Firestore (12.6.0): enableIndexedDbPersistence() will be deprecated in the future, you can use `FirestoreSettings.cache` instead."
+[00:22:25.700] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:22:25.700] Browser WARN    [2025-12-30T03:43:46.246Z]  @firebase/firestore: Firestore (12.6.0): enableIndexedDbPersistence() will be deprecated in the future, you can use `FirestoreSettings.cache` instead.
+[00:22:25.917] Browser LOG     [Booking Censorship] Checking environment variables...
+[00:22:25.917] Browser LOG     [Booking Censorship] All environment variables present
+[00:22:25.917] Browser LOG     [Booking Censorship] Starting Firebase initialization...
+[00:22:26.325] Browser LOG     [Booking Censorship] Using existing Firebase app
+[00:22:26.325] Browser LOG     Auth state changed: {"tenantId":"command-center-rep5o","user":"not authenticated"}
+[00:22:26.326] Browser LOG     Auth state changed - user signed out
+[00:22:26.326] Browser LOG     [Booking Censorship] Getting Firestore instance...
+[00:22:26.326] Browser LOG     [Booking Censorship] Firestore instance obtained
+[00:22:26.326] Browser LOG     [Booking Censorship] Querying tenant collection: command-center/command-center-rep5o/booking
+[00:22:26.326] Browser LOG     [Booking Censorship] Filter: for_censorship == 0
+[00:22:26.326] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:22:26.326] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:22:26.326] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767066226682}
+[00:22:26.326] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/login color: rgb(120, 120, 120) color: inherit {"dp":"/login","o":"http://localhost:3000/login","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767066226777}
+[00:22:27.659] Browser LOG     [Booking Censorship] Snapshot received, found 0 documents
+[00:22:27.660] Browser LOG     [Booking Censorship] firstLoadRef.current: true
+[00:22:27.660] Browser LOG     [Booking Censorship] First load, skipping notifications
+[00:31:00.139] Server  LOG     ✓ Compiled in 58ms
+[00:31:00.434] Browser LOG     [Booking Censorship] Checking environment variables...
+[00:31:00.434] Browser LOG     [Booking Censorship] All environment variables present
+[00:31:00.434] Browser LOG     [Booking Censorship] Starting Firebase initialization...
+[00:31:00.434] Browser LOG     [Booking Censorship] Checking environment variables...
+[00:31:00.434] Browser LOG     [Booking Censorship] All environment variables present
+[00:31:00.434] Browser LOG     [Booking Censorship] Starting Firebase initialization...
+[00:31:00.434] Browser LOG     [Booking Censorship] Using existing Firebase app
+[00:31:00.434] Browser LOG     [Booking Censorship] Using existing Firebase app
+[00:31:00.434] Browser LOG     [Booking Censorship] Getting Firestore instance...
+[00:31:00.434] Browser LOG     [Booking Censorship] Firestore instance obtained
+[00:31:00.434] Browser LOG     [Booking Censorship] Querying tenant collection: command-center/command-center-rep5o/booking
+[00:31:00.434] Browser LOG     [Booking Censorship] Filter: for_censorship == 0
+[00:31:00.434] Browser LOG     [Booking Censorship] Getting Firestore instance...
+[00:31:00.434] Browser LOG     [Booking Censorship] Firestore instance obtained
+[00:31:00.434] Browser LOG     [Booking Censorship] Querying tenant collection: command-center/command-center-rep5o/booking
+[00:31:00.434] Browser LOG     [Booking Censorship] Filter: for_censorship == 0
+[00:31:00.434] Browser LOG     [Booking Censorship] Snapshot received, found 0 documents
+[00:31:00.434] Browser LOG     [Booking Censorship] firstLoadRef.current: true
+[00:31:00.434] Browser LOG     [Booking Censorship] First load, skipping notifications
+[00:31:00.434] Browser LOG     [Booking Censorship] Snapshot received, found 0 documents
+[00:31:00.434] Browser LOG     [Booking Censorship] firstLoadRef.current: false
+[00:31:00.434] Browser LOG     [Booking Censorship] Processing docChanges...
+[01:39:19.633] Server  WARN    [2025-12-30T05:00:40.193Z]  @firebase/firestore: "Firestore (12.6.0): enableIndexedDbPersistence() will be deprecated in the future, you can use `FirestoreSettings.cache` instead."
+[01:39:19.775] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:39:20.013] Browser WARN    [2025-12-30T05:00:40.342Z]  @firebase/firestore: Firestore (12.6.0): enableIndexedDbPersistence() will be deprecated in the future, you can use `FirestoreSettings.cache` instead.
+[01:39:20.013] Browser LOG     [Booking Censorship] Checking environment variables...
+[01:39:20.013] Browser LOG     [Booking Censorship] All environment variables present
+[01:39:20.013] Browser LOG     [Booking Censorship] Starting Firebase initialization...
+[01:39:20.013] Browser LOG     useEffect deps: ["ADMIN","/",{},null,true]
+[01:39:20.013] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:39:20.013] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[01:39:20.013] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767070840376}
+[01:39:20.013] Browser LOG     [Booking Censorship] Using existing Firebase app
+[01:39:20.124] Browser LOG     [Booking Censorship] Getting Firestore instance...
+[01:39:20.124] Browser LOG     [Booking Censorship] Firestore instance obtained
+[01:39:20.124] Browser LOG     [Booking Censorship] Querying tenant collection: command-center/command-center-rep5o/booking
+[01:39:20.124] Browser LOG     [Booking Censorship] Filter: for_censorship == 0
+[01:39:20.634] Browser LOG     Auth state changed: {"tenantId":"command-center-rep5o","uid":"ltYLlCUXSkWVibJBf1Q3i80cXC03","user":"authenticated"}
+[01:39:20.634] Browser LOG     Auth state changed - user authenticated: cc@gmail.com ltYLlCUXSkWVibJBf1Q3i80cXC03
+[01:39:20.634] Browser LOG     Looking for user doc at: command-center/command-center-rep5o/command_center_users/ltYLlCUXSkWVibJBf1Q3i80cXC03
+[01:39:20.634] Browser LOG     useEffect deps: ["ADMIN","/",{},{"apiKey":"AIzaSyDk_a7lPHqJBRI2TzxTIMiSPj-E7Xyqizs","appName":"[DEFAULT]","createdAt":"1767064874004","email":"cc@gmail.com","emailVerified":false,"isAnonymous":false,"lastLoginAt":"1767065874309","providerData":[{"displayName":null,"email":"cc@gmail.com","phoneNumber":null,"photoURL":null,"providerId":"password","uid":"cc@gmail.com"}],"stsTokenManager":{"accessToken":"eyJhbGciOiJSUzI1NiIsImtpZCI6ImEzOGVhNmEwNDA4YjBjYzVkYTE4OWRmYzg4ODgyZDBmMWI3ZmJmMGUiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vb2gtYXBwLWJjZjI0IiwiYXVkIjoib2gtYXBwLWJjZjI0IiwiYXV0aF90aW1lIjoxNzY3MDY1ODc0LCJ1c2VyX2lkIjoibHRZTGxDVVhTa1dWaWJKQmYxUTNpODBjWEMwMyIsInN1YiI6Imx0WUxsQ1VYU2tXVmliSkJmMVEzaTgwY1hDMDMiLCJpYXQiOjE3NjcwNjkxNzQsImV4cCI6MTc2NzA3Mjc3NCwiZW1haWwiOiJjY0BnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZCI6ZmFsc2UsImZpcmViYXNlIjp7ImlkZW50aXRpZXMiOnsiZW1haWwiOlsiY2NAZ21haWwuY29tIl19LCJzaWduX2luX3Byb3ZpZGVyIjoicGFzc3dvcmQiLCJ0ZW5hbnQiOiJjb21tYW5kLWNlbnRlci1yZXA1byJ9fQ.ksPDaIEl9anewVbwkczCubO4o4j-MUPeCTW3hXOHGQGURu-DNuDRIzHC2N83x_jhQTgpGh56phJXO7hxil7HD3w33SMhE8ygspny_llDUWPzk19WvVkKJZ4IqidRTDeSEQrmkR2jgUUvn6GbgmD7tBWfvk47iYk6gNh3uH9AJylmBEnpvTxF8slAkXybbM_QuCShxMqZUbvxIApAXYtSeRmRm0tdn2SCqAKDTsWe8SoNqgjPz7FRMfIir_8iot0S_gY-3Hk4oGevzApeSUdTFWs2EKtacDd_cQc_96vFjJXEzuhxX3MH721T_PJW-cap6puDRdcGWgApIKqhm-1Vcg","expirationTime":1767072804746,"refreshToken":"AMf-vBxW9XfqdgKjuhMDyNqO6X9u3Ms1eoJCXBRVifQwwIvycqPfwzuCPqR_UE5lr-0HewKLPc-MBepUsmEH-qKdGcXkKxsnqsNWgVTQIwv9f5yV2iBGW44diZ93gyInC3CflREmhzmzDb-c9C1zU48ZK9Zxr5eefSA_1UQlpMi-TKQECIArAebZBAxI66XwLrpNJWAVY0_S_9FZt1bnGJbu0vc2De6i-tANewr0TVlivngFyrQejbE"},"tenantId":"command-center-rep5o","uid":"ltYLlCUXSkWVibJBf1Q3i80cXC03"},true]
+[01:39:20.635] Browser LOG     [Booking Censorship] Snapshot received, found 0 documents
+[01:39:20.635] Browser LOG     [Booking Censorship] firstLoadRef.current: true
+[01:39:20.635] Browser LOG     [Booking Censorship] First load, skipping notifications
+[01:39:22.109] Browser LOG     User document found in tenant path
+[01:39:22.109] Browser LOG     useEffect deps: ["ADMIN","/",{},{"apiKey":"AIzaSyDk_a7lPHqJBRI2TzxTIMiSPj-E7Xyqizs","appName":"[DEFAULT]","createdAt":"1767064874004","email":"cc@gmail.com","emailVerified":false,"isAnonymous":false,"lastLoginAt":"1767065874309","providerData":[{"displayName":null,"email":"cc@gmail.com","phoneNumber":null,"photoURL":null,"providerId":"password","uid":"cc@gmail.com"}],"stsTokenManager":{"accessToken":"eyJhbGciOiJSUzI1NiIsImtpZCI6ImEzOGVhNmEwNDA4YjBjYzVkYTE4OWRmYzg4ODgyZDBmMWI3ZmJmMGUiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vb2gtYXBwLWJjZjI0IiwiYXVkIjoib2gtYXBwLWJjZjI0IiwiYXV0aF90aW1lIjoxNzY3MDY1ODc0LCJ1c2VyX2lkIjoibHRZTGxDVVhTa1dWaWJKQmYxUTNpODBjWEMwMyIsInN1YiI6Imx0WUxsQ1VYU2tXVmliSkJmMVEzaTgwY1hDMDMiLCJpYXQiOjE3NjcwNjkxNzQsImV4cCI6MTc2NzA3Mjc3NCwiZW1haWwiOiJjY0BnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZCI6ZmFsc2UsImZpcmViYXNlIjp7ImlkZW50aXRpZXMiOnsiZW1haWwiOlsiY2NAZ21haWwuY29tIl19LCJzaWduX2luX3Byb3ZpZGVyIjoicGFzc3dvcmQiLCJ0ZW5hbnQiOiJjb21tYW5kLWNlbnRlci1yZXA1byJ9fQ.ksPDaIEl9anewVbwkczCubO4o4j-MUPeCTW3hXOHGQGURu-DNuDRIzHC2N83x_jhQTgpGh56phJXO7hxil7HD3w33SMhE8ygspny_llDUWPzk19WvVkKJZ4IqidRTDeSEQrmkR2jgUUvn6GbgmD7tBWfvk47iYk6gNh3uH9AJylmBEnpvTxF8slAkXybbM_QuCShxMqZUbvxIApAXYtSeRmRm0tdn2SCqAKDTsWe8SoNqgjPz7FRMfIir_8iot0S_gY-3Hk4oGevzApeSUdTFWs2EKtacDd_cQc_96vFjJXEzuhxX3MH721T_PJW-cap6puDRdcGWgApIKqhm-1Vcg","expirationTime":1767072804746,"refreshToken":"AMf-vBxW9XfqdgKjuhMDyNqO6X9u3Ms1eoJCXBRVifQwwIvycqPfwzuCPqR_UE5lr-0HewKLPc-MBepUsmEH-qKdGcXkKxsnqsNWgVTQIwv9f5yV2iBGW44diZ93gyInC3CflREmhzmzDb-c9C1zU48ZK9Zxr5eefSA_1UQlpMi-TKQECIArAebZBAxI66XwLrpNJWAVY0_S_9FZt1bnGJbu0vc2De6i-tANewr0TVlivngFyrQejbE"},"tenantId":"command-center-rep5o","uid":"ltYLlCUXSkWVibJBf1Q3i80cXC03"},false]
+[01:39:22.109] Browser LOG     Department check: {"allowedRoutes":["/","/companies","/products"],"department":"ADMIN","pathname":"/"}
+[01:39:38.814] Server  LOG     ✓ Compiled in 83ms
+[01:39:39.061] Browser ERROR   The final argument passed to %s changed size between renders. The order and size of this array must remain constant.
+
+Previous: %s
+Incoming: %s useEffect [ADMIN, /, [object Object], [object Object], false] [ADMIN, /, [object Object], false]
+[01:39:39.061] Browser LOG     [Booking Censorship] Checking environment variables...
+[01:39:39.061] Browser LOG     [Booking Censorship] All environment variables present
+[01:39:39.061] Browser LOG     [Booking Censorship] Starting Firebase initialization...
+[01:39:39.061] Browser LOG     useEffect deps: ["ADMIN","/",{},{"apiKey":"AIzaSyDk_a7lPHqJBRI2TzxTIMiSPj-E7Xyqizs","appName":"[DEFAULT]","createdAt":"1767064874004","email":"cc@gmail.com","emailVerified":false,"isAnonymous":false,"lastLoginAt":"1767065874309","providerData":[{"displayName":null,"email":"cc@gmail.com","phoneNumber":null,"photoURL":null,"providerId":"password","uid":"cc@gmail.com"}],"stsTokenManager":{"accessToken":"eyJhbGciOiJSUzI1NiIsImtpZCI6ImEzOGVhNmEwNDA4YjBjYzVkYTE4OWRmYzg4ODgyZDBmMWI3ZmJmMGUiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vb2gtYXBwLWJjZjI0IiwiYXVkIjoib2gtYXBwLWJjZjI0IiwiYXV0aF90aW1lIjoxNzY3MDY1ODc0LCJ1c2VyX2lkIjoibHRZTGxDVVhTa1dWaWJKQmYxUTNpODBjWEMwMyIsInN1YiI6Imx0WUxsQ1VYU2tXVmliSkJmMVEzaTgwY1hDMDMiLCJpYXQiOjE3NjcwNjkxNzQsImV4cCI6MTc2NzA3Mjc3NCwiZW1haWwiOiJjY0BnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZCI6ZmFsc2UsImZpcmViYXNlIjp7ImlkZW50aXRpZXMiOnsiZW1haWwiOlsiY2NAZ21haWwuY29tIl19LCJzaWduX2luX3Byb3ZpZGVyIjoicGFzc3dvcmQiLCJ0ZW5hbnQiOiJjb21tYW5kLWNlbnRlci1yZXA1byJ9fQ.ksPDaIEl9anewVbwkczCubO4o4j-MUPeCTW3hXOHGQGURu-DNuDRIzHC2N83x_jhQTgpGh56phJXO7hxil7HD3w33SMhE8ygspny_llDUWPzk19WvVkKJZ4IqidRTDeSEQrmkR2jgUUvn6GbgmD7tBWfvk47iYk6gNh3uH9AJylmBEnpvTxF8slAkXybbM_QuCShxMqZUbvxIApAXYtSeRmRm0tdn2SCqAKDTsWe8SoNqgjPz7FRMfIir_8iot0S_gY-3Hk4oGevzApeSUdTFWs2EKtacDd_cQc_96vFjJXEzuhxX3MH721T_PJW-cap6puDRdcGWgApIKqhm-1Vcg","expirationTime":1767072804746,"refreshToken":"AMf-vBxW9XfqdgKjuhMDyNqO6X9u3Ms1eoJCXBRVifQwwIvycqPfwzuCPqR_UE5lr-0HewKLPc-MBepUsmEH-qKdGcXkKxsnqsNWgVTQIwv9f5yV2iBGW44diZ93gyInC3CflREmhzmzDb-c9C1zU48ZK9Zxr5eefSA_1UQlpMi-TKQECIArAebZBAxI66XwLrpNJWAVY0_S_9FZt1bnGJbu0vc2De6i-tANewr0TVlivngFyrQejbE"},"tenantId":"command-center-rep5o","uid":"ltYLlCUXSkWVibJBf1Q3i80cXC03"},false]
+[01:39:39.061] Browser LOG     Department check: {"allowedRoutes":["/","/companies","/products"],"department":"ADMIN","pathname":"/"}
+[01:39:39.061] Browser LOG     [Booking Censorship] Checking environment variables...
+[01:39:39.061] Browser LOG     [Booking Censorship] All environment variables present
+[01:39:39.061] Browser LOG     [Booking Censorship] Starting Firebase initialization...
+[01:39:39.061] Browser LOG     [Booking Censorship] Using existing Firebase app
+[01:39:39.061] Browser LOG     [Booking Censorship] Using existing Firebase app
+[01:39:39.061] Browser LOG     [Booking Censorship] Getting Firestore instance...
+[01:39:39.061] Browser LOG     [Booking Censorship] Firestore instance obtained
+[01:39:39.061] Browser LOG     [Booking Censorship] Querying tenant collection: command-center/command-center-rep5o/booking
+[01:39:39.061] Browser LOG     [Booking Censorship] Filter: for_censorship == 0
+[01:39:39.061] Browser LOG     [Booking Censorship] Getting Firestore instance...
+[01:39:39.061] Browser LOG     [Booking Censorship] Firestore instance obtained
+[01:39:39.061] Browser LOG     [Booking Censorship] Querying tenant collection: command-center/command-center-rep5o/booking
+[01:39:39.061] Browser LOG     [Booking Censorship] Filter: for_censorship == 0
+[01:39:39.061] Browser LOG     [Booking Censorship] Snapshot received, found 0 documents
+[01:39:39.061] Browser LOG     [Booking Censorship] firstLoadRef.current: true
+[01:39:39.061] Browser LOG     [Booking Censorship] First load, skipping notifications
+[01:39:39.061] Browser LOG     [Booking Censorship] Snapshot received, found 0 documents
+[01:39:39.062] Browser LOG     [Booking Censorship] firstLoadRef.current: false
+[01:39:39.062] Browser LOG     [Booking Censorship] Processing docChanges...
+[01:39:48.415] Server  LOG     ✓ Compiled in 63ms
+[01:39:48.711] Browser LOG     [Booking Censorship] Checking environment variables...
+[01:39:48.711] Browser LOG     [Booking Censorship] All environment variables present
+[01:39:48.711] Browser LOG     [Booking Censorship] Starting Firebase initialization...
+[01:39:48.711] Browser LOG     [Booking Censorship] Checking environment variables...
+[01:39:48.711] Browser LOG     [Booking Censorship] All environment variables present
+[01:39:48.711] Browser LOG     [Booking Censorship] Starting Firebase initialization...
+[01:39:48.711] Browser LOG     [Booking Censorship] Using existing Firebase app
+[01:39:48.711] Browser LOG     [Booking Censorship] Using existing Firebase app
+[01:39:48.711] Browser LOG     [Booking Censorship] Getting Firestore instance...
+[01:39:48.711] Browser LOG     [Booking Censorship] Firestore instance obtained
+[01:39:48.711] Browser LOG     [Booking Censorship] Querying tenant collection: command-center/command-center-rep5o/booking
+[01:39:48.711] Browser LOG     [Booking Censorship] Filter: for_censorship == 0
+[01:39:48.711] Browser LOG     [Booking Censorship] Getting Firestore instance...
+[01:39:48.711] Browser LOG     [Booking Censorship] Firestore instance obtained
+[01:39:48.711] Browser LOG     [Booking Censorship] Querying tenant collection: command-center/command-center-rep5o/booking
+[01:39:48.711] Browser LOG     [Booking Censorship] Filter: for_censorship == 0
+[01:39:48.711] Browser LOG     [Booking Censorship] Snapshot received, found 0 documents
+[01:39:48.711] Browser LOG     [Booking Censorship] firstLoadRef.current: true
+[01:39:48.711] Browser LOG     [Booking Censorship] First load, skipping notifications
+[01:39:48.711] Browser LOG     [Booking Censorship] Snapshot received, found 0 documents
+[01:39:48.711] Browser LOG     [Booking Censorship] firstLoadRef.current: false
+[01:39:48.711] Browser LOG     [Booking Censorship] Processing docChanges...
+[01:41:18.381] Server  WARN    [2025-12-30T05:02:38.942Z]  @firebase/firestore: "Firestore (12.6.0): enableIndexedDbPersistence() will be deprecated in the future, you can use `FirestoreSettings.cache` instead."
+[01:41:18.537] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:41:18.686] Browser WARN    [2025-12-30T05:02:39.104Z]  @firebase/firestore: Firestore (12.6.0): enableIndexedDbPersistence() will be deprecated in the future, you can use `FirestoreSettings.cache` instead.
+[01:41:18.686] Browser LOG     [Booking Censorship] Checking environment variables...
+[01:41:18.686] Browser LOG     [Booking Censorship] All environment variables present
+[01:41:18.686] Browser LOG     [Booking Censorship] Starting Firebase initialization...
+[01:41:18.686] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:41:18.686] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[01:41:18.686] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767070959121}
+[01:41:18.686] Browser LOG     [Booking Censorship] Using existing Firebase app
+[01:41:18.796] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:41:19.032] Browser WARN    [2025-12-30T05:02:39.371Z]  @firebase/firestore: Firestore (12.6.0): enableIndexedDbPersistence() will be deprecated in the future, you can use `FirestoreSettings.cache` instead.
+[01:41:19.032] Browser LOG     [Booking Censorship] Checking environment variables...
+[01:41:19.032] Browser LOG     [Booking Censorship] All environment variables present
+[01:41:19.032] Browser LOG     [Booking Censorship] Starting Firebase initialization...
+[01:41:19.032] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:41:19.032] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[01:41:19.032] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767070959386}
+[01:41:19.032] Browser LOG     [Booking Censorship] Using existing Firebase app
+[01:41:19.251] Browser LOG     [Booking Censorship] Getting Firestore instance...
+[01:41:19.251] Browser LOG     [Booking Censorship] Firestore instance obtained
+[01:41:19.251] Browser LOG     [Booking Censorship] Querying tenant collection: command-center/command-center-rep5o/booking
+[01:41:19.251] Browser LOG     [Booking Censorship] Filter: for_censorship == 0
+[01:41:19.251] Browser LOG     Auth state changed: {"tenantId":"command-center-rep5o","uid":"ltYLlCUXSkWVibJBf1Q3i80cXC03","user":"authenticated"}
+[01:41:19.251] Browser LOG     Auth state changed - user authenticated: cc@gmail.com ltYLlCUXSkWVibJBf1Q3i80cXC03
+[01:41:19.251] Browser LOG     Looking for user doc at: command-center/command-center-rep5o/command_center_users/ltYLlCUXSkWVibJBf1Q3i80cXC03
+[01:41:19.251] Browser LOG     [Booking Censorship] Snapshot received, found 0 documents
+[01:41:19.251] Browser LOG     [Booking Censorship] firstLoadRef.current: true
+[01:41:19.251] Browser LOG     [Booking Censorship] First load, skipping notifications
+[01:41:20.146] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:41:20.378] Browser WARN    [2025-12-30T05:02:40.717Z]  @firebase/firestore: Firestore (12.6.0): enableIndexedDbPersistence() will be deprecated in the future, you can use `FirestoreSettings.cache` instead.
+[01:41:20.378] Browser LOG     [Booking Censorship] Checking environment variables...
+[01:41:20.378] Browser LOG     [Booking Censorship] All environment variables present
+[01:41:20.378] Browser LOG     [Booking Censorship] Starting Firebase initialization...
+[01:41:20.378] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:41:20.378] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[01:41:20.378] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767070960734}
+[01:41:20.378] Browser LOG     [Booking Censorship] Using existing Firebase app
+[01:41:20.579] Browser LOG     [Booking Censorship] Getting Firestore instance...
+[01:41:20.579] Browser LOG     [Booking Censorship] Firestore instance obtained
+[01:41:20.579] Browser LOG     [Booking Censorship] Querying tenant collection: command-center/command-center-rep5o/booking
+[01:41:20.579] Browser LOG     [Booking Censorship] Filter: for_censorship == 0
+[01:41:20.579] Browser LOG     Auth state changed: {"tenantId":"command-center-rep5o","uid":"ltYLlCUXSkWVibJBf1Q3i80cXC03","user":"authenticated"}
+[01:41:20.579] Browser LOG     Auth state changed - user authenticated: cc@gmail.com ltYLlCUXSkWVibJBf1Q3i80cXC03
+[01:41:20.579] Browser LOG     Looking for user doc at: command-center/command-center-rep5o/command_center_users/ltYLlCUXSkWVibJBf1Q3i80cXC03
+[01:41:20.579] Browser LOG     [Booking Censorship] Snapshot received, found 0 documents
+[01:41:20.579] Browser LOG     [Booking Censorship] firstLoadRef.current: true
+[01:41:20.579] Browser LOG     [Booking Censorship] First load, skipping notifications
+[01:41:21.346] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:41:21.583] Browser WARN    [2025-12-30T05:02:41.914Z]  @firebase/firestore: Firestore (12.6.0): enableIndexedDbPersistence() will be deprecated in the future, you can use `FirestoreSettings.cache` instead.
+[01:41:21.583] Browser LOG     [Booking Censorship] Checking environment variables...
+[01:41:21.583] Browser LOG     [Booking Censorship] All environment variables present
+[01:41:21.583] Browser LOG     [Booking Censorship] Starting Firebase initialization...
+[01:41:21.583] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:41:21.583] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[01:41:21.583] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767070961929}
+[01:41:21.583] Browser LOG     [Booking Censorship] Using existing Firebase app
+[01:41:21.797] Browser LOG     [Booking Censorship] Getting Firestore instance...
+[01:41:21.798] Browser LOG     [Booking Censorship] Firestore instance obtained
+[01:41:21.798] Browser LOG     [Booking Censorship] Querying tenant collection: command-center/command-center-rep5o/booking
+[01:41:21.798] Browser LOG     [Booking Censorship] Filter: for_censorship == 0
+[01:41:21.798] Browser LOG     Auth state changed: {"tenantId":"command-center-rep5o","uid":"ltYLlCUXSkWVibJBf1Q3i80cXC03","user":"authenticated"}
+[01:41:21.798] Browser LOG     Auth state changed - user authenticated: cc@gmail.com ltYLlCUXSkWVibJBf1Q3i80cXC03
+[01:41:21.798] Browser LOG     Looking for user doc at: command-center/command-center-rep5o/command_center_users/ltYLlCUXSkWVibJBf1Q3i80cXC03
+[01:41:21.798] Browser LOG     [Booking Censorship] Snapshot received, found 0 documents
+[01:41:21.798] Browser LOG     [Booking Censorship] firstLoadRef.current: true
+[01:41:21.798] Browser LOG     [Booking Censorship] First load, skipping notifications
+[01:41:22.577] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:41:22.803] Browser WARN    [2025-12-30T05:02:43.147Z]  @firebase/firestore: Firestore (12.6.0): enableIndexedDbPersistence() will be deprecated in the future, you can use `FirestoreSettings.cache` instead.
+[01:41:22.803] Browser LOG     [Booking Censorship] Checking environment variables...
+[01:41:22.803] Browser LOG     [Booking Censorship] All environment variables present
+[01:41:22.803] Browser LOG     [Booking Censorship] Starting Firebase initialization...
+[01:41:22.803] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:41:22.803] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[01:41:22.803] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767070963163}
+[01:41:22.803] Browser LOG     [Booking Censorship] Using existing Firebase app
+[01:41:23.022] Browser LOG     [Booking Censorship] Getting Firestore instance...
+[01:41:23.022] Browser LOG     [Booking Censorship] Firestore instance obtained
+[01:41:23.022] Browser LOG     [Booking Censorship] Querying tenant collection: command-center/command-center-rep5o/booking
+[01:41:23.022] Browser LOG     [Booking Censorship] Filter: for_censorship == 0
+[01:41:23.022] Browser LOG     Auth state changed: {"tenantId":"command-center-rep5o","uid":"ltYLlCUXSkWVibJBf1Q3i80cXC03","user":"authenticated"}
+[01:41:23.022] Browser LOG     Auth state changed - user authenticated: cc@gmail.com ltYLlCUXSkWVibJBf1Q3i80cXC03
+[01:41:23.022] Browser LOG     Looking for user doc at: command-center/command-center-rep5o/command_center_users/ltYLlCUXSkWVibJBf1Q3i80cXC03
+[01:41:23.022] Browser LOG     [Booking Censorship] Snapshot received, found 0 documents
+[01:41:23.022] Browser LOG     [Booking Censorship] firstLoadRef.current: true
+[01:41:23.022] Browser LOG     [Booking Censorship] First load, skipping notifications
+[01:41:25.284] Browser LOG     User document found in tenant path
+[01:41:25.284] Browser LOG     Department check: {"allowedRoutes":["/","/companies","/products"],"department":"ADMIN","pathname":"/"}
+[01:47:19.243] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./command-center/lib/firebase.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[01:47:19.552] Server  WARN    [2025-12-30T05:08:40.112Z]  @firebase/firestore: "Firestore (12.6.0): enableIndexedDbPersistence() will be deprecated in the future, you can use `FirestoreSettings.cache` instead."
+[01:47:19.601] Server  LOG     ✓ Compiled in 59ms
+[01:47:19.726] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:47:20.001] Browser WARN    [2025-12-30T05:08:40.328Z]  @firebase/firestore: Firestore (12.6.0): enableIndexedDbPersistence() will be deprecated in the future, you can use `FirestoreSettings.cache` instead.
+[01:47:20.001] Browser LOG     [Booking Censorship] Checking environment variables...
+[01:47:20.001] Browser LOG     [Booking Censorship] All environment variables present
+[01:47:20.001] Browser LOG     [Booking Censorship] Starting Firebase initialization...
+[01:47:20.001] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:47:20.001] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[01:47:20.001] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767071320344}
+[01:47:20.001] Browser LOG     [Booking Censorship] Using existing Firebase app
+[01:47:20.109] Browser LOG     [Booking Censorship] Getting Firestore instance...
+[01:47:20.109] Browser LOG     [Booking Censorship] Firestore instance obtained
+[01:47:20.109] Browser LOG     [Booking Censorship] Querying tenant collection: command-center/command-center-rep5o/booking
+[01:47:20.109] Browser LOG     [Booking Censorship] Filter: for_censorship == 0
+[01:47:20.605] Browser LOG     Auth state changed: {"tenantId":"command-center-rep5o","uid":"ltYLlCUXSkWVibJBf1Q3i80cXC03","user":"authenticated"}
+[01:47:20.605] Browser LOG     Auth state changed - user authenticated: cc@gmail.com ltYLlCUXSkWVibJBf1Q3i80cXC03
+[01:47:20.605] Browser LOG     Looking for user doc at: command-center/command-center-rep5o/command_center_users/ltYLlCUXSkWVibJBf1Q3i80cXC03
+[01:47:20.605] Browser LOG     [Booking Censorship] Snapshot received, found 0 documents
+[01:47:20.605] Browser LOG     [Booking Censorship] firstLoadRef.current: true
+[01:47:20.605] Browser LOG     [Booking Censorship] First load, skipping notifications
+[01:47:22.066] Browser LOG     User document found in tenant path
+[01:47:22.066] Browser LOG     Department check: {"allowedRoutes":["/","/companies","/products"],"department":"ADMIN","pathname":"/"}
+[01:51:18.068] Browser LOG     Department check: {"allowedRoutes":["/sam-booking"],"department":"SAM","pathname":"/"}
+[01:51:18.068] Browser LOG     Redirecting to department default: /sam-booking
+[01:51:19.468] Browser LOG     [Booking Censorship] Checking environment variables...
+[01:51:19.468] Browser LOG     [Booking Censorship] All environment variables present
+[01:51:19.468] Browser LOG     [Booking Censorship] Starting Firebase initialization...
+[01:51:19.468] Browser LOG     Department check: {"allowedRoutes":["/sam-booking"],"department":"SAM","pathname":"/sam-booking"}
+[01:51:19.468] Browser LOG     [Booking Censorship] Checking environment variables...
+[01:51:19.468] Browser LOG     [Booking Censorship] All environment variables present
+[01:51:19.468] Browser LOG     [Booking Censorship] Starting Firebase initialization...
+[01:51:19.468] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/sam-booking color: rgb(120, 120, 120) color: inherit {"dp":"/sam-booking","o":"http://localhost:3000/sam-booking","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767071559703}
+[01:51:19.468] Browser LOG     [Booking Censorship] Using existing Firebase app
+[01:51:19.469] Browser LOG     [Booking Censorship] Using existing Firebase app
+[01:51:19.469] Browser LOG     [Booking Censorship] Getting Firestore instance...
+[01:51:19.469] Browser LOG     [Booking Censorship] Firestore instance obtained
+[01:51:19.469] Browser LOG     [Booking Censorship] Querying tenant collection: command-center/command-center-rep5o/booking
+[01:51:19.469] Browser LOG     [Booking Censorship] Filter: for_censorship == 0
+[01:51:19.469] Browser LOG     [Booking Censorship] Getting Firestore instance...
+[01:51:19.469] Browser LOG     [Booking Censorship] Firestore instance obtained
+[01:51:19.469] Browser LOG     [Booking Censorship] Querying tenant collection: command-center/command-center-rep5o/booking
+[01:51:19.469] Browser LOG     [Booking Censorship] Filter: for_censorship == 0
+[01:51:19.469] Browser LOG     [Booking Censorship] Snapshot received, found 0 documents
+[01:51:19.469] Browser LOG     [Booking Censorship] firstLoadRef.current: true
+[01:51:19.469] Browser LOG     [Booking Censorship] First load, skipping notifications
+[01:51:19.469] Browser LOG     [Booking Censorship] Snapshot received, found 0 documents
+[01:51:19.469] Browser LOG     [Booking Censorship] firstLoadRef.current: false
+[01:51:19.469] Browser LOG     [Booking Censorship] Processing docChanges...
+[01:51:21.951] Browser LOG     Department check: {"allowedRoutes":["/","/companies","/products"],"department":"ADMIN","pathname":"/sam-booking"}
+[01:51:21.951] Browser LOG     Redirecting to department default: /
+[01:51:21.951] Browser LOG     [Booking Censorship] Checking environment variables...
+[01:51:21.951] Browser LOG     [Booking Censorship] All environment variables present
+[01:51:21.951] Browser LOG     [Booking Censorship] Starting Firebase initialization...
+[01:51:21.951] Browser LOG     Department check: {"allowedRoutes":["/","/companies","/products"],"department":"ADMIN","pathname":"/"}
+[01:51:21.951] Browser LOG     [Booking Censorship] Checking environment variables...
+[01:51:21.951] Browser LOG     [Booking Censorship] All environment variables present
+[01:51:21.951] Browser LOG     [Booking Censorship] Starting Firebase initialization...
+[01:51:21.951] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767071562193}
+[01:51:21.951] Browser LOG     [Booking Censorship] Using existing Firebase app
+[01:51:21.951] Browser LOG     [Booking Censorship] Using existing Firebase app
+[01:51:21.951] Browser LOG     [Booking Censorship] Getting Firestore instance...
+[01:51:21.951] Browser LOG     [Booking Censorship] Firestore instance obtained
+[01:51:21.951] Browser LOG     [Booking Censorship] Querying tenant collection: command-center/command-center-rep5o/booking
+[01:51:21.951] Browser LOG     [Booking Censorship] Filter: for_censorship == 0
+[01:51:21.951] Browser LOG     [Booking Censorship] Getting Firestore instance...
+[01:51:21.951] Browser LOG     [Booking Censorship] Firestore instance obtained
+[01:51:21.951] Browser LOG     [Booking Censorship] Querying tenant collection: command-center/command-center-rep5o/booking
+[01:51:21.951] Browser LOG     [Booking Censorship] Filter: for_censorship == 0
+[01:51:21.951] Browser LOG     [Booking Censorship] Snapshot received, found 0 documents
+[01:51:21.951] Browser LOG     [Booking Censorship] firstLoadRef.current: true
+[01:51:21.951] Browser LOG     [Booking Censorship] First load, skipping notifications
+[01:51:21.951] Browser LOG     [Booking Censorship] Snapshot received, found 0 documents
+[01:51:21.951] Browser LOG     [Booking Censorship] firstLoadRef.current: false
+[01:51:21.951] Browser LOG     [Booking Censorship] Processing docChanges...
+[01:51:23.244] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:51:23.475] Browser WARN    [2025-12-30T05:12:43.818Z]  @firebase/firestore: Firestore (12.6.0): enableIndexedDbPersistence() will be deprecated in the future, you can use `FirestoreSettings.cache` instead.
+[01:51:23.475] Browser LOG     [Booking Censorship] Checking environment variables...
+[01:51:23.475] Browser LOG     [Booking Censorship] All environment variables present
+[01:51:23.475] Browser LOG     [Booking Censorship] Starting Firebase initialization...
+[01:51:23.475] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:51:23.475] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[01:51:23.476] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767071563834}
+[01:51:23.476] Browser LOG     [Booking Censorship] Using existing Firebase app
+[01:51:23.588] Browser LOG     [Booking Censorship] Getting Firestore instance...
+[01:51:23.588] Browser LOG     [Booking Censorship] Firestore instance obtained
+[01:51:23.588] Browser LOG     [Booking Censorship] Querying tenant collection: command-center/command-center-rep5o/booking
+[01:51:23.588] Browser LOG     [Booking Censorship] Filter: for_censorship == 0
+[01:51:23.788] Browser LOG     Auth state changed: {"tenantId":"command-center-rep5o","uid":"ltYLlCUXSkWVibJBf1Q3i80cXC03","user":"authenticated"}
+[01:51:23.788] Browser LOG     Auth state changed - user authenticated: cc@gmail.com ltYLlCUXSkWVibJBf1Q3i80cXC03
+[01:51:23.788] Browser LOG     Looking for user doc at: command-center/command-center-rep5o/command_center_users/ltYLlCUXSkWVibJBf1Q3i80cXC03
+[01:51:23.788] Browser LOG     [Booking Censorship] Snapshot received, found 0 documents
+[01:51:23.788] Browser LOG     [Booking Censorship] firstLoadRef.current: true
+[01:51:23.788] Browser LOG     [Booking Censorship] First load, skipping notifications
+[01:51:25.268] Browser LOG     User document found in tenant path
+[01:51:25.268] Browser LOG     Department check: {"allowedRoutes":["/","/companies","/products"],"department":"ADMIN","pathname":"/"}
+[01:51:35.805] Browser LOG     Department check: {"allowedRoutes":["/sam-booking"],"department":"SAM","pathname":"/"}
+[01:51:35.805] Browser LOG     Redirecting to department default: /sam-booking
+[01:51:35.805] Browser LOG     [Booking Censorship] Checking environment variables...
+[01:51:35.805] Browser LOG     [Booking Censorship] All environment variables present
+[01:51:35.805] Browser LOG     [Booking Censorship] Starting Firebase initialization...
+[01:51:35.805] Browser LOG     Department check: {"allowedRoutes":["/sam-booking"],"department":"SAM","pathname":"/sam-booking"}
+[01:51:35.805] Browser LOG     [Booking Censorship] Checking environment variables...
+[01:51:35.806] Browser LOG     [Booking Censorship] All environment variables present
+[01:51:35.806] Browser LOG     [Booking Censorship] Starting Firebase initialization...
+[01:51:35.806] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/sam-booking color: rgb(120, 120, 120) color: inherit {"dp":"/sam-booking","o":"http://localhost:3000/sam-booking","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767071576050}
+[01:51:35.806] Browser LOG     [Booking Censorship] Using existing Firebase app
+[01:51:35.806] Browser LOG     [Booking Censorship] Using existing Firebase app
+[01:51:35.806] Browser LOG     [Booking Censorship] Getting Firestore instance...
+[01:51:35.806] Browser LOG     [Booking Censorship] Firestore instance obtained
+[01:51:35.806] Browser LOG     [Booking Censorship] Querying tenant collection: command-center/command-center-rep5o/booking
+[01:51:35.806] Browser LOG     [Booking Censorship] Filter: for_censorship == 0
+[01:51:35.806] Browser LOG     [Booking Censorship] Getting Firestore instance...
+[01:51:35.806] Browser LOG     [Booking Censorship] Firestore instance obtained
+[01:51:35.806] Browser LOG     [Booking Censorship] Querying tenant collection: command-center/command-center-rep5o/booking
+[01:51:35.806] Browser LOG     [Booking Censorship] Filter: for_censorship == 0
+[01:51:35.806] Browser LOG     [Booking Censorship] Snapshot received, found 0 documents
+[01:51:35.806] Browser LOG     [Booking Censorship] firstLoadRef.current: true
+[01:51:35.806] Browser LOG     [Booking Censorship] First load, skipping notifications
+[01:51:35.806] Browser LOG     [Booking Censorship] Snapshot received, found 0 documents
+[01:51:35.806] Browser LOG     [Booking Censorship] firstLoadRef.current: false
+[01:51:35.806] Browser LOG     [Booking Censorship] Processing docChanges...
+[01:54:23.919] Server  LOG     ✓ Compiled in 116ms
+[01:54:33.281] Server  LOG     ✓ Compiled in 90ms
+[01:54:33.330] Browser LOG     [Booking Censorship] Checking environment variables...
+[01:54:33.330] Browser LOG     [Booking Censorship] All environment variables present
+[01:54:33.330] Browser LOG     [Booking Censorship] Starting Firebase initialization...
+[01:54:33.435] Browser ERROR   [Booking Censorship] Initialization error: {}
+[01:54:43.178] Server  LOG     ✓ Compiled in 72ms
+[01:54:48.159] Server  LOG     ✓ Compiled in 58ms
+[01:54:56.481] Server  LOG     ✓ Compiled in 63ms
+[01:59:33.977] Server  WARN    [2025-12-30T05:20:54.538Z]  @firebase/firestore: "Firestore (12.6.0): enableIndexedDbPersistence() will be deprecated in the future, you can use `FirestoreSettings.cache` instead."
+[01:59:34.109] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:59:34.254] Browser WARN    [2025-12-30T05:20:54.680Z]  @firebase/firestore: Firestore (12.6.0): enableIndexedDbPersistence() will be deprecated in the future, you can use `FirestoreSettings.cache` instead.
+[01:59:34.254] Browser LOG     [Booking Censorship] Querying tenant collection: command-center/command-center-rep5o/booking
+[01:59:34.254] Browser LOG     [Booking Censorship] Filter: for_censorship == 0
+[01:59:34.254] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:59:34.254] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/sam-booking","route":"/sam-booking"}
+[01:59:34.254] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/sam-booking color: rgb(120, 120, 120) color: inherit {"dp":"/sam-booking","o":"http://localhost:3000/sam-booking","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767072054700}
+[01:59:34.672] Browser LOG     Auth state changed: {"tenantId":"command-center-rep5o","uid":"ltYLlCUXSkWVibJBf1Q3i80cXC03","user":"authenticated"}
+[01:59:34.672] Browser LOG     Auth state changed - user authenticated: cc@gmail.com ltYLlCUXSkWVibJBf1Q3i80cXC03
+[01:59:34.672] Browser LOG     Looking for user doc at: command-center/command-center-rep5o/command_center_users/ltYLlCUXSkWVibJBf1Q3i80cXC03
+[01:59:34.672] Browser LOG     [Booking Censorship] Snapshot received, found 0 documents
+[01:59:34.672] Browser LOG     [Booking Censorship] firstLoadRef.current: true
+[01:59:34.672] Browser LOG     [Booking Censorship] First load, skipping notifications
+[01:59:36.037] Browser LOG     [Booking Censorship] Querying tenant collection: command-center/command-center-rep5o/booking
+[01:59:36.037] Browser LOG     [Booking Censorship] Filter: for_censorship == 0
+[01:59:36.037] Browser LOG     [Booking Censorship] Querying tenant collection: command-center/command-center-rep5o/booking
+[01:59:36.037] Browser LOG     [Booking Censorship] Filter: for_censorship == 0
+[01:59:36.037] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767072056472}
+[01:59:36.037] Browser LOG     [Booking Censorship] Snapshot received, found 0 documents
+[01:59:36.037] Browser LOG     [Booking Censorship] firstLoadRef.current: true
+[01:59:36.037] Browser LOG     [Booking Censorship] First load, skipping notifications
+[01:59:36.956] Browser LOG     User document found in tenant path
+[01:59:36.956] Browser LOG     Department check: {"allowedRoutes":["/","/companies","/products"],"department":"ADMIN","pathname":"/"}
+[01:59:36.956] Browser LOG     [Companies] Querying tenant collection: command-center/command-center-rep5o/companies
+[01:59:36.956] Browser LOG     Department check: {"allowedRoutes":["/","/companies","/products"],"department":"ADMIN","pathname":"/companies"}
+[01:59:36.956] Browser LOG     [Companies] Querying tenant collection: command-center/command-center-rep5o/companies
+[01:59:36.956] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/companies color: rgb(120, 120, 120) color: inherit {"dp":"/companies","o":"http://localhost:3000/companies","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767072057413}
+[01:59:37.685] Browser LOG     [Companies] Snapshot received, found 0 documents
+[01:59:37.685] Browser LOG     [Companies] Snapshot received, found 0 documents
+[01:59:38.096] Browser LOG     [Products] Querying tenant collection: command-center/command-center-rep5o/products
+[01:59:38.096] Browser LOG     Department check: {"allowedRoutes":["/","/companies","/products"],"department":"ADMIN","pathname":"/products"}
+[01:59:38.096] Browser LOG     [Products] Querying tenant collection: command-center/command-center-rep5o/products
+[01:59:38.096] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/products color: rgb(120, 120, 120) color: inherit {"dp":"/products","o":"http://localhost:3000/products","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767072058556}
+[01:59:38.540] Browser LOG     [Products] Snapshot received, found 0 documents
+[01:59:38.540] Browser LOG     [Products] Snapshot received, found 0 documents
+[01:59:39.552] Browser LOG     Department check: {"allowedRoutes":["/sam-booking"],"department":"SAM","pathname":"/products"}
+[01:59:39.552] Browser LOG     Redirecting to department default: /sam-booking
+[01:59:39.552] Browser LOG     [Booking Censorship] Querying tenant collection: command-center/command-center-rep5o/booking
+[01:59:39.552] Browser LOG     [Booking Censorship] Filter: for_censorship == 0
+[01:59:39.552] Browser LOG     Department check: {"allowedRoutes":["/sam-booking"],"department":"SAM","pathname":"/sam-booking"}
+[01:59:39.552] Browser LOG     [Booking Censorship] Querying tenant collection: command-center/command-center-rep5o/booking
+[01:59:39.552] Browser LOG     [Booking Censorship] Filter: for_censorship == 0
+[01:59:39.552] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/sam-booking color: rgb(120, 120, 120) color: inherit {"dp":"/sam-booking","o":"http://localhost:3000/sam-booking","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767072059991}
+[01:59:39.552] Browser LOG     [Booking Censorship] Snapshot received, found 0 documents
+[01:59:39.552] Browser LOG     [Booking Censorship] firstLoadRef.current: true
+[01:59:39.552] Browser LOG     [Booking Censorship] First load, skipping notifications
+[01:59:41.685] Browser LOG     Department check: {"allowedRoutes":["/","/companies","/products"],"department":"ADMIN","pathname":"/sam-booking"}
+[01:59:41.685] Browser LOG     Redirecting to department default: /
+[01:59:41.685] Browser LOG     [Booking Censorship] Querying tenant collection: command-center/command-center-rep5o/booking
+[01:59:41.685] Browser LOG     [Booking Censorship] Filter: for_censorship == 0
+[01:59:41.685] Browser LOG     Department check: {"allowedRoutes":["/","/companies","/products"],"department":"ADMIN","pathname":"/"}
+[01:59:41.685] Browser LOG     [Booking Censorship] Querying tenant collection: command-center/command-center-rep5o/booking
+[01:59:41.685] Browser LOG     [Booking Censorship] Filter: for_censorship == 0
+[01:59:41.685] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767072062124}
+[01:59:41.685] Browser LOG     [Booking Censorship] Snapshot received, found 0 documents
+[01:59:41.685] Browser LOG     [Booking Censorship] firstLoadRef.current: true
+[01:59:41.685] Browser LOG     [Booking Censorship] First load, skipping notifications
+[01:59:42.967] Browser LOG     [Companies] Querying tenant collection: command-center/command-center-rep5o/companies
+[01:59:42.967] Browser LOG     Department check: {"allowedRoutes":["/","/companies","/products"],"department":"ADMIN","pathname":"/companies"}
+[01:59:42.967] Browser LOG     [Companies] Querying tenant collection: command-center/command-center-rep5o/companies
+[01:59:42.967] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/companies color: rgb(120, 120, 120) color: inherit {"dp":"/companies","o":"http://localhost:3000/companies","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767072063423}
+[01:59:42.967] Browser LOG     [Companies] Snapshot received, found 0 documents
+[01:59:42.967] Browser LOG     [Companies] Snapshot received, found 0 documents
+[01:59:43.586] Browser LOG     [Products] Querying tenant collection: command-center/command-center-rep5o/products
+[01:59:43.586] Browser LOG     Department check: {"allowedRoutes":["/","/companies","/products"],"department":"ADMIN","pathname":"/products"}
+[01:59:43.586] Browser LOG     [Products] Querying tenant collection: command-center/command-center-rep5o/products
+[01:59:43.586] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/products color: rgb(120, 120, 120) color: inherit {"dp":"/products","o":"http://localhost:3000/products","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767072064041}
+[01:59:43.586] Browser LOG     [Products] Snapshot received, found 0 documents
+[01:59:43.586] Browser LOG     [Products] Snapshot received, found 0 documents
+[02:01:55.963] Server  WARN    [2025-12-30T05:23:16.523Z]  @firebase/firestore: "Firestore (12.6.0): enableIndexedDbPersistence() will be deprecated in the future, you can use `FirestoreSettings.cache` instead."
+[02:01:56.092] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:01:56.226] Browser WARN    [2025-12-30T05:23:16.662Z]  @firebase/firestore: Firestore (12.6.0): enableIndexedDbPersistence() will be deprecated in the future, you can use `FirestoreSettings.cache` instead.
+[02:01:56.226] Browser LOG     [Products] Querying tenant collection: command-center/command-center-rep5o/products
+[02:01:56.227] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[02:01:56.227] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/products","route":"/products"}
+[02:01:56.227] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/products color: rgb(120, 120, 120) color: inherit {"dp":"/products","o":"http://localhost:3000/products","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767072196685}
+[02:01:56.694] Browser LOG     Auth state changed: {"tenantId":"command-center-rep5o","uid":"ltYLlCUXSkWVibJBf1Q3i80cXC03","user":"authenticated"}
+[02:01:56.694] Browser LOG     Auth state changed - user authenticated: cc@gmail.com ltYLlCUXSkWVibJBf1Q3i80cXC03
+[02:01:56.694] Browser LOG     Looking for user doc at: command-center/command-center-rep5o/command_center_users/ltYLlCUXSkWVibJBf1Q3i80cXC03
+[02:01:56.694] Browser LOG     [Products] Snapshot received, found 0 documents
+[02:01:58.169] Browser LOG     User document found in tenant path
+[02:01:58.169] Browser LOG     Department check: {"allowedRoutes":["/","/companies","/products"],"department":"ADMIN","pathname":"/products"}
+[02:02:07.537] Browser LOG     Department check: {"allowedRoutes":["/sam-booking"],"department":"SAM","pathname":"/products"}
+[02:02:07.537] Browser LOG     Redirecting to department default: /sam-booking
+[02:02:07.537] Browser LOG     [Booking Censorship] Querying tenant collection: command-center/command-center-rep5o/booking
+[02:02:07.537] Browser LOG     [Booking Censorship] Filter: for_censorship == 0
+[02:02:07.537] Browser LOG     Department check: {"allowedRoutes":["/sam-booking"],"department":"SAM","pathname":"/sam-booking"}
+[02:02:07.537] Browser LOG     [Booking Censorship] Querying tenant collection: command-center/command-center-rep5o/booking
+[02:02:07.537] Browser LOG     [Booking Censorship] Filter: for_censorship == 0
+[02:02:07.537] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/sam-booking color: rgb(120, 120, 120) color: inherit {"dp":"/sam-booking","o":"http://localhost:3000/sam-booking","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767072207984}
+[02:02:07.537] Browser LOG     [Booking Censorship] Snapshot received, found 0 documents
+[02:02:07.537] Browser LOG     [Booking Censorship] firstLoadRef.current: true
+[02:02:07.537] Browser LOG     [Booking Censorship] First load, skipping notifications
+[02:03:05.942] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./command-center/lib/firebase.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[02:03:06.225] Server  WARN    [2025-12-30T05:24:26.785Z]  @firebase/firestore: "Firestore (12.6.0): enableIndexedDbPersistence() will be deprecated in the future, you can use `FirestoreSettings.cache` instead."
+[02:03:06.279] Server  LOG     ✓ Compiled in 50ms
+[02:03:06.405] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:03:06.527] Browser ERROR   uncaughtError: Error: Missing required Firebase environment variables: NEXT_PUBLIC_FIREBASE_API_KEY, NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN, NEXT_PUBLIC_FIREBASE_PROJECT_ID, NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET, NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID, NEXT_PUBLIC_FIREBASE_APP_ID
+[02:07:02.554] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[02:07:02.554] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./command-center/lib/firebase.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[02:07:02.554] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[02:07:02.891] Server  WARN    [2025-12-30T05:28:23.450Z]  @firebase/firestore: "Firestore (12.6.0): enableIndexedDbPersistence() will be deprecated in the future, you can use `FirestoreSettings.cache` instead."
+[02:07:02.961] Server  LOG     ✓ Compiled in 70ms
+[02:07:03.150] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:07:03.337] Browser WARN    [2025-12-30T05:28:23.766Z]  @firebase/firestore: Firestore (12.6.0): enableIndexedDbPersistence() will be deprecated in the future, you can use `FirestoreSettings.cache` instead.
+[02:07:03.337] Browser LOG     [Booking Censorship] Querying tenant collection: command-center/command-center-rep5o/booking
+[02:07:03.338] Browser LOG     [Booking Censorship] Filter: for_censorship == 0
+[02:07:03.338] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[02:07:03.338] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/sam-booking","route":"/sam-booking"}
+[02:07:03.338] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/sam-booking color: rgb(120, 120, 120) color: inherit {"dp":"/sam-booking","o":"http://localhost:3000/sam-booking","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767072503791}
+[02:07:03.771] Browser LOG     Auth state changed: {"tenantId":"command-center-rep5o","uid":"ltYLlCUXSkWVibJBf1Q3i80cXC03","user":"authenticated"}
+[02:07:03.771] Browser LOG     Auth state changed - user authenticated: cc@gmail.com ltYLlCUXSkWVibJBf1Q3i80cXC03
+[02:07:03.771] Browser LOG     Looking for user doc at: command-center/command-center-rep5o/command_center_users/ltYLlCUXSkWVibJBf1Q3i80cXC03
+[02:07:03.771] Browser LOG     [Booking Censorship] Snapshot received, found 0 documents
+[02:07:03.771] Browser LOG     [Booking Censorship] firstLoadRef.current: true
+[02:07:03.771] Browser LOG     [Booking Censorship] First load, skipping notifications
+[02:07:06.889] Browser LOG     User document found in tenant path
+[02:07:06.889] Browser LOG     Department check: {"allowedRoutes":["/","/companies","/products"],"department":"ADMIN","pathname":"/sam-booking"}
+[02:07:06.889] Browser LOG     Redirecting to department default: /
+[02:07:07.062] Browser LOG     [Booking Censorship] Querying tenant collection: command-center/command-center-rep5o/booking
+[02:07:07.062] Browser LOG     [Booking Censorship] Filter: for_censorship == 0
+[02:07:07.062] Browser LOG     Department check: {"allowedRoutes":["/","/companies","/products"],"department":"ADMIN","pathname":"/"}
+[02:07:07.062] Browser LOG     [Booking Censorship] Querying tenant collection: command-center/command-center-rep5o/booking
+[02:07:07.062] Browser LOG     [Booking Censorship] Filter: for_censorship == 0
+[02:07:07.062] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767072507466}
+[02:07:07.062] Browser LOG     [Booking Censorship] Snapshot received, found 0 documents
+[02:07:07.062] Browser LOG     [Booking Censorship] firstLoadRef.current: true
+[02:07:07.062] Browser LOG     [Booking Censorship] First load, skipping notifications
+[02:09:00.070] Browser LOG     Department check: {"allowedRoutes":["/sam-booking"],"department":"SAM","pathname":"/"}
+[02:09:00.070] Browser LOG     Redirecting to department default: /sam-booking
+[02:09:00.070] Browser LOG     [Booking Censorship] Querying tenant collection: command-center/command-center-rep5o/booking
+[02:09:00.070] Browser LOG     [Booking Censorship] Filter: for_censorship == 0
+[02:09:00.070] Browser LOG     Department check: {"allowedRoutes":["/sam-booking"],"department":"SAM","pathname":"/sam-booking"}
+[02:09:00.070] Browser LOG     [Booking Censorship] Querying tenant collection: command-center/command-center-rep5o/booking
+[02:09:00.070] Browser LOG     [Booking Censorship] Filter: for_censorship == 0
+[02:09:00.070] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/sam-booking color: rgb(120, 120, 120) color: inherit {"dp":"/sam-booking","o":"http://localhost:3000/sam-booking","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767072620516}
+[02:09:00.070] Browser LOG     [Booking Censorship] Snapshot received, found 0 documents
+[02:09:00.070] Browser LOG     [Booking Censorship] firstLoadRef.current: true
+[02:09:00.070] Browser LOG     [Booking Censorship] First load, skipping notifications
+[02:10:17.731] Server  LOG     ✓ Compiled in 83ms
+[02:11:58.418] Server  WARN    [2025-12-30T05:33:18.978Z]  @firebase/firestore: "Firestore (12.6.0): enableIndexedDbPersistence() will be deprecated in the future, you can use `FirestoreSettings.cache` instead."
+[02:11:58.731] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:11:58.731] Browser WARN    [2025-12-30T05:33:19.286Z]  @firebase/firestore: Firestore (12.6.0): enableIndexedDbPersistence() will be deprecated in the future, you can use `FirestoreSettings.cache` instead.
+[02:11:58.964] Browser LOG     [Booking Censorship] Querying tenant collection: booking
+[02:11:58.964] Browser LOG     [Booking Censorship] Filter: for_censorship == 0
+[02:11:58.964] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[02:11:58.964] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/sam-booking","route":"/sam-booking"}
+[02:11:58.964] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/sam-booking color: rgb(120, 120, 120) color: inherit {"dp":"/sam-booking","o":"http://localhost:3000/sam-booking","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767072799418}
+[02:11:59.421] Browser LOG     Auth state changed: {"tenantId":"command-center-rep5o","uid":"ltYLlCUXSkWVibJBf1Q3i80cXC03","user":"authenticated"}
+[02:11:59.421] Browser LOG     Auth state changed - user authenticated: cc@gmail.com ltYLlCUXSkWVibJBf1Q3i80cXC03
+[02:11:59.421] Browser LOG     Looking for user doc at: command-center/command-center-rep5o/command_center_users/ltYLlCUXSkWVibJBf1Q3i80cXC03
+[02:12:01.349] Browser LOG     [Booking Censorship] Snapshot received, found 101 documents
+[02:12:01.349] Browser LOG     [Booking Censorship] firstLoadRef.current: true
+[02:12:01.349] Browser LOG     [Booking Censorship] First load, skipping notifications
+[02:12:01.349] Browser LOG     User document found in tenant path
+[02:12:01.349] Browser LOG     Department check: {"allowedRoutes":["/","/companies","/products"],"department":"ADMIN","pathname":"/sam-booking"}
+[02:12:01.349] Browser LOG     Redirecting to department default: /
+[02:12:01.540] Browser LOG     [Booking Censorship] Querying tenant collection: booking
+[02:12:01.540] Browser LOG     [Booking Censorship] Filter: for_censorship == 0
+[02:12:01.540] Browser LOG     Department check: {"allowedRoutes":["/","/companies","/products"],"department":"ADMIN","pathname":"/"}
+[02:12:01.540] Browser LOG     [Booking Censorship] Querying tenant collection: booking
+[02:12:01.540] Browser LOG     [Booking Censorship] Filter: for_censorship == 0
+[02:12:01.540] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767072801932}
+[02:12:01.540] Browser LOG     [Booking Censorship] Snapshot received, found 101 documents
+[02:12:01.540] Browser LOG     [Booking Censorship] firstLoadRef.current: true
+[02:12:01.540] Browser LOG     [Booking Censorship] First load, skipping notifications
+[02:12:03.679] Browser LOG     [Companies] Querying tenant collection: command-center/command-center-rep5o/companies
+[02:12:03.679] Browser LOG     Department check: {"allowedRoutes":["/","/companies","/products"],"department":"ADMIN","pathname":"/companies"}
+[02:12:03.679] Browser LOG     [Companies] Querying tenant collection: command-center/command-center-rep5o/companies
+[02:12:03.679] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/companies color: rgb(120, 120, 120) color: inherit {"dp":"/companies","o":"http://localhost:3000/companies","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767072804114}
+[02:12:03.679] Browser LOG     [Companies] Snapshot received, found 0 documents
+[02:12:03.679] Browser LOG     [Companies] Snapshot received, found 0 documents
+[02:12:05.547] Browser LOG     [Products] Querying tenant collection: command-center/command-center-rep5o/products
+[02:12:05.547] Browser LOG     Department check: {"allowedRoutes":["/","/companies","/products"],"department":"ADMIN","pathname":"/products"}
+[02:12:05.547] Browser LOG     [Products] Querying tenant collection: command-center/command-center-rep5o/products
+[02:12:05.547] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/products color: rgb(120, 120, 120) color: inherit {"dp":"/products","o":"http://localhost:3000/products","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767072805988}
+[02:12:05.547] Browser LOG     [Products] Snapshot received, found 0 documents
+[02:12:05.547] Browser LOG     [Products] Snapshot received, found 0 documents
+[02:13:39.223] Server  LOG     ✓ Compiled in 65ms
+[02:13:57.858] Server  LOG     ✓ Compiled in 49ms
+[02:14:27.278] Browser LOG     [Companies] Querying tenant collection: companies
+[02:14:27.278] Browser LOG     Department check: {"allowedRoutes":["/","/companies","/products"],"department":"ADMIN","pathname":"/companies"}
+[02:14:27.278] Browser LOG     [Companies] Querying tenant collection: companies
+[02:14:27.278] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/companies color: rgb(120, 120, 120) color: inherit {"dp":"/companies","o":"http://localhost:3000/companies","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767072947734}
+[02:14:27.989] Browser LOG     [Companies] Snapshot received, found 219 documents
+[02:14:27.989] Browser LOG     [Companies] Snapshot received, found 219 documents
+[02:14:29.557] Browser LOG     [Products] Querying tenant collection: products
+[02:14:29.557] Browser LOG     Department check: {"allowedRoutes":["/","/companies","/products"],"department":"ADMIN","pathname":"/products"}
+[02:14:29.557] Browser LOG     [Products] Querying tenant collection: products
+[02:14:29.557] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/products color: rgb(120, 120, 120) color: inherit {"dp":"/products","o":"http://localhost:3000/products","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767072950004}
+[02:14:30.039] Browser LOG     [Products] Snapshot received, found 51 documents
+[02:14:30.039] Browser LOG     [Products] Snapshot received, found 51 documents
+[02:14:31.810] Browser LOG     [Booking Censorship] Querying tenant collection: booking
+[02:14:31.810] Browser LOG     [Booking Censorship] Filter: for_censorship == 0
+[02:14:31.810] Browser LOG     Department check: {"allowedRoutes":["/","/companies","/products"],"department":"ADMIN","pathname":"/"}
+[02:14:31.810] Browser LOG     [Booking Censorship] Querying tenant collection: booking
+[02:14:31.810] Browser LOG     [Booking Censorship] Filter: for_censorship == 0
+[02:14:31.810] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767072952210}
+[02:14:31.810] Browser LOG     [Booking Censorship] Snapshot received, found 101 documents
+[02:14:31.810] Browser LOG     [Booking Censorship] firstLoadRef.current: true
+[02:14:31.810] Browser LOG     [Booking Censorship] First load, skipping notifications
+[02:14:33.665] Browser LOG     Department check: {"allowedRoutes":["/sam-booking"],"department":"SAM","pathname":"/"}
+[02:14:33.665] Browser LOG     Redirecting to department default: /sam-booking
+[02:14:33.665] Browser LOG     [Booking Censorship] Querying tenant collection: booking
+[02:14:33.665] Browser LOG     [Booking Censorship] Filter: for_censorship == 0
+[02:14:33.665] Browser LOG     Department check: {"allowedRoutes":["/sam-booking"],"department":"SAM","pathname":"/sam-booking"}
+[02:14:33.665] Browser LOG     [Booking Censorship] Querying tenant collection: booking
+[02:14:33.665] Browser LOG     [Booking Censorship] Filter: for_censorship == 0
+[02:14:33.665] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/sam-booking color: rgb(120, 120, 120) color: inherit {"dp":"/sam-booking","o":"http://localhost:3000/sam-booking","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767072954052}
+[02:14:33.665] Browser LOG     [Booking Censorship] Snapshot received, found 101 documents
+[02:14:33.665] Browser LOG     [Booking Censorship] firstLoadRef.current: true
+[02:14:33.665] Browser LOG     [Booking Censorship] First load, skipping notifications
+[02:14:36.689] Browser LOG     Starting logout process
+[02:14:36.689] Browser LOG     Auth state changed: {"tenantId":"command-center-rep5o","user":"not authenticated"}
+[02:14:36.689] Browser LOG     Auth state changed - user signed out
+[02:14:36.689] Browser LOG     Logout completed
+[02:14:36.689] Browser LOG     Navigation to /login initiated
+[02:14:36.914] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/login color: rgb(120, 120, 120) color: inherit {"dp":"/login","o":"http://localhost:3000/login","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767072957359}
+[02:14:38.679] Server  WARN    [2025-12-30T05:35:59.239Z]  @firebase/firestore: "Firestore (12.6.0): enableIndexedDbPersistence() will be deprecated in the future, you can use `FirestoreSettings.cache` instead."
+[02:14:39.123] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:14:39.355] Browser WARN    [2025-12-30T05:35:59.768Z]  @firebase/firestore: Firestore (12.6.0): enableIndexedDbPersistence() will be deprecated in the future, you can use `FirestoreSettings.cache` instead.
+[02:14:39.452] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[02:14:39.452] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/login","route":"/login"}
+[02:14:39.452] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/login color: rgb(120, 120, 120) color: inherit {"dp":"/login","o":"http://localhost:3000/login","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767072959902}
+[02:14:39.452] Browser LOG     Auth state changed: {"tenantId":"command-center-rep5o","user":"not authenticated"}
+[02:14:39.452] Browser LOG     Auth state changed - user signed out
+[02:14:41.066] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/register color: rgb(120, 120, 120) color: inherit {"dp":"/register","o":"http://localhost:3000/register","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767072961511}
+[02:14:52.312] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/login color: rgb(120, 120, 120) color: inherit {"dp":"/login","o":"http://localhost:3000/login","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767072972764}
+[02:14:58.220] Browser LOG     === LOGIN DEBUG START ===
+[02:14:58.220] Browser LOG     Tenant ID: command-center-rep5o
+[02:14:58.220] Browser LOG     Logging in user with tenant ID: command-center-rep5o
+[02:14:59.246] Browser LOG     Auth state changed: {"tenantId":"command-center-rep5o","uid":"ltYLlCUXSkWVibJBf1Q3i80cXC03","user":"authenticated"}
+[02:14:59.246] Browser LOG     Auth state changed - user authenticated: cc@gmail.com ltYLlCUXSkWVibJBf1Q3i80cXC03
+[02:14:59.246] Browser LOG     Looking for user doc at: command-center/command-center-rep5o/command_center_users/ltYLlCUXSkWVibJBf1Q3i80cXC03
+[02:14:59.246] Browser LOG     ✅ Tenant auth successful for user: ltYLlCUXSkWVibJBf1Q3i80cXC03
+[02:14:59.246] Browser LOG     Department check: {"allowedRoutes":["/","/companies","/products"],"department":"ADMIN","pathname":"/login"}
+[02:14:59.246] Browser LOG     Redirecting to department default: /
+[02:14:59.246] Browser LOG     [Booking Censorship] Querying tenant collection: booking
+[02:14:59.246] Browser LOG     [Booking Censorship] Filter: for_censorship == 0
+[02:14:59.246] Browser LOG     Department check: {"allowedRoutes":["/","/companies","/products"],"department":"ADMIN","pathname":"/"}
+[02:14:59.246] Browser LOG     [Booking Censorship] Querying tenant collection: booking
+[02:14:59.246] Browser LOG     [Booking Censorship] Filter: for_censorship == 0
+[02:14:59.246] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767072979604}
+[02:14:59.246] Browser LOG     [Booking Censorship] Snapshot received, found 101 documents
+[02:14:59.246] Browser LOG     [Booking Censorship] firstLoadRef.current: true
+[02:14:59.246] Browser LOG     [Booking Censorship] First load, skipping notifications
+[02:15:01.387] Browser LOG     User document found in tenant path
+[02:15:07.147] Server  WARN    [2025-12-30T05:36:27.702Z]  @firebase/firestore: "Firestore (12.6.0): enableIndexedDbPersistence() will be deprecated in the future, you can use `FirestoreSettings.cache` instead."
+[02:15:07.450] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:15:07.450] Browser WARN    [2025-12-30T05:36:28.007Z]  @firebase/firestore: Firestore (12.6.0): enableIndexedDbPersistence() will be deprecated in the future, you can use `FirestoreSettings.cache` instead.
+[02:15:07.594] Browser LOG     [Booking Censorship] Querying tenant collection: booking
+[02:15:07.594] Browser LOG     [Booking Censorship] Filter: for_censorship == 0
+[02:15:07.594] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[02:15:07.594] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[02:15:07.594] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767072988051}
+[02:15:07.952] Browser LOG     Auth state changed: {"tenantId":"command-center-rep5o","uid":"ltYLlCUXSkWVibJBf1Q3i80cXC03","user":"authenticated"}
+[02:15:07.952] Browser LOG     Auth state changed - user authenticated: cc@gmail.com ltYLlCUXSkWVibJBf1Q3i80cXC03
+[02:15:07.952] Browser LOG     Looking for user doc at: command-center/command-center-rep5o/command_center_users/ltYLlCUXSkWVibJBf1Q3i80cXC03
+[02:15:07.952] Browser LOG     [Booking Censorship] Snapshot received, found 101 documents
+[02:15:07.952] Browser LOG     [Booking Censorship] firstLoadRef.current: true
+[02:15:07.952] Browser LOG     [Booking Censorship] First load, skipping notifications
+[02:15:09.482] Browser LOG     [Companies] Querying tenant collection: companies
+[02:15:09.482] Browser LOG     [Companies] Querying tenant collection: companies
+[02:15:09.482] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/companies color: rgb(120, 120, 120) color: inherit {"dp":"/companies","o":"http://localhost:3000/companies","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767072989921}
+[02:15:09.482] Browser LOG     [Companies] Snapshot received, found 219 documents
+[02:15:09.482] Browser LOG     [Companies] Snapshot received, found 219 documents
+[02:15:10.266] Browser LOG     User document found in tenant path
+[02:15:10.266] Browser LOG     Department check: {"allowedRoutes":["/","/companies","/products"],"department":"ADMIN","pathname":"/companies"}
+[02:15:10.952] Browser LOG     [Products] Querying tenant collection: products
+[02:15:10.952] Browser LOG     Department check: {"allowedRoutes":["/","/companies","/products"],"department":"ADMIN","pathname":"/products"}
+[02:15:10.952] Browser LOG     [Products] Querying tenant collection: products
+[02:15:10.952] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/products color: rgb(120, 120, 120) color: inherit {"dp":"/products","o":"http://localhost:3000/products","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767072991398}
+[02:15:10.952] Browser LOG     [Products] Snapshot received, found 51 documents
+[02:15:10.952] Browser LOG     [Products] Snapshot received, found 51 documents
+[02:15:12.893] Browser LOG     Department check: {"allowedRoutes":["/sam-booking"],"department":"SAM","pathname":"/products"}
+[02:15:12.893] Browser LOG     Redirecting to department default: /sam-booking
+[02:15:12.893] Browser LOG     [Booking Censorship] Querying tenant collection: booking
+[02:15:12.893] Browser LOG     [Booking Censorship] Filter: for_censorship == 0
+[02:15:12.893] Browser LOG     Department check: {"allowedRoutes":["/sam-booking"],"department":"SAM","pathname":"/sam-booking"}
+[02:15:12.893] Browser LOG     [Booking Censorship] Querying tenant collection: booking
+[02:15:12.893] Browser LOG     [Booking Censorship] Filter: for_censorship == 0
+[02:15:12.893] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/sam-booking color: rgb(120, 120, 120) color: inherit {"dp":"/sam-booking","o":"http://localhost:3000/sam-booking","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767072993298}
+[02:15:12.893] Browser LOG     [Booking Censorship] Snapshot received, found 101 documents
+[02:15:12.893] Browser LOG     [Booking Censorship] firstLoadRef.current: true
+[02:15:12.893] Browser LOG     [Booking Censorship] First load, skipping notifications

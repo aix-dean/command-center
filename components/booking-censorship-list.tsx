@@ -1,9 +1,7 @@
 "use client"
 
 import { useEffect, useState, useRef } from "react"
-import { initializeApp, getApps, type FirebaseApp } from "firebase/app"
 import {
-  getFirestore,
   collection,
   query,
   orderBy,
@@ -11,8 +9,8 @@ import {
   updateDoc,
   doc,
   onSnapshot,
-  type Firestore,
 } from "firebase/firestore"
+import { db } from "@/lib/firebase"
 import { Button } from "@/components/ui/button"
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
@@ -43,7 +41,6 @@ export default function BookingCensorshipList({ filterField, filterValue, title 
   const [loading, setLoading] = useState(true)
   const [reviewDialogOpen, setReviewDialogOpen] = useState(false)
   const [reviewingBooking, setReviewingBooking] = useState<Booking | null>(null)
-  const dbRef = useRef<Firestore | null>(null)
   const firstLoadRef = useRef(true)
   const { toast } = useToast()
 
@@ -70,149 +67,95 @@ export default function BookingCensorshipList({ filterField, filterValue, title 
   }
 
   useEffect(() => {
-    const initializeAndFetch = async () => {
-      try {
-        // Validate environment variables
-        const requiredEnvVars = {
-          apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY,
-          authDomain: process.env.NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN,
-          projectId: process.env.NEXT_PUBLIC_FIREBASE_PROJECT_ID,
-          storageBucket: process.env.NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET,
-          messagingSenderId: process.env.NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID,
-          appId: process.env.NEXT_PUBLIC_FIREBASE_APP_ID,
-        }
+    // Set up real-time listener for bookings
+    const collectionPath = 'booking'
+    console.log(`[${title}] Querying tenant collection: ${collectionPath}`)
+    console.log(`[${title}] Filter: ${filterField} == ${filterValue}`)
+    const q = query(
+      collection(db, collectionPath),
+      where(filterField, "==", filterValue),
+      orderBy("created", "desc"),
+    )
 
-        console.log(`[${title}] Checking environment variables...`)
-        const missingVars = Object.entries(requiredEnvVars)
-          .filter(([_, value]) => !value)
-          .map(([key]) => key)
+    const unsubscribe = onSnapshot(q, (querySnapshot) => {
+      console.log(`[${title}] Snapshot received, found`, querySnapshot.size, "documents")
 
-        if (missingVars.length > 0) {
-          console.error(`[${title}] Missing environment variables:`, missingVars)
-          toast({
-            title: "Configuration Error",
-            description: `Missing Firebase environment variables: ${missingVars.join(", ")}. Please add them in the Vars section.`,
-            variant: "destructive",
-          })
-          setLoading(false)
-          return
-        }
+      const fetchedBookings: Booking[] = []
+      querySnapshot.forEach((docSnapshot) => {
+        const data = docSnapshot.data()
+        fetchedBookings.push({
+          id: docSnapshot.id,
+          bookingId: data.reservation_id || docSnapshot.id,
+          start_date: data.start_date?.toDate(),
+          end_date: data.end_date?.toDate(),
+          content: data.url,
+          created: data.created?.toDate(),
+          for_censorship: data.for_censorship,
+          total_cost: data.total_cost,
+          status: data.status,
+        })
+      })
 
-        console.log(`[${title}] All environment variables present`)
-        console.log(`[${title}] Starting Firebase initialization...`)
+      setBookings(fetchedBookings)
+      setLoading(false)
 
-        // Add a small delay to ensure browser environment is fully ready
-        await new Promise((resolve) => setTimeout(resolve, 100))
+      // Handle real-time changes (skip on first load)
+      console.log(`[${title}] firstLoadRef.current:`, firstLoadRef.current)
+      if (!firstLoadRef.current) {
+        console.log(`[${title}] Processing docChanges...`)
+        querySnapshot.docChanges().forEach((change) => {
+          const bookingData = change.doc.data()
+          const bookingId = bookingData.reservation_id || change.doc.id
 
-        const firebaseConfig = {
-          apiKey: requiredEnvVars.apiKey!,
-          authDomain: requiredEnvVars.authDomain!,
-          projectId: requiredEnvVars.projectId!,
-          storageBucket: requiredEnvVars.storageBucket!,
-          messagingSenderId: requiredEnvVars.messagingSenderId!,
-          appId: requiredEnvVars.appId!,
-        }
+          console.log(`[${title}] Document change:`, change.type, "for booking:", bookingId)
 
-        // Initialize Firebase
-        let app: FirebaseApp
-        if (getApps().length === 0) {
-          console.log(`[${title}] Creating new Firebase app...`)
-          app = initializeApp(firebaseConfig)
-          console.log(`[${title}] Firebase app created`)
-        } else {
-          console.log(`[${title}] Using existing Firebase app`)
-          app = getApps()[0]
-        }
-
-        // Add another delay before getting Firestore
-        await new Promise((resolve) => setTimeout(resolve, 100))
-
-        // Get Firestore instance
-        console.log(`[${title}] Getting Firestore instance...`)
-        dbRef.current = getFirestore(app)
-        console.log(`[${title}] Firestore instance obtained`)
-
-        // Set up real-time listener for bookings
-        const q = query(
-          collection(dbRef.current, "booking"),
-          where(filterField, "==", filterValue),
-          orderBy("created", "desc"),
-        )
-
-        const unsubscribe = onSnapshot(q, (querySnapshot) => {
-          console.log(`[${title}] Snapshot received, found`, querySnapshot.size, "documents")
-
-          const fetchedBookings: Booking[] = []
-          querySnapshot.forEach((docSnapshot) => {
-            const data = docSnapshot.data()
-            fetchedBookings.push({
-              id: docSnapshot.id,
-              bookingId: data.reservation_id || docSnapshot.id,
-              start_date: data.start_date?.toDate(),
-              end_date: data.end_date?.toDate(),
-              content: data.url,
-              created: data.created?.toDate(),
-              for_censorship: data.for_censorship,
-              total_cost: data.total_cost,
-              status: data.status,
+          if (change.type === 'added') {
+            console.log(`[${title}] Showing toast for new booking`)
+            toast({
+              title: "New Booking Received",
+              description: `Booking ${bookingId} is ready for review.`,
             })
-          })
-
-          setBookings(fetchedBookings)
-          setLoading(false)
-
-          // Handle real-time changes (skip on first load)
-          console.log(`[${title}] firstLoadRef.current:`, firstLoadRef.current)
-          if (!firstLoadRef.current) {
-            console.log(`[${title}] Processing docChanges...`)
-            querySnapshot.docChanges().forEach((change) => {
-              const bookingData = change.doc.data()
-              const bookingId = bookingData.reservation_id || change.doc.id
-
-              console.log(`[${title}] Document change:`, change.type, "for booking:", bookingId)
-
-              if (change.type === 'added') {
-                console.log(`[${title}] Showing toast for new booking`)
-                toast({
-                  title: "New Booking Received",
-                  description: `Booking ${bookingId} is ready for review.`,
-                })
-                playNotificationSound()
-              } else if (change.type === 'modified') {
-                console.log(`[${title}] Showing toast for updated booking`)
-                toast({
-                  title: "Booking Updated",
-                  description: `Booking ${bookingId} has been updated.`,
-                })
-              }
+            playNotificationSound()
+          } else if (change.type === 'modified') {
+            console.log(`[${title}] Showing toast for updated booking`)
+            toast({
+              title: "Booking Updated",
+              description: `Booking ${bookingId} has been updated.`,
             })
-          } else {
-            console.log(`[${title}] First load, skipping notifications`)
-            firstLoadRef.current = false
           }
         })
-
-        return unsubscribe
-      } catch (error) {
-        console.error(`[${title}] Initialization error:`, error)
+      } else {
+        console.log(`[${title}] First load, skipping notifications`)
+        firstLoadRef.current = false
+      }
+    }, (error) => {
+      console.error(`[${title}] onSnapshot error:`, error)
+      if (error.code === 'unavailable') {
         toast({
-          title: "Firebase Error",
-          description: error instanceof Error ? error.message : "Failed to initialize Firebase",
+          title: "Connection Issue",
+          description: "You're currently offline. Changes will sync when connection is restored.",
           variant: "destructive",
         })
-        setLoading(false)
+      } else {
+        toast({
+          title: "Error Loading Bookings",
+          description: "Failed to load bookings. Please try refreshing the page.",
+          variant: "destructive",
+        })
       }
-    }
+      setLoading(false)
+    })
 
-    initializeAndFetch()
+    return unsubscribe
   }, [filterField, filterValue, title, toast])
 
   const handleApprove = async (booking: Booking) => {
-    if (!dbRef.current || !booking.id) return
+    if (!booking.id) return
 
     try {
       console.log(`[${title}] Approving booking:`, booking.id)
-      await updateDoc(doc(dbRef.current, "booking", booking.id), {
+      const docPath = `booking/${booking.id}`
+      await updateDoc(doc(db, docPath), {
         for_censorship: 1,
         for_screening: 0,
       })
@@ -231,11 +174,12 @@ export default function BookingCensorshipList({ filterField, filterValue, title 
   }
 
   const handleReject = async (booking: Booking) => {
-    if (!dbRef.current || !booking.id) return
+    if (!booking.id) return
 
     try {
       console.log(`[${title}] Rejecting booking:`, booking.id)
-      await updateDoc(doc(dbRef.current, "booking", booking.id), {
+      const docPath = `booking/${booking.id}`
+      await updateDoc(doc(db, docPath), {
         for_censorship: 2,
       })
       toast({

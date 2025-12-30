@@ -2,9 +2,8 @@ import type { Metadata } from 'next'
 import { Geist, Geist_Mono } from 'next/font/google'
 import { Analytics } from '@vercel/analytics/next'
 import { Toaster } from '@/components/ui/toaster'
-import { SidebarProvider, SidebarInset, Sidebar, SidebarContent, SidebarHeader } from '@/components/ui/sidebar'
-import { DepartmentProvider } from '@/contexts/department-context'
-import { SidebarContentComponent } from '@/components/sidebar-content'
+import { AuthProvider } from '@/contexts/auth-context'
+import { AppLayout } from '@/components/app-layout'
 import './globals.css'
 
 const _geist = Geist({ subsets: ["latin"] });
@@ -41,21 +40,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`font-sans antialiased`}>
-        <DepartmentProvider>
-          <SidebarProvider>
-            <Sidebar>
-              <SidebarHeader className="p-4">
-                <h2 className="text-lg font-semibold">Navigation</h2>
-              </SidebarHeader>
-              <SidebarContent>
-                <SidebarContentComponent />
-              </SidebarContent>
-            </Sidebar>
-            <SidebarInset>
-              {children}
-            </SidebarInset>
-          </SidebarProvider>
-        </DepartmentProvider>
+        <AuthProvider>
+          <AppLayout>{children}</AppLayout>
+        </AuthProvider>
         <Toaster />
         <Analytics />
       </body>

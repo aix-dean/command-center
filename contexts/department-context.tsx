@@ -1,7 +1,8 @@
 'use client'
 
-import React, { createContext, useContext, useState, useEffect } from 'react';
+import React, { createContext, useContext, useState, useEffect, useCallback } from 'react';
 import { useRouter, usePathname } from 'next/navigation';
+import { useAuth } from './auth-context';
 
 export type Department = 'ADMIN' | 'SAM';
 
@@ -34,6 +35,7 @@ export function DepartmentProvider({ children }: { children: React.ReactNode }) 
   const [department, setDepartmentState] = useState<Department>('ADMIN');
   const router = useRouter();
   const pathname = usePathname();
+  const { user, loading } = useAuth();
 
   const setDepartment = (dept: Department) => {
     setDepartmentState(dept);
@@ -43,10 +45,22 @@ export function DepartmentProvider({ children }: { children: React.ReactNode }) 
 
   // Check if current route is allowed for current department
   useEffect(() => {
-    if (!departmentRoutes[department].includes(pathname)) {
-      router.push(departmentDefaults[department]);
+    if (loading) return; // Wait for auth to load
+
+    if (user) {
+      // Only enforce department restrictions when authenticated
+      console.log('Department check:', { department, pathname, allowedRoutes: departmentRoutes[department] });
+      if (!departmentRoutes[department].includes(pathname)) {
+        console.log('Redirecting to department default:', departmentDefaults[department]);
+        router.push(departmentDefaults[department]);
+      }
+    } else {
+      // When not authenticated, allow access to auth routes, redirect others to /login
+      if (pathname !== '/login' && pathname !== '/register') {
+        router.push('/login');
+      }
     }
-  }, [department, pathname, router]);
+  }, [department, pathname, user, loading]);
 
   return (
     <DepartmentContext.Provider value={{ department, setDepartment }}>
