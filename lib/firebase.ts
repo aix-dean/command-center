@@ -3,7 +3,7 @@ import { getAuth } from "firebase/auth"
 import { getFirestore, enableIndexedDbPersistence } from "firebase/firestore"
 
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-const firebaseConfig = {
+export const firebaseConfig = {
   apiKey: "AIzaSyDk_a7lPHqJBRI2TzxTIMiSPj-E7Xyqizs",
   authDomain: "oh-app-bcf24.firebaseapp.com",
   projectId: "oh-app-bcf24",
