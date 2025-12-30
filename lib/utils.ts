@@ -10,8 +10,11 @@ export function cn(...inputs: ClassValue[]) {
  * Example: https://firebasestorage.googleapis.com/v0/b/project.appspot.com/o/file.mp4?alt=media&token=xxx
  * Returns: file.mp4
  */
-export function getFilenameFromUrl(url: string): string {
+export function getFilenameFromUrl(url: string | null): string {
   try {
+    if (!url || typeof url !== 'string') {
+      return ''
+    }
     // Extract the part between '/o/' and '?'
     const match = url.match(/\/o\/([^?]+)/)
     if (match && match[1]) {
@@ -21,6 +24,6 @@ export function getFilenameFromUrl(url: string): string {
     return url
   } catch (error) {
     console.error("Error extracting filename:", error)
-    return url
+    return url || ''
   }
 }

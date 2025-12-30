@@ -41,12 +41,16 @@ export default function ProductsPage() {
     const fetchProducts = async () => {
       try {
         const db = getFirestoreDb()
+        const tenantId = "command-center-rep5o"
+        const collectionPath = 'products'
+        console.log(`[Products] Querying tenant collection: ${collectionPath}`)
         const q = query(
-          collection(db, "products"),
+          collection(db, collectionPath),
           orderBy("created_at", "desc")
         )
 
         const unsubscribe = onSnapshot(q, (querySnapshot) => {
+          console.log(`[Products] Snapshot received, found ${querySnapshot.size} documents`)
           const fetchedProducts: Product[] = []
           querySnapshot.forEach((doc) => {
             const data = doc.data()
