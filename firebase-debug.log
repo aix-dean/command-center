@@ -154,3 +154,5 @@
 [debug] [2025-12-04T00:52:43.761Z] > authorizing via signed-in user (dean.aisyndicate.ph@gmail.com)
 [debug] [2025-12-04T00:52:43.801Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/oh-app-bcf24/services/ 200
 [debug] [2025-12-04T00:52:43.801Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/oh-app-bcf24/services/ [omitted]
+[debug] [2026-01-05T06:52:02.278Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-01-05T06:52:02.280Z] > authorizing via signed-in user (dean.aisyndicate.ph@gmail.com)
