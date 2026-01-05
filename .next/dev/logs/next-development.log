@@ -21,3 +21,753 @@
 [00:00:12.877] Browser LOG     [Booking Censorship] Showing toast for updated booking
 [00:00:12.877] Browser LOG     User document found in tenant path
 [00:00:12.877] Browser LOG     Department check: {"allowedRoutes":["/","/companies","/products"],"department":"ADMIN","pathname":"/"}
+[00:02:19.020] Server  LOG     ✓ Compiled in 106ms
+[00:02:19.191] Browser LOG     [Booking Censorship] Querying tenant collection: booking
+[00:02:19.191] Browser LOG     [Booking Censorship] Filter: for_censorship == 0
+[00:02:19.191] Browser LOG     [Booking Censorship] Querying tenant collection: booking
+[00:02:19.191] Browser LOG     [Booking Censorship] Filter: for_censorship == 0
+[00:02:19.191] Browser LOG     [Booking Censorship] Snapshot received, found 101 documents
+[00:02:19.191] Browser LOG     [Booking Censorship] firstLoadRef.current: true
+[00:02:19.191] Browser LOG     [Booking Censorship] First load, skipping notifications
+[00:02:28.960] Server  WARN    [2026-01-05T07:01:18.756Z]  @firebase/firestore: "Firestore (12.6.0): enableIndexedDbPersistence() will be deprecated in the future, you can use `FirestoreSettings.cache` instead."
+[00:02:28.996] Server  LOG     ✓ Compiled in 111ms
+[00:02:29.113] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:29.262] Browser WARN    [2026-01-05T07:01:18.918Z]  @firebase/firestore: Firestore (12.6.0): enableIndexedDbPersistence() will be deprecated in the future, you can use `FirestoreSettings.cache` instead.
+[00:02:29.262] Browser LOG     [Booking Censorship] Querying tenant collection: booking
+[00:02:29.263] Browser LOG     [Booking Censorship] Filter: for_censorship == 0
+[00:02:29.263] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:02:29.263] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:02:29.263] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767596478946}
+[00:02:29.676] Browser LOG     Auth state changed: {"tenantId":"command-center-rep5o","uid":"ltYLlCUXSkWVibJBf1Q3i80cXC03","user":"authenticated"}
+[00:02:29.676] Browser LOG     Auth state changed - user authenticated: cc@gmail.com ltYLlCUXSkWVibJBf1Q3i80cXC03
+[00:02:29.676] Browser LOG     Looking for user doc at: command-center/command-center-rep5o/command_center_users/ltYLlCUXSkWVibJBf1Q3i80cXC03
+[00:02:29.676] Browser LOG     [Booking Censorship] Snapshot received, found 101 documents
+[00:02:29.676] Browser LOG     [Booking Censorship] firstLoadRef.current: true
+[00:02:29.676] Browser LOG     [Booking Censorship] First load, skipping notifications
+[00:02:30.535] Browser LOG     User document found in tenant path
+[00:02:30.535] Browser LOG     Department check: {"allowedRoutes":["/","/companies","/products"],"department":"ADMIN","pathname":"/"}
+[00:10:20.035] Server  LOG     ✓ Compiled in 65ms
+[00:10:20.193] Browser LOG     [Booking Censorship] Querying tenant collection: booking
+[00:10:20.193] Browser LOG     [Booking Censorship] Filter: for_censorship == 0
+[00:10:20.193] Browser LOG     [Booking Censorship] Querying tenant collection: booking
+[00:10:20.193] Browser LOG     [Booking Censorship] Filter: for_censorship == 0
+[00:10:20.193] Browser LOG     [Booking Censorship] Snapshot received, found 101 documents
+[00:10:20.193] Browser LOG     [Booking Censorship] firstLoadRef.current: true
+[00:10:20.193] Browser LOG     [Booking Censorship] First load, skipping notifications
+[00:11:03.577] Browser LOG     Department check: {"allowedRoutes":["/it/user-management"],"department":"IT","pathname":"/"}
+[00:11:03.577] Browser LOG     Redirecting to department default: /it/user-management
+[00:11:04.060] Browser LOG     Department check: {"allowedRoutes":["/it/user-management"],"department":"IT","pathname":"/it/user-management"}
+[00:11:04.060] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/it/user-management color: rgb(120, 120, 120) color: inherit {"dp":"/it/user-management","o":"http://localhost:3000/it/user-management","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767596993753}
+[00:17:56.687] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./command-center/contexts/auth-context.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:17:57.058] Server  WARN    [2026-01-05T07:16:46.854Z]  @firebase/firestore: "Firestore (12.6.0): enableIndexedDbPersistence() will be deprecated in the future, you can use `FirestoreSettings.cache` instead."
+[00:17:57.121] Server  LOG     ✓ Compiled in 77ms
+[00:17:57.253] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:17:58.167] Browser WARN    [2026-01-05T07:16:47.082Z]  @firebase/firestore: Firestore (12.6.0): enableIndexedDbPersistence() will be deprecated in the future, you can use `FirestoreSettings.cache` instead.
+[00:17:58.167] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:17:58.167] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/it/user-management","route":"/it/user-management"}
+[00:17:58.167] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/it/user-management color: rgb(120, 120, 120) color: inherit {"dp":"/it/user-management","o":"http://localhost:3000/it/user-management","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767597407158}
+[00:17:58.167] Browser LOG     Auth state changed: {"tenantId":"command-center-rep5o","uid":"ltYLlCUXSkWVibJBf1Q3i80cXC03","user":"authenticated"}
+[00:17:58.167] Browser LOG     Auth state changed - user authenticated: cc@gmail.com ltYLlCUXSkWVibJBf1Q3i80cXC03
+[00:17:58.167] Browser LOG     Looking for user doc at: command_center_users/ltYLlCUXSkWVibJBf1Q3i80cXC03
+[00:18:00.155] Browser LOG     User document not found in tenant path, checking old paths
+[00:18:00.155] Browser LOG     Checking old path: command_center_users/ltYLlCUXSkWVibJBf1Q3i80cXC03
+[00:18:00.155] Browser LOG     Checking old path: users/ltYLlCUXSkWVibJBf1Q3i80cXC03
+[00:18:00.155] Browser LOG     No existing user document found, creating new one
+[00:18:01.637] Server  LOG     ✓ Compiled in 62ms
+[00:18:01.640] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./command-center/contexts/auth-context.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:18:01.640] Browser LOG     Department check: {"allowedRoutes":["/","/companies","/products"],"department":"ADMIN","pathname":"/it/user-management"}
+[00:18:01.640] Browser LOG     Redirecting to department default: /
+[00:18:01.640] Browser LOG     [Booking Censorship] Querying tenant collection: booking
+[00:18:01.640] Browser LOG     [Booking Censorship] Filter: for_censorship == 0
+[00:18:01.640] Browser LOG     Department check: {"allowedRoutes":["/","/companies","/products"],"department":"ADMIN","pathname":"/"}
+[00:18:01.640] Browser LOG     [Booking Censorship] Querying tenant collection: booking
+[00:18:01.640] Browser LOG     [Booking Censorship] Filter: for_censorship == 0
+[00:18:01.640] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767597410995}
+[00:18:01.640] Browser LOG     [Booking Censorship] Snapshot received, found 101 documents
+[00:18:01.640] Browser LOG     [Booking Censorship] firstLoadRef.current: true
+[00:18:01.640] Browser LOG     [Booking Censorship] First load, skipping notifications
+[00:18:01.953] Server  WARN    [2026-01-05T07:16:51.749Z]  @firebase/firestore: "Firestore (12.6.0): enableIndexedDbPersistence() will be deprecated in the future, you can use `FirestoreSettings.cache` instead."
+[00:18:02.087] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:18:03.156] Browser WARN    [2026-01-05T07:16:51.927Z]  @firebase/firestore: Firestore (12.6.0): enableIndexedDbPersistence() will be deprecated in the future, you can use `FirestoreSettings.cache` instead.
+[00:18:03.156] Browser LOG     [Booking Censorship] Querying tenant collection: booking
+[00:18:03.156] Browser LOG     [Booking Censorship] Filter: for_censorship == 0
+[00:18:03.156] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:18:03.156] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:18:03.156] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767597411952}
+[00:18:03.156] Browser LOG     Auth state changed: {"tenantId":"command-center-rep5o","uid":"ltYLlCUXSkWVibJBf1Q3i80cXC03","user":"authenticated"}
+[00:18:03.156] Browser LOG     Auth state changed - user authenticated: cc@gmail.com ltYLlCUXSkWVibJBf1Q3i80cXC03
+[00:18:03.156] Browser LOG     Looking for user doc at: command_center_users/ltYLlCUXSkWVibJBf1Q3i80cXC03
+[00:18:03.156] Browser LOG     [Booking Censorship] Snapshot received, found 101 documents
+[00:18:03.156] Browser LOG     [Booking Censorship] firstLoadRef.current: true
+[00:18:03.156] Browser LOG     [Booking Censorship] First load, skipping notifications
+[00:18:04.160] Browser LOG     User document found in tenant path
+[00:18:04.160] Browser LOG     Department check: {"allowedRoutes":["/","/companies","/products"],"department":"ADMIN","pathname":"/"}
+[00:18:05.965] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./command-center/contexts/auth-context.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:18:06.231] Server  WARN    [2026-01-05T07:16:56.028Z]  @firebase/firestore: "Firestore (12.6.0): enableIndexedDbPersistence() will be deprecated in the future, you can use `FirestoreSettings.cache` instead."
+[00:18:06.273] Server  LOG     ✓ Compiled in 87ms
+[00:18:06.383] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:18:07.156] Browser WARN    [2026-01-05T07:16:56.227Z]  @firebase/firestore: Firestore (12.6.0): enableIndexedDbPersistence() will be deprecated in the future, you can use `FirestoreSettings.cache` instead.
+[00:18:07.156] Browser LOG     [Booking Censorship] Querying tenant collection: booking
+[00:18:07.156] Browser LOG     [Booking Censorship] Filter: for_censorship == 0
+[00:18:07.156] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:18:07.156] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:18:07.156] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767597416250}
+[00:18:07.156] Browser LOG     Auth state changed: {"tenantId":"command-center-rep5o","uid":"ltYLlCUXSkWVibJBf1Q3i80cXC03","user":"authenticated"}
+[00:18:07.156] Browser LOG     Auth state changed - user authenticated: cc@gmail.com ltYLlCUXSkWVibJBf1Q3i80cXC03
+[00:18:07.156] Browser LOG     Looking for user doc at: command_center_users/ltYLlCUXSkWVibJBf1Q3i80cXC03
+[00:18:07.156] Browser LOG     [Booking Censorship] Snapshot received, found 101 documents
+[00:18:07.156] Browser LOG     [Booking Censorship] firstLoadRef.current: true
+[00:18:07.156] Browser LOG     [Booking Censorship] First load, skipping notifications
+[00:18:08.158] Browser LOG     User document found in tenant path
+[00:18:08.158] Browser LOG     Department check: {"allowedRoutes":["/","/companies","/products"],"department":"ADMIN","pathname":"/"}
+[00:19:36.798] Browser LOG     Starting logout process
+[00:19:36.798] Browser LOG     Auth state changed: {"tenantId":"command-center-rep5o","user":"not authenticated"}
+[00:19:36.798] Browser LOG     Auth state changed - user signed out
+[00:19:36.798] Browser LOG     Logout completed
+[00:19:36.798] Browser LOG     Navigation to /login initiated
+[00:19:37.424] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/login color: rgb(120, 120, 120) color: inherit {"dp":"/login","o":"http://localhost:3000/login","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767597507106}
+[00:19:39.815] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/register color: rgb(120, 120, 120) color: inherit {"dp":"/register","o":"http://localhost:3000/register","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767597509505}
+[00:20:24.753] Browser LOG     Auth state changed: {"tenantId":"command-center-rep5o","uid":"eY62PQ9mOyXn20RNE7BM64rHIRH3","user":"authenticated"}
+[00:20:24.753] Browser LOG     Auth state changed - user authenticated: cc@gmail.com eY62PQ9mOyXn20RNE7BM64rHIRH3
+[00:20:24.753] Browser LOG     Looking for user doc at: command_center_users/eY62PQ9mOyXn20RNE7BM64rHIRH3
+[00:20:24.753] Browser LOG     Department check: {"allowedRoutes":["/","/companies","/products"],"department":"ADMIN","pathname":"/register"}
+[00:20:24.753] Browser LOG     Redirecting to department default: /
+[00:20:24.753] Browser LOG     [Booking Censorship] Querying tenant collection: booking
+[00:20:24.753] Browser LOG     [Booking Censorship] Filter: for_censorship == 0
+[00:20:24.753] Browser LOG     Department check: {"allowedRoutes":["/","/companies","/products"],"department":"ADMIN","pathname":"/"}
+[00:20:24.753] Browser LOG     [Booking Censorship] Querying tenant collection: booking
+[00:20:24.753] Browser LOG     [Booking Censorship] Filter: for_censorship == 0
+[00:20:24.754] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767597554390}
+[00:20:24.754] Browser LOG     [Booking Censorship] Snapshot received, found 101 documents
+[00:20:24.754] Browser LOG     [Booking Censorship] firstLoadRef.current: true
+[00:20:24.754] Browser LOG     [Booking Censorship] First load, skipping notifications
+[00:20:25.268] Browser LOG     User document found in tenant path
+[00:24:21.614] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./command-center/contexts/auth-context.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:24:21.621] Server  LOG     ✓ Compiled in 82ms
+[00:24:21.882] Server  WARN    [2026-01-05T07:23:11.678Z]  @firebase/firestore: "Firestore (12.6.0): enableIndexedDbPersistence() will be deprecated in the future, you can use `FirestoreSettings.cache` instead."
+[00:24:22.032] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:24:23.161] Browser WARN    [2026-01-05T07:23:11.863Z]  @firebase/firestore: Firestore (12.6.0): enableIndexedDbPersistence() will be deprecated in the future, you can use `FirestoreSettings.cache` instead.
+[00:24:23.161] Browser LOG     [Booking Censorship] Querying tenant collection: booking
+[00:24:23.162] Browser LOG     [Booking Censorship] Filter: for_censorship == 0
+[00:24:23.162] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:24:23.162] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:24:23.162] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767597791910}
+[00:24:23.162] Browser LOG     Auth state changed: {"tenantId":"command-center-rep5o","uid":"eY62PQ9mOyXn20RNE7BM64rHIRH3","user":"authenticated"}
+[00:24:23.162] Browser LOG     Auth state changed - user authenticated: cc@gmail.com eY62PQ9mOyXn20RNE7BM64rHIRH3
+[00:24:23.162] Browser LOG     Looking for user doc at: command_center_users/eY62PQ9mOyXn20RNE7BM64rHIRH3
+[00:24:23.162] Browser LOG     [Booking Censorship] Snapshot received, found 101 documents
+[00:24:23.162] Browser LOG     [Booking Censorship] firstLoadRef.current: true
+[00:24:23.162] Browser LOG     [Booking Censorship] First load, skipping notifications
+[00:24:24.163] Browser LOG     User document found in tenant path
+[00:24:24.163] Browser LOG     Department check: {"allowedRoutes":["/","/companies","/products"],"department":"ADMIN","pathname":"/"}
+[00:27:44.367] Browser LOG     Starting logout process
+[00:27:44.367] Browser LOG     Auth state changed: {"tenantId":"command-center-rep5o","user":"not authenticated"}
+[00:27:44.367] Browser LOG     Auth state changed - user signed out
+[00:27:44.367] Browser LOG     Logout completed
+[00:27:44.367] Browser LOG     Navigation to /login initiated
+[00:27:44.507] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/login color: rgb(120, 120, 120) color: inherit {"dp":"/login","o":"http://localhost:3000/login","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767597994192}
+[00:27:46.065] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/register color: rgb(120, 120, 120) color: inherit {"dp":"/register","o":"http://localhost:3000/register","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767597995756}
+[00:27:55.196] Browser LOG     Auth state changed: {"tenantId":"command-center-rep5o","uid":"8F0UsXwvHPRMinHIhmBf6axq9o63","user":"authenticated"}
+[00:27:55.196] Browser LOG     Auth state changed - user authenticated: cc@gmail.com 8F0UsXwvHPRMinHIhmBf6axq9o63
+[00:27:55.197] Browser LOG     Looking for user doc at: command_center_users/8F0UsXwvHPRMinHIhmBf6axq9o63
+[00:27:55.197] Browser LOG     Department check: {"allowedRoutes":["/","/companies","/products"],"department":"ADMIN","pathname":"/register"}
+[00:27:55.197] Browser LOG     Redirecting to department default: /
+[00:27:55.197] Browser LOG     [Booking Censorship] Querying tenant collection: booking
+[00:27:55.197] Browser LOG     [Booking Censorship] Filter: for_censorship == 0
+[00:27:55.197] Browser LOG     Department check: {"allowedRoutes":["/","/companies","/products"],"department":"ADMIN","pathname":"/"}
+[00:27:55.197] Browser LOG     [Booking Censorship] Querying tenant collection: booking
+[00:27:55.197] Browser LOG     [Booking Censorship] Filter: for_censorship == 0
+[00:27:55.197] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767598004831}
+[00:27:55.197] Browser LOG     [Booking Censorship] Snapshot received, found 101 documents
+[00:27:55.197] Browser LOG     [Booking Censorship] firstLoadRef.current: true
+[00:27:55.197] Browser LOG     [Booking Censorship] First load, skipping notifications
+[00:27:56.118] Browser LOG     User document not found in tenant path, checking old paths
+[00:27:56.118] Browser LOG     Checking old path: command-center/command-center-rep5o/command_center_users/8F0UsXwvHPRMinHIhmBf6axq9o63
+[00:27:56.395] Browser LOG     Checking old path: command_center_users/8F0UsXwvHPRMinHIhmBf6axq9o63
+[00:27:56.641] Browser LOG     Checking old path: users/8F0UsXwvHPRMinHIhmBf6axq9o63
+[00:27:57.158] Browser LOG     No existing user document found, creating new one
+[00:28:52.361] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./command-center/contexts/auth-context.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:28:52.649] Server  WARN    [2026-01-05T07:27:42.445Z]  @firebase/firestore: "Firestore (12.6.0): enableIndexedDbPersistence() will be deprecated in the future, you can use `FirestoreSettings.cache` instead."
+[00:28:52.694] Server  LOG     ✓ Compiled in 55ms
+[00:28:52.820] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:28:53.169] Browser WARN    [2026-01-05T07:27:42.669Z]  @firebase/firestore: Firestore (12.6.0): enableIndexedDbPersistence() will be deprecated in the future, you can use `FirestoreSettings.cache` instead.
+[00:28:53.169] Browser LOG     [Booking Censorship] Querying tenant collection: booking
+[00:28:53.169] Browser LOG     [Booking Censorship] Filter: for_censorship == 0
+[00:28:53.169] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:28:53.169] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:28:53.169] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767598062717}
+[00:28:54.167] Browser LOG     Auth state changed: {"tenantId":"command-center-rep5o","uid":"8F0UsXwvHPRMinHIhmBf6axq9o63","user":"authenticated"}
+[00:28:54.167] Browser LOG     Auth state changed - user authenticated: cc@gmail.com 8F0UsXwvHPRMinHIhmBf6axq9o63
+[00:28:54.167] Browser LOG     Looking for user doc at: command_center_users/8F0UsXwvHPRMinHIhmBf6axq9o63
+[00:28:54.167] Browser LOG     [Booking Censorship] Snapshot received, found 101 documents
+[00:28:54.167] Browser LOG     [Booking Censorship] firstLoadRef.current: true
+[00:28:54.167] Browser LOG     [Booking Censorship] First load, skipping notifications
+[00:28:55.168] Browser LOG     User document found in tenant path
+[00:28:55.168] Browser LOG     Department check: {"allowedRoutes":["/","/companies","/products"],"department":"ADMIN","pathname":"/"}
+[00:58:19.223] Browser LOG     Starting logout process
+[00:58:19.224] Browser LOG     Auth state changed: {"tenantId":"command-center-rep5o","user":"not authenticated"}
+[00:58:19.224] Browser LOG     Auth state changed - user signed out
+[00:58:19.224] Browser LOG     Logout completed
+[00:58:19.224] Browser LOG     Navigation to /login initiated
+[00:58:19.350] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/login color: rgb(120, 120, 120) color: inherit {"dp":"/login","o":"http://localhost:3000/login","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767599829040}
+[00:59:25.379] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/register color: rgb(120, 120, 120) color: inherit {"dp":"/register","o":"http://localhost:3000/register","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767599895066}
+[00:59:34.631] Browser LOG     Auth state changed: {"tenantId":"command-center-rep5o","uid":"FEg18ykOfQOEoqfPxX6PcjOwgLf2","user":"authenticated"}
+[00:59:34.631] Browser LOG     Auth state changed - user authenticated: cc@gmail.com FEg18ykOfQOEoqfPxX6PcjOwgLf2
+[00:59:34.631] Browser LOG     Looking for user doc at: command_center_users/FEg18ykOfQOEoqfPxX6PcjOwgLf2
+[00:59:34.631] Browser LOG     Department check: {"allowedRoutes":["/","/companies","/products"],"department":"ADMIN","pathname":"/register"}
+[00:59:34.631] Browser LOG     Redirecting to department default: /
+[00:59:34.631] Browser LOG     [Booking Censorship] Querying tenant collection: booking
+[00:59:34.631] Browser LOG     [Booking Censorship] Filter: for_censorship == 0
+[00:59:34.631] Browser LOG     Department check: {"allowedRoutes":["/","/companies","/products"],"department":"ADMIN","pathname":"/"}
+[00:59:34.631] Browser LOG     [Booking Censorship] Querying tenant collection: booking
+[00:59:34.631] Browser LOG     [Booking Censorship] Filter: for_censorship == 0
+[00:59:34.631] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767599904267}
+[00:59:34.631] Browser LOG     [Booking Censorship] Snapshot received, found 101 documents
+[00:59:34.631] Browser LOG     [Booking Censorship] firstLoadRef.current: true
+[00:59:34.631] Browser LOG     [Booking Censorship] First load, skipping notifications
+[00:59:35.347] Browser LOG     User document not found in tenant path, checking old paths
+[00:59:35.348] Browser LOG     Checking old path: command-center/command-center-rep5o/command_center_users/FEg18ykOfQOEoqfPxX6PcjOwgLf2
+[00:59:35.640] Browser LOG     Checking old path: command_center_users/FEg18ykOfQOEoqfPxX6PcjOwgLf2
+[00:59:35.904] Browser LOG     Checking old path: users/FEg18ykOfQOEoqfPxX6PcjOwgLf2
+[00:59:36.182] Browser LOG     No existing user document found, creating new one
+[00:59:53.102] Browser LOG     Department check: {"allowedRoutes":["/it/user-management"],"department":"IT","pathname":"/"}
+[00:59:53.102] Browser LOG     Redirecting to department default: /it/user-management
+[00:59:53.229] Browser LOG     Department check: {"allowedRoutes":["/it/user-management"],"department":"IT","pathname":"/it/user-management"}
+[00:59:53.229] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/it/user-management color: rgb(120, 120, 120) color: inherit {"dp":"/it/user-management","o":"http://localhost:3000/it/user-management","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767599922917}
+[01:00:46.284] Browser ERROR   ./command-center/app/it/user-management/page.tsx:1:20
+Ecmascript file had an error
+> 1 | import { useState, useEffect } from "react";
+    |                    ^^^^^^^^^
+  2 | import { collection, getDocs } from "firebase/firestore";
+  3 | import { db } from "@/lib/firebase";
+  4 | import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[01:00:46.284] Browser ERROR   ./command-center/app/it/user-management/page.tsx:1:10
+Ecmascript file had an error
+> 1 | import { useState, useEffect } from "react";
+    |          ^^^^^^^^
+  2 | import { collection, getDocs } from "firebase/firestore";
+  3 | import { db } from "@/lib/firebase";
+  4 | import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[01:00:46.392] Browser ERROR   ./command-center/app/it/user-management/page.tsx:1:20
+Ecmascript file had an error
+> 1 | import { useState, useEffect } from "react";
+    |                    ^^^^^^^^^
+  2 | import { collection, getDocs } from "firebase/firestore";
+  3 | import { db } from "@/lib/firebase";
+  4 | import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[01:00:46.392] Browser ERROR   ./command-center/app/it/user-management/page.tsx:1:10
+Ecmascript file had an error
+> 1 | import { useState, useEffect } from "react";
+    |          ^^^^^^^^
+  2 | import { collection, getDocs } from "firebase/firestore";
+  3 | import { db } from "@/lib/firebase";
+  4 | import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[01:00:57.270] Browser ERROR   ./command-center/app/it/user-management/page.tsx:1:20
+Ecmascript file had an error
+> 1 | import { useState, useEffect } from "react";
+    |                    ^^^^^^^^^
+  2 | import { collection, getDocs } from "firebase/firestore";
+  3 | import { db } from "@/lib/firebase";
+  4 | import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[01:00:57.270] Browser ERROR   ./command-center/app/it/user-management/page.tsx:1:10
+Ecmascript file had an error
+> 1 | import { useState, useEffect } from "react";
+    |          ^^^^^^^^
+  2 | import { collection, getDocs } from "firebase/firestore";
+  3 | import { db } from "@/lib/firebase";
+  4 | import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[01:00:57.753] Server  LOG     ✓ Compiled in 404ms
+[01:00:57.861] Browser ERROR   ./command-center/app/it/user-management/page.tsx:1:20
+Ecmascript file had an error
+> 1 | import { useState, useEffect } from "react";
+    |                    ^^^^^^^^^
+  2 | import { collection, getDocs } from "firebase/firestore";
+  3 | import { db } from "@/lib/firebase";
+  4 | import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[01:00:57.861] Browser ERROR   ./command-center/app/it/user-management/page.tsx:1:10
+Ecmascript file had an error
+> 1 | import { useState, useEffect } from "react";
+    |          ^^^^^^^^
+  2 | import { collection, getDocs } from "firebase/firestore";
+  3 | import { db } from "@/lib/firebase";
+  4 | import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[01:01:03.366] Browser ERROR   ./command-center/app/it/user-management/page.tsx:1:20
+Ecmascript file had an error
+> 1 | import { useState, useEffect } from "react";
+    |                    ^^^^^^^^^
+  2 | import { collection, getDocs } from "firebase/firestore";
+  3 | import { db } from "@/lib/firebase";
+  4 | import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[01:01:03.366] Browser ERROR   ./command-center/app/it/user-management/page.tsx:1:10
+Ecmascript file had an error
+> 1 | import { useState, useEffect } from "react";
+    |          ^^^^^^^^
+  2 | import { collection, getDocs } from "firebase/firestore";
+  3 | import { db } from "@/lib/firebase";
+  4 | import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[01:01:03.535] Browser ERROR   ./command-center/app/it/user-management/page.tsx:1:20
+Ecmascript file had an error
+> 1 | import { useState, useEffect } from "react";
+    |                    ^^^^^^^^^
+  2 | import { collection, getDocs } from "firebase/firestore";
+  3 | import { db } from "@/lib/firebase";
+  4 | import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[01:01:03.535] Browser ERROR   ./command-center/app/it/user-management/page.tsx:1:10
+Ecmascript file had an error
+> 1 | import { useState, useEffect } from "react";
+    |          ^^^^^^^^
+  2 | import { collection, getDocs } from "firebase/firestore";
+  3 | import { db } from "@/lib/firebase";
+  4 | import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[01:01:07.660] Browser ERROR   ./command-center/app/it/user-management/page.tsx:1:20
+Ecmascript file had an error
+> 1 | import { useState, useEffect } from "react";
+    |                    ^^^^^^^^^
+  2 | import { collection, getDocs } from "firebase/firestore";
+  3 | import { db } from "@/lib/firebase";
+  4 | import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[01:01:07.660] Browser ERROR   ./command-center/app/it/user-management/page.tsx:1:10
+Ecmascript file had an error
+> 1 | import { useState, useEffect } from "react";
+    |          ^^^^^^^^
+  2 | import { collection, getDocs } from "firebase/firestore";
+  3 | import { db } from "@/lib/firebase";
+  4 | import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[01:01:07.816] Browser ERROR   ./command-center/app/it/user-management/page.tsx:1:20
+Ecmascript file had an error
+> 1 | import { useState, useEffect } from "react";
+    |                    ^^^^^^^^^
+  2 | import { collection, getDocs } from "firebase/firestore";
+  3 | import { db } from "@/lib/firebase";
+  4 | import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[01:01:07.816] Browser ERROR   ./command-center/app/it/user-management/page.tsx:1:10
+Ecmascript file had an error
+> 1 | import { useState, useEffect } from "react";
+    |          ^^^^^^^^
+  2 | import { collection, getDocs } from "firebase/firestore";
+  3 | import { db } from "@/lib/firebase";
+  4 | import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[01:01:14.864] Browser ERROR   ./command-center/app/it/user-management/page.tsx:1:20
+Ecmascript file had an error
+> 1 | import { useState, useEffect } from "react";
+    |                    ^^^^^^^^^
+  2 | import { collection, getDocs } from "firebase/firestore";
+  3 | import { db } from "@/lib/firebase";
+  4 | import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[01:01:14.864] Browser ERROR   ./command-center/app/it/user-management/page.tsx:1:10
+Ecmascript file had an error
+> 1 | import { useState, useEffect } from "react";
+    |          ^^^^^^^^
+  2 | import { collection, getDocs } from "firebase/firestore";
+  3 | import { db } from "@/lib/firebase";
+  4 | import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[01:01:15.018] Browser ERROR   ./command-center/app/it/user-management/page.tsx:1:20
+Ecmascript file had an error
+> 1 | import { useState, useEffect } from "react";
+    |                    ^^^^^^^^^
+  2 | import { collection, getDocs } from "firebase/firestore";
+  3 | import { db } from "@/lib/firebase";
+  4 | import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[01:01:15.019] Browser ERROR   ./command-center/app/it/user-management/page.tsx:1:10
+Ecmascript file had an error
+> 1 | import { useState, useEffect } from "react";
+    |          ^^^^^^^^
+  2 | import { collection, getDocs } from "firebase/firestore";
+  3 | import { db } from "@/lib/firebase";
+  4 | import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[01:01:17.713] Server  ERROR   ⨯ ./command-center/app/it/user-management/page.tsx:1:20
+Ecmascript file had an error
+> 1 | import { useState, useEffect } from "react";
+    |                    ^^^^^^^^^
+  2 | import { collection, getDocs } from "firebase/firestore";
+  3 | import { db } from "@/lib/firebase";
+  4 | import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+
+
+
+
+./command-center/app/it/user-management/page.tsx:1:10
+Ecmascript file had an error
+> 1 | import { useState, useEffect } from "react";
+    |          ^^^^^^^^
+  2 | import { collection, getDocs } from "firebase/firestore";
+  3 | import { db } from "@/lib/firebase";
+  4 | import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+
+
+
+[01:01:17.829] Browser ERROR   ./command-center/app/it/user-management/page.tsx:1:20
+Ecmascript file had an error
+> 1 | import { useState, useEffect } from "react";
+    |                    ^^^^^^^^^
+  2 | import { collection, getDocs } from "firebase/firestore";
+  3 | import { db } from "@/lib/firebase";
+  4 | import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[01:01:17.829] Browser ERROR   ./command-center/app/it/user-management/page.tsx:1:10
+Ecmascript file had an error
+> 1 | import { useState, useEffect } from "react";
+    |          ^^^^^^^^
+  2 | import { collection, getDocs } from "firebase/firestore";
+  3 | import { db } from "@/lib/firebase";
+  4 | import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[01:01:18.278] Browser ERROR   ./command-center/app/it/user-management/page.tsx:1:20
+Ecmascript file had an error
+> 1 | import { useState, useEffect } from "react";
+    |                    ^^^^^^^^^
+  2 | import { collection, getDocs } from "firebase/firestore";
+  3 | import { db } from "@/lib/firebase";
+  4 | import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[01:01:18.278] Browser ERROR   ./command-center/app/it/user-management/page.tsx:1:10
+Ecmascript file had an error
+> 1 | import { useState, useEffect } from "react";
+    |          ^^^^^^^^
+  2 | import { collection, getDocs } from "firebase/firestore";
+  3 | import { db } from "@/lib/firebase";
+  4 | import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[01:01:18.381] Browser ERROR   ./command-center/app/it/user-management/page.tsx:1:20
+Ecmascript file had an error
+> 1 | import { useState, useEffect } from "react";
+    |                    ^^^^^^^^^
+  2 | import { collection, getDocs } from "firebase/firestore";
+  3 | import { db } from "@/lib/firebase";
+  4 | import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[01:01:18.381] Browser ERROR   ./command-center/app/it/user-management/page.tsx:1:10
+Ecmascript file had an error
+> 1 | import { useState, useEffect } from "react";
+    |          ^^^^^^^^
+  2 | import { collection, getDocs } from "firebase/firestore";
+  3 | import { db } from "@/lib/firebase";
+  4 | import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[01:01:18.752] Browser ERROR   uncaughtError: Error: ./command-center/app/it/user-management/page.tsx:1:20
+Ecmascript file had an error
+> 1 | import { useState, useEffect } from "react";
+    |                    ^^^^^^^^^
+  2 | import { collection, getDocs } from "firebase/firestore";
+  3 | import { db } from "@/lib/firebase";
+  4 | import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+
+
+
+[01:01:18.935] Browser ERROR   ./command-center/app/it/user-management/page.tsx:1:20
+Ecmascript file had an error
+> 1 | import { useState, useEffect } from "react";
+    |                    ^^^^^^^^^
+  2 | import { collection, getDocs } from "firebase/firestore";
+  3 | import { db } from "@/lib/firebase";
+  4 | import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[01:01:18.935] Browser ERROR   ./command-center/app/it/user-management/page.tsx:1:10
+Ecmascript file had an error
+> 1 | import { useState, useEffect } from "react";
+    |          ^^^^^^^^
+  2 | import { collection, getDocs } from "firebase/firestore";
+  3 | import { db } from "@/lib/firebase";
+  4 | import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[01:01:18.935] Browser ERROR   ./command-center/app/it/user-management/page.tsx:1:20
+Ecmascript file had an error
+> 1 | import { useState, useEffect } from "react";
+    |                    ^^^^^^^^^
+  2 | import { collection, getDocs } from "firebase/firestore";
+  3 | import { db } from "@/lib/firebase";
+  4 | import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[01:01:18.935] Browser ERROR   ./command-center/app/it/user-management/page.tsx:1:10
+Ecmascript file had an error
+> 1 | import { useState, useEffect } from "react";
+    |          ^^^^^^^^
+  2 | import { collection, getDocs } from "firebase/firestore";
+  3 | import { db } from "@/lib/firebase";
+  4 | import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[01:01:29.681] Browser ERROR   ./command-center/app/it/user-management/page.tsx:1:20
+Ecmascript file had an error
+> 1 | import { useState, useEffect } from "react";
+    |                    ^^^^^^^^^
+  2 | import { collection, getDocs } from "firebase/firestore";
+  3 | import { db } from "@/lib/firebase";
+  4 | import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[01:01:29.681] Browser ERROR   ./command-center/app/it/user-management/page.tsx:1:10
+Ecmascript file had an error
+> 1 | import { useState, useEffect } from "react";
+    |          ^^^^^^^^
+  2 | import { collection, getDocs } from "firebase/firestore";
+  3 | import { db } from "@/lib/firebase";
+  4 | import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[01:01:29.863] Browser ERROR   ./command-center/app/it/user-management/page.tsx:1:20
+Ecmascript file had an error
+> 1 | import { useState, useEffect } from "react";
+    |                    ^^^^^^^^^
+  2 | import { collection, getDocs } from "firebase/firestore";
+  3 | import { db } from "@/lib/firebase";
+  4 | import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[01:01:29.863] Browser ERROR   ./command-center/app/it/user-management/page.tsx:1:10
+Ecmascript file had an error
+> 1 | import { useState, useEffect } from "react";
+    |          ^^^^^^^^
+  2 | import { collection, getDocs } from "firebase/firestore";
+  3 | import { db } from "@/lib/firebase";
+  4 | import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[01:01:29.863] Browser ERROR   ./command-center/app/it/user-management/page.tsx:1:20
+Ecmascript file had an error
+> 1 | import { useState, useEffect } from "react";
+    |                    ^^^^^^^^^
+  2 | import { collection, getDocs } from "firebase/firestore";
+  3 | import { db } from "@/lib/firebase";
+  4 | import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[01:01:29.863] Browser ERROR   ./command-center/app/it/user-management/page.tsx:1:10
+Ecmascript file had an error
+> 1 | import { useState, useEffect } from "react";
+    |          ^^^^^^^^
+  2 | import { collection, getDocs } from "firebase/firestore";
+  3 | import { db } from "@/lib/firebase";
+  4 | import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[01:01:33.372] Browser ERROR   ./command-center/app/it/user-management/page.tsx:1:20
+Ecmascript file had an error
+> 1 | import { useState, useEffect } from "react";
+    |                    ^^^^^^^^^
+  2 | import { collection, getDocs } from "firebase/firestore";
+  3 | import { db } from "@/lib/firebase";
+  4 | import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[01:01:33.372] Browser ERROR   ./command-center/app/it/user-management/page.tsx:1:10
+Ecmascript file had an error
+> 1 | import { useState, useEffect } from "react";
+    |          ^^^^^^^^
+  2 | import { collection, getDocs } from "firebase/firestore";
+  3 | import { db } from "@/lib/firebase";
+  4 | import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[01:01:33.620] Browser ERROR   ./command-center/app/it/user-management/page.tsx:1:20
+Ecmascript file had an error
+> 1 | import { useState, useEffect } from "react";
+    |                    ^^^^^^^^^
+  2 | import { collection, getDocs } from "firebase/firestore";
+  3 | import { db } from "@/lib/firebase";
+  4 | import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[01:01:33.620] Browser ERROR   ./command-center/app/it/user-management/page.tsx:1:10
+Ecmascript file had an error
+> 1 | import { useState, useEffect } from "react";
+    |          ^^^^^^^^
+  2 | import { collection, getDocs } from "firebase/firestore";
+  3 | import { db } from "@/lib/firebase";
+  4 | import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[01:01:46.367] Browser ERROR   ./command-center/app/it/user-management/page.tsx:1:20
+Ecmascript file had an error
+> 1 | import { useState, useEffect } from "react";
+    |                    ^^^^^^^^^
+  2 | import { collection, getDocs } from "firebase/firestore";
+  3 | import { db } from "@/lib/firebase";
+  4 | import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[01:01:46.367] Browser ERROR   ./command-center/app/it/user-management/page.tsx:1:10
+Ecmascript file had an error
+> 1 | import { useState, useEffect } from "react";
+    |          ^^^^^^^^
+  2 | import { collection, getDocs } from "firebase/firestore";
+  3 | import { db } from "@/lib/firebase";
+  4 | import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[01:01:46.491] Server  LOG     ✓ Compiled in 92ms
+[01:01:46.827] Server  WARN    [2026-01-05T08:00:36.623Z]  @firebase/firestore: "Firestore (12.6.0): enableIndexedDbPersistence() will be deprecated in the future, you can use `FirestoreSettings.cache` instead."
+[01:01:46.998] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:01:47.155] Browser WARN    [2026-01-05T08:00:36.803Z]  @firebase/firestore: Firestore (12.6.0): enableIndexedDbPersistence() will be deprecated in the future, you can use `FirestoreSettings.cache` instead.
+[01:01:47.155] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:01:47.155] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/it/user-management","route":"/it/user-management"}
+[01:01:47.155] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/it/user-management color: rgb(120, 120, 120) color: inherit {"dp":"/it/user-management","o":"http://localhost:3000/it/user-management","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767600036850}
+[01:01:47.812] Browser LOG     Auth state changed: {"tenantId":"command-center-rep5o","uid":"FEg18ykOfQOEoqfPxX6PcjOwgLf2","user":"authenticated"}
+[01:01:47.812] Browser LOG     Auth state changed - user authenticated: cc@gmail.com FEg18ykOfQOEoqfPxX6PcjOwgLf2
+[01:01:47.812] Browser LOG     Looking for user doc at: command_center_users/FEg18ykOfQOEoqfPxX6PcjOwgLf2
+[01:01:48.806] Browser LOG     User document found in tenant path
+[01:01:48.806] Browser LOG     Updating user document with tenant
+[01:01:49.880] Browser LOG     Department check: {"allowedRoutes":["/","/companies","/products"],"department":"ADMIN","pathname":"/it/user-management"}
+[01:01:49.880] Browser LOG     Redirecting to department default: /
+[01:01:49.880] Browser LOG     [Booking Censorship] Querying tenant collection: booking
+[01:01:49.880] Browser LOG     [Booking Censorship] Filter: for_censorship == 0
+[01:01:49.880] Browser LOG     Department check: {"allowedRoutes":["/","/companies","/products"],"department":"ADMIN","pathname":"/"}
+[01:01:49.880] Browser LOG     [Booking Censorship] Querying tenant collection: booking
+[01:01:49.880] Browser LOG     [Booking Censorship] Filter: for_censorship == 0
+[01:01:49.880] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767600039483}
+[01:01:49.880] Browser LOG     [Booking Censorship] Snapshot received, found 101 documents
+[01:01:49.880] Browser LOG     [Booking Censorship] firstLoadRef.current: true
+[01:01:49.880] Browser LOG     [Booking Censorship] First load, skipping notifications
+[01:02:11.248] Browser LOG     Department check: {"allowedRoutes":["/it/user-management"],"department":"IT","pathname":"/"}
+[01:02:11.248] Browser LOG     Redirecting to department default: /it/user-management
+[01:02:11.248] Browser LOG     Department check: {"allowedRoutes":["/it/user-management"],"department":"IT","pathname":"/it/user-management"}
+[01:02:11.248] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/it/user-management color: rgb(120, 120, 120) color: inherit {"dp":"/it/user-management","o":"http://localhost:3000/it/user-management","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767600060938}
+[01:09:12.129] Server  LOG     ✓ Compiled in 82ms

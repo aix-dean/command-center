@@ -378,6 +378,14 @@ function SidebarHeader({ className, ...props }: React.ComponentProps<'div'>) {
             <UserIcon className="h-4 w-4" />
             SAM
           </DropdownMenuItem>
+          <DropdownMenuSeparator />
+          <DropdownMenuItem
+            onClick={() => setDepartment('IT')}
+            className="flex items-center gap-2"
+          >
+            <UserIcon className="h-4 w-4" />
+            I.T.
+          </DropdownMenuItem>
         </DropdownMenuContent>
       </DropdownMenu>
     </div>

@@ -4,7 +4,7 @@ import React, { createContext, useContext, useState, useEffect, useCallback } fr
 import { useRouter, usePathname } from 'next/navigation';
 import { useAuth } from './auth-context';
 
-export type Department = 'ADMIN' | 'SAM';
+export type Department = 'ADMIN' | 'SAM' | 'IT';
 
 export interface MenuItem {
   href: string;
@@ -23,12 +23,14 @@ const DepartmentContext = createContext<DepartmentContextType | undefined>(undef
 const departmentDefaults: Record<Department, string> = {
   ADMIN: '/',
   SAM: '/sam-booking',
+  IT: '/it/user-management',
 };
 
 // Routes allowed for each department
 const departmentRoutes: Record<Department, string[]> = {
   ADMIN: ['/', '/companies', '/products'],
   SAM: ['/sam-booking'],
+  IT: ['/it/user-management'],
 };
 
 export function DepartmentProvider({ children }: { children: React.ReactNode }) {

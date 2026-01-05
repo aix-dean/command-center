@@ -48,7 +48,7 @@ export const AuthProvider: React.FC<AuthProviderProps> = ({ children }) => {
 
       if (user) {
         console.log('Auth state changed - user authenticated:', user.email, user.uid)
-        const newUserDocRef = doc(db, 'command-center', 'command-center-rep5o', 'command_center_users', user.uid)
+        const newUserDocRef = doc(db, 'command_center_users', user.uid)
         console.log('Looking for user doc at:', newUserDocRef.path)
         let userDoc = await getDoc(newUserDocRef)
         if (userDoc.exists()) {
@@ -62,7 +62,7 @@ export const AuthProvider: React.FC<AuthProviderProps> = ({ children }) => {
         } else {
           console.log('User document not found in tenant path, checking old paths')
           // Check old paths for migration
-          const oldPaths = ['command_center_users', 'users']
+          const oldPaths = ['command-center/command-center-rep5o/command_center_users', 'command_center_users', 'users']
           let migrated = false
           for (const oldPath of oldPaths) {
             const oldUserDocRef = doc(db, oldPath, user.uid)
@@ -83,7 +83,8 @@ export const AuthProvider: React.FC<AuthProviderProps> = ({ children }) => {
             // If no document found anywhere, create it with default tenant
             await setDoc(newUserDocRef, {
               email: user.email,
-              tenant: 'command-center-rep5o',
+              uid: user.uid,
+              type: "COMMAND_CENTER",
               createdAt: new Date()
             })
             setTenant('command-center-rep5o')
@@ -114,19 +115,6 @@ export const AuthProvider: React.FC<AuthProviderProps> = ({ children }) => {
     // Create user in Firebase Auth (tenant)
     const userCredential = await createUserWithEmailAndPassword(tenantAuth, email, password)
     const firebaseUser = userCredential.user
-
-    // Create user document with tenant
-    const userData = {
-      email: firebaseUser.email,
-      uid: firebaseUser.uid,
-      tenant: 'command-center-rep5o',
-      type: "COMMAND_CENTER",
-      createdAt: new Date()
-    }
-
-    // Create user document in Firestore
-    const docRef = doc(db, 'command-center', 'command-center-rep5o', 'command_center_users', firebaseUser.uid)
-    await setDoc(docRef, userData)
   }
 
   const logout = async () => {
