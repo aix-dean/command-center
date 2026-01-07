@@ -1169,3 +1169,369 @@ Import traces:
 [02:34:18.485] Browser LOG     [Wishlist Pagination Service] After filtering by AppName, found 6 documents
 [02:34:18.485] Browser LOG     [Wishlist Pagination Service] Grouped into 3 unique products
 [02:34:18.485] Browser LOG     [Wishlist Pagination Service] Fetching details for 3 products
+[03:02:50.126] Server  LOG     ✓ Compiled in 95ms
+[03:06:14.820] Server  WARN    [2026-01-07T08:50:27.127Z]  @firebase/firestore: "Firestore (12.6.0): enableIndexedDbPersistence() will be deprecated in the future, you can use `FirestoreSettings.cache` instead."
+[03:06:15.070] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:06:15.070] Browser WARN    [2026-01-07T08:50:27.371Z]  @firebase/firestore: Firestore (12.6.0): enableIndexedDbPersistence() will be deprecated in the future, you can use `FirestoreSettings.cache` instead.
+[03:06:15.260] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[03:06:15.260] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/sam-wishlist","route":"/sam-wishlist"}
+[03:06:15.260] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/sam-wishlist color: rgb(120, 120, 120) color: inherit {"dp":"/sam-wishlist","o":"http://localhost:3000/sam-wishlist","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767775827467}
+[03:06:15.655] Browser LOG     Auth state changed: {"tenantId":"command-center-4d90p","uid":"IVb5PiVAIAgfcVqI4w4tglzHldv2","user":"authenticated"}
+[03:06:15.655] Browser LOG     Auth state changed - user authenticated: eugene.lozon@aix.ph IVb5PiVAIAgfcVqI4w4tglzHldv2
+[03:06:15.655] Browser LOG     Looking for user doc at: command-center/command-center-rep5o/command_center_users/IVb5PiVAIAgfcVqI4w4tglzHldv2
+[03:06:16.487] Browser LOG     [Wishlist Pagination Service] Querying wishlist collection: wishlist
+[03:06:16.487] Browser LOG     [Wishlist Pagination Service] Filter: AppName == Wedflix (case-insensitive), deleted == false
+[03:06:16.487] Browser LOG     User document found in tenant path
+[03:06:16.487] Browser LOG     Department check: {"allowedRoutes":["/","/companies","/products"],"department":"ADMIN","pathname":"/sam-wishlist"}
+[03:06:16.487] Browser LOG     Redirecting to department default: /
+[03:06:16.487] Browser LOG     [Wishlist Pagination Service] Snapshot received, found 229 wishlist documents
+[03:06:16.487] Browser LOG     [Wishlist Pagination Service] After filtering by AppName, found 6 documents
+[03:06:16.487] Browser LOG     [Wishlist Pagination Service] Grouped into 3 unique products
+[03:06:16.487] Browser LOG     [Wishlist Pagination Service] Fetching details for 3 products
+[03:06:16.487] Browser LOG     Department check: {"allowedRoutes":["/","/companies","/products"],"department":"ADMIN","pathname":"/"}
+[03:06:16.487] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767775828690}
+[03:06:16.862] Browser LOG     [Booking Pagination Service] Querying booking collection: booking
+[03:06:16.862] Browser LOG     [Booking Pagination Service] Filter: for_censorship == 0
+[03:06:16.862] Browser LOG     [Booking Pagination Service] Querying booking collection: booking
+[03:06:16.862] Browser LOG     [Booking Pagination Service] Filter: for_censorship == 0
+[03:06:16.862] Browser LOG     [Booking Pagination Service] Snapshot received, found 39 booking documents
+[03:06:16.862] Browser LOG     [Booking Pagination Service] Found 39 bookings
+[03:06:16.862] Browser LOG     [Booking Censorship] First load, skipping notifications
+[03:06:16.862] Browser LOG     [Booking Pagination Service] Snapshot received, found 39 booking documents
+[03:06:16.862] Browser LOG     [Booking Pagination Service] Found 39 bookings
+[03:06:16.862] Browser LOG     [Booking Censorship] Processing docChanges...
+[03:06:19.420] Browser LOG     Department check: {"allowedRoutes":["/sam-booking","/sam-wishlist"],"department":"SAM","pathname":"/"}
+[03:06:19.420] Browser LOG     Redirecting to department default: /sam-booking
+[03:06:19.420] Browser LOG     Department check: {"allowedRoutes":["/sam-booking","/sam-wishlist"],"department":"SAM","pathname":"/sam-booking"}
+[03:06:19.420] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/sam-booking color: rgb(120, 120, 120) color: inherit {"dp":"/sam-booking","o":"http://localhost:3000/sam-booking","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767775831624}
+[03:06:19.627] Browser LOG     [Booking Pagination Service] Querying booking collection: booking
+[03:06:19.627] Browser LOG     [Booking Pagination Service] Filter: for_censorship == 0
+[03:06:19.627] Browser LOG     [Booking Pagination Service] Querying booking collection: booking
+[03:06:19.627] Browser LOG     [Booking Pagination Service] Filter: for_censorship == 0
+[03:06:19.627] Browser LOG     [Booking Pagination Service] Snapshot received, found 39 booking documents
+[03:06:19.627] Browser LOG     [Booking Pagination Service] Found 39 bookings
+[03:06:19.627] Browser LOG     [Booking Censorship] First load, skipping notifications
+[03:06:19.627] Browser LOG     [Booking Pagination Service] Snapshot received, found 39 booking documents
+[03:06:19.627] Browser LOG     [Booking Pagination Service] Found 39 bookings
+[03:06:19.627] Browser LOG     [Booking Censorship] Processing docChanges...
+[03:06:20.311] Browser LOG     Department check: {"allowedRoutes":["/sam-booking","/sam-wishlist"],"department":"SAM","pathname":"/sam-wishlist"}
+[03:06:20.311] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/sam-wishlist color: rgb(120, 120, 120) color: inherit {"dp":"/sam-wishlist","o":"http://localhost:3000/sam-wishlist","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767775832516}
+[03:06:20.527] Browser LOG     [Wishlist Pagination Service] Querying wishlist collection: wishlist
+[03:06:20.527] Browser LOG     [Wishlist Pagination Service] Filter: AppName == Wedflix (case-insensitive), deleted == false
+[03:06:20.527] Browser LOG     [Wishlist Pagination Service] Querying wishlist collection: wishlist
+[03:06:20.527] Browser LOG     [Wishlist Pagination Service] Filter: AppName == Wedflix (case-insensitive), deleted == false
+[03:06:20.527] Browser LOG     [Wishlist Pagination Service] Snapshot received, found 229 wishlist documents
+[03:06:20.527] Browser LOG     [Wishlist Pagination Service] After filtering by AppName, found 6 documents
+[03:06:20.527] Browser LOG     [Wishlist Pagination Service] Grouped into 3 unique products
+[03:06:20.527] Browser LOG     [Wishlist Pagination Service] Fetching details for 3 products
+[03:06:20.527] Browser LOG     [Wishlist Pagination Service] Snapshot received, found 229 wishlist documents
+[03:06:20.527] Browser LOG     [Wishlist Pagination Service] After filtering by AppName, found 6 documents
+[03:06:20.527] Browser LOG     [Wishlist Pagination Service] Grouped into 3 unique products
+[03:06:20.527] Browser LOG     [Wishlist Pagination Service] Fetching details for 3 products
+[03:06:49.295] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:06:49.447] Browser WARN    [2026-01-07T08:51:01.616Z]  @firebase/firestore: Firestore (12.6.0): enableIndexedDbPersistence() will be deprecated in the future, you can use `FirestoreSettings.cache` instead.
+[03:06:49.447] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[03:06:49.447] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/sam-wishlist","route":"/sam-wishlist"}
+[03:06:49.447] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/sam-wishlist color: rgb(120, 120, 120) color: inherit {"dp":"/sam-wishlist","o":"http://localhost:3000/sam-wishlist","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767775861655}
+[03:06:50.002] Browser LOG     Auth state changed: {"tenantId":"command-center-4d90p","uid":"IVb5PiVAIAgfcVqI4w4tglzHldv2","user":"authenticated"}
+[03:06:50.002] Browser LOG     Auth state changed - user authenticated: eugene.lozon@aix.ph IVb5PiVAIAgfcVqI4w4tglzHldv2
+[03:06:50.002] Browser LOG     Looking for user doc at: command-center/command-center-rep5o/command_center_users/IVb5PiVAIAgfcVqI4w4tglzHldv2
+[03:06:51.156] Browser LOG     [Wishlist Pagination Service] Querying wishlist collection: wishlist
+[03:06:51.156] Browser LOG     [Wishlist Pagination Service] Filter: AppName == Wedflix (case-insensitive), deleted == false
+[03:06:51.156] Browser LOG     User document found in tenant path
+[03:06:51.156] Browser LOG     Department check: {"allowedRoutes":["/","/companies","/products"],"department":"ADMIN","pathname":"/sam-wishlist"}
+[03:06:51.156] Browser LOG     Redirecting to department default: /
+[03:06:51.156] Browser LOG     Department check: {"allowedRoutes":["/","/companies","/products"],"department":"ADMIN","pathname":"/"}
+[03:06:51.156] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767775863363}
+[03:06:51.572] Browser LOG     [Booking Pagination Service] Querying booking collection: booking
+[03:06:51.572] Browser LOG     [Booking Pagination Service] Filter: for_censorship == 0
+[03:06:51.572] Browser LOG     [Booking Pagination Service] Querying booking collection: booking
+[03:06:51.572] Browser LOG     [Booking Pagination Service] Filter: for_censorship == 0
+[03:06:51.572] Browser LOG     [Booking Pagination Service] Snapshot received, found 39 booking documents
+[03:06:51.572] Browser LOG     [Booking Pagination Service] Found 39 bookings
+[03:06:51.572] Browser LOG     [Booking Censorship] First load, skipping notifications
+[03:06:51.572] Browser LOG     [Booking Pagination Service] Snapshot received, found 39 booking documents
+[03:06:51.572] Browser LOG     [Booking Pagination Service] Found 39 bookings
+[03:06:51.572] Browser LOG     [Booking Censorship] Processing docChanges...
+[03:06:52.474] Browser LOG     Department check: {"allowedRoutes":["/sam-booking","/sam-wishlist"],"department":"SAM","pathname":"/"}
+[03:06:52.474] Browser LOG     Redirecting to department default: /sam-booking
+[03:06:52.474] Browser LOG     Department check: {"allowedRoutes":["/sam-booking","/sam-wishlist"],"department":"SAM","pathname":"/sam-booking"}
+[03:06:52.474] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/sam-booking color: rgb(120, 120, 120) color: inherit {"dp":"/sam-booking","o":"http://localhost:3000/sam-booking","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767775864678}
+[03:06:52.691] Browser LOG     [Booking Pagination Service] Querying booking collection: booking
+[03:06:52.691] Browser LOG     [Booking Pagination Service] Filter: for_censorship == 0
+[03:06:52.691] Browser LOG     [Booking Pagination Service] Querying booking collection: booking
+[03:06:52.691] Browser LOG     [Booking Pagination Service] Filter: for_censorship == 0
+[03:06:52.691] Browser LOG     [Booking Pagination Service] Snapshot received, found 39 booking documents
+[03:06:52.691] Browser LOG     [Booking Pagination Service] Found 39 bookings
+[03:06:52.691] Browser LOG     [Booking Censorship] First load, skipping notifications
+[03:06:52.691] Browser LOG     [Booking Pagination Service] Snapshot received, found 39 booking documents
+[03:06:52.691] Browser LOG     [Booking Pagination Service] Found 39 bookings
+[03:06:52.691] Browser LOG     [Booking Censorship] Processing docChanges...
+[03:06:53.599] Browser LOG     Department check: {"allowedRoutes":["/sam-booking","/sam-wishlist"],"department":"SAM","pathname":"/sam-wishlist"}
+[03:06:53.599] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/sam-wishlist color: rgb(120, 120, 120) color: inherit {"dp":"/sam-wishlist","o":"http://localhost:3000/sam-wishlist","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767775865793}
+[03:06:53.816] Browser LOG     [Wishlist Pagination Service] Querying wishlist collection: wishlist
+[03:06:53.817] Browser LOG     [Wishlist Pagination Service] Filter: AppName == Wedflix (case-insensitive), deleted == false
+[03:06:53.817] Browser LOG     [Wishlist Pagination Service] Querying wishlist collection: wishlist
+[03:06:53.817] Browser LOG     [Wishlist Pagination Service] Filter: AppName == Wedflix (case-insensitive), deleted == false
+[03:06:53.817] Browser LOG     [Wishlist Pagination Service] Snapshot received, found 229 wishlist documents
+[03:06:53.817] Browser LOG     [Wishlist Pagination Service] After filtering by AppName, found 6 documents
+[03:06:53.817] Browser LOG     [Wishlist Pagination Service] Grouped into 3 unique products
+[03:06:53.817] Browser LOG     [Wishlist Pagination Service] Fetching details for 3 products
+[03:06:53.817] Browser LOG     [Wishlist Pagination Service] Snapshot received, found 229 wishlist documents
+[03:06:53.817] Browser LOG     [Wishlist Pagination Service] After filtering by AppName, found 6 documents
+[03:06:53.817] Browser LOG     [Wishlist Pagination Service] Grouped into 3 unique products
+[03:06:53.817] Browser LOG     [Wishlist Pagination Service] Fetching details for 3 products
+[03:06:55.649] Browser LOG     [Wishlist Users Service] Fetching users for product 1Y8PdEH1banjuxte1C5K in Wedflix
+[03:06:55.824] Browser LOG     [Wishlist Users Service] Found 2 wishlist entries for product 1Y8PdEH1banjuxte1C5K in Wedflix
+[03:06:55.824] Browser LOG     [Wishlist Users Service] Found 2 unique users for product 1Y8PdEH1banjuxte1C5K
+[03:06:56.075] Browser WARN    [Wishlist Users Service] User 2PaVPXHjDUZmgxIuFWKBZwgjPxb2 not found in wedflix_users
+[03:06:56.075] Browser LOG     [Wishlist Users Service] Successfully fetched 2 users for product 1Y8PdEH1banjuxte1C5K
+[03:06:58.091] Browser LOG     [Wishlist Users Service] Fetching users for product FoWXsucchqJU9IZSzA1c in Wedflix
+[03:06:58.289] Browser LOG     [Wishlist Users Service] Found 3 wishlist entries for product FoWXsucchqJU9IZSzA1c in Wedflix
+[03:06:58.289] Browser LOG     [Wishlist Users Service] Found 3 unique users for product FoWXsucchqJU9IZSzA1c
+[03:06:58.584] Browser WARN    [Wishlist Users Service] User 2PaVPXHjDUZmgxIuFWKBZwgjPxb2 not found in wedflix_users
+[03:06:58.584] Browser LOG     [Wishlist Users Service] Successfully fetched 3 users for product FoWXsucchqJU9IZSzA1c
+[03:07:41.841] Browser LOG     [Wishlist Pagination Service] Snapshot received, found 228 wishlist documents
+[03:07:41.841] Browser LOG     [Wishlist Pagination Service] After filtering by AppName, found 5 documents
+[03:07:41.841] Browser LOG     [Wishlist Pagination Service] Grouped into 3 unique products
+[03:07:41.841] Browser LOG     [Wishlist Pagination Service] Fetching details for 3 products
+[03:07:41.841] Browser LOG     [Wishlist Pagination Service] Snapshot received, found 228 wishlist documents
+[03:07:41.841] Browser LOG     [Wishlist Pagination Service] After filtering by AppName, found 5 documents
+[03:07:41.841] Browser LOG     [Wishlist Pagination Service] Grouped into 3 unique products
+[03:07:41.841] Browser LOG     [Wishlist Pagination Service] Fetching details for 3 products
+[03:07:45.658] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:07:45.658] Browser WARN    [2026-01-07T08:51:57.958Z]  @firebase/firestore: Firestore (12.6.0): enableIndexedDbPersistence() will be deprecated in the future, you can use `FirestoreSettings.cache` instead.
+[03:07:46.018] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[03:07:46.018] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/sam-wishlist","route":"/sam-wishlist"}
+[03:07:46.018] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/sam-wishlist color: rgb(120, 120, 120) color: inherit {"dp":"/sam-wishlist","o":"http://localhost:3000/sam-wishlist","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767775918187}
+[03:07:46.403] Browser LOG     Auth state changed: {"tenantId":"command-center-4d90p","uid":"IVb5PiVAIAgfcVqI4w4tglzHldv2","user":"authenticated"}
+[03:07:46.403] Browser LOG     Auth state changed - user authenticated: eugene.lozon@aix.ph IVb5PiVAIAgfcVqI4w4tglzHldv2
+[03:07:46.403] Browser LOG     Looking for user doc at: command-center/command-center-rep5o/command_center_users/IVb5PiVAIAgfcVqI4w4tglzHldv2
+[03:07:47.424] Browser LOG     [Wishlist Pagination Service] Querying wishlist collection: wishlist
+[03:07:47.424] Browser LOG     [Wishlist Pagination Service] Filter: AppName == Wedflix (case-insensitive), deleted == false
+[03:07:47.424] Browser LOG     User document found in tenant path
+[03:07:47.424] Browser LOG     Department check: {"allowedRoutes":["/","/companies","/products"],"department":"ADMIN","pathname":"/sam-wishlist"}
+[03:07:47.424] Browser LOG     Redirecting to department default: /
+[03:07:47.424] Browser LOG     Department check: {"allowedRoutes":["/","/companies","/products"],"department":"ADMIN","pathname":"/"}
+[03:07:47.424] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767775919629}
+[03:07:47.874] Browser LOG     [Booking Pagination Service] Querying booking collection: booking
+[03:07:47.874] Browser LOG     [Booking Pagination Service] Filter: for_censorship == 0
+[03:07:47.874] Browser LOG     [Booking Pagination Service] Querying booking collection: booking
+[03:07:47.874] Browser LOG     [Booking Pagination Service] Filter: for_censorship == 0
+[03:07:47.874] Browser LOG     [Booking Pagination Service] Snapshot received, found 39 booking documents
+[03:07:47.874] Browser LOG     [Booking Pagination Service] Found 39 bookings
+[03:07:47.874] Browser LOG     [Booking Censorship] First load, skipping notifications
+[03:07:47.874] Browser LOG     [Booking Pagination Service] Snapshot received, found 39 booking documents
+[03:07:47.874] Browser LOG     [Booking Pagination Service] Found 39 bookings
+[03:07:47.874] Browser LOG     [Booking Censorship] Processing docChanges...
+[03:07:50.299] Browser LOG     Department check: {"allowedRoutes":["/sam-booking","/sam-wishlist"],"department":"SAM","pathname":"/"}
+[03:07:50.299] Browser LOG     Redirecting to department default: /sam-booking
+[03:07:50.299] Browser LOG     Department check: {"allowedRoutes":["/sam-booking","/sam-wishlist"],"department":"SAM","pathname":"/sam-booking"}
+[03:07:50.299] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/sam-booking color: rgb(120, 120, 120) color: inherit {"dp":"/sam-booking","o":"http://localhost:3000/sam-booking","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767775922500}
+[03:07:50.504] Browser LOG     [Booking Pagination Service] Querying booking collection: booking
+[03:07:50.504] Browser LOG     [Booking Pagination Service] Filter: for_censorship == 0
+[03:07:50.504] Browser LOG     [Booking Pagination Service] Querying booking collection: booking
+[03:07:50.504] Browser LOG     [Booking Pagination Service] Filter: for_censorship == 0
+[03:07:50.504] Browser LOG     [Booking Pagination Service] Snapshot received, found 39 booking documents
+[03:07:50.504] Browser LOG     [Booking Pagination Service] Found 39 bookings
+[03:07:50.504] Browser LOG     [Booking Censorship] First load, skipping notifications
+[03:07:50.504] Browser LOG     [Booking Pagination Service] Snapshot received, found 39 booking documents
+[03:07:50.504] Browser LOG     [Booking Pagination Service] Found 39 bookings
+[03:07:50.504] Browser LOG     [Booking Censorship] Processing docChanges...
+[03:07:51.422] Browser LOG     Department check: {"allowedRoutes":["/sam-booking","/sam-wishlist"],"department":"SAM","pathname":"/sam-wishlist"}
+[03:07:51.422] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/sam-wishlist color: rgb(120, 120, 120) color: inherit {"dp":"/sam-wishlist","o":"http://localhost:3000/sam-wishlist","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767775923625}
+[03:07:51.687] Browser LOG     [Wishlist Pagination Service] Querying wishlist collection: wishlist
+[03:07:51.687] Browser LOG     [Wishlist Pagination Service] Filter: AppName == Wedflix (case-insensitive), deleted == false
+[03:07:51.687] Browser LOG     [Wishlist Pagination Service] Querying wishlist collection: wishlist
+[03:07:51.687] Browser LOG     [Wishlist Pagination Service] Filter: AppName == Wedflix (case-insensitive), deleted == false
+[03:07:51.687] Browser LOG     [Wishlist Pagination Service] Snapshot received, found 228 wishlist documents
+[03:07:51.687] Browser LOG     [Wishlist Pagination Service] After filtering by AppName, found 5 documents
+[03:07:51.687] Browser LOG     [Wishlist Pagination Service] Grouped into 3 unique products
+[03:07:51.687] Browser LOG     [Wishlist Pagination Service] Fetching details for 3 products
+[03:07:51.687] Browser LOG     [Wishlist Pagination Service] Snapshot received, found 228 wishlist documents
+[03:07:51.687] Browser LOG     [Wishlist Pagination Service] After filtering by AppName, found 5 documents
+[03:07:51.687] Browser LOG     [Wishlist Pagination Service] Grouped into 3 unique products
+[03:07:51.687] Browser LOG     [Wishlist Pagination Service] Fetching details for 3 products
+[03:08:25.092] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:08:25.092] Browser WARN    [2026-01-07T08:52:37.390Z]  @firebase/firestore: Firestore (12.6.0): enableIndexedDbPersistence() will be deprecated in the future, you can use `FirestoreSettings.cache` instead.
+[03:08:25.420] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[03:08:25.420] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/sam-wishlist","route":"/sam-wishlist"}
+[03:08:25.420] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/sam-wishlist color: rgb(120, 120, 120) color: inherit {"dp":"/sam-wishlist","o":"http://localhost:3000/sam-wishlist","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767775957607}
+[03:08:25.765] Browser LOG     Auth state changed: {"tenantId":"command-center-4d90p","uid":"IVb5PiVAIAgfcVqI4w4tglzHldv2","user":"authenticated"}
+[03:08:25.765] Browser LOG     Auth state changed - user authenticated: eugene.lozon@aix.ph IVb5PiVAIAgfcVqI4w4tglzHldv2
+[03:08:25.765] Browser LOG     Looking for user doc at: command-center/command-center-rep5o/command_center_users/IVb5PiVAIAgfcVqI4w4tglzHldv2
+[03:08:26.838] Browser LOG     [Wishlist Pagination Service] Querying wishlist collection: wishlist
+[03:08:26.838] Browser LOG     [Wishlist Pagination Service] Filter: AppName == Wedflix (case-insensitive), deleted == false
+[03:08:26.838] Browser LOG     User document found in tenant path
+[03:08:26.838] Browser LOG     Department check: {"allowedRoutes":["/","/companies","/products"],"department":"ADMIN","pathname":"/sam-wishlist"}
+[03:08:26.838] Browser LOG     Redirecting to department default: /
+[03:08:26.838] Browser LOG     Department check: {"allowedRoutes":["/","/companies","/products"],"department":"ADMIN","pathname":"/"}
+[03:08:26.838] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767775959043}
+[03:08:27.256] Browser LOG     [Booking Pagination Service] Querying booking collection: booking
+[03:08:27.256] Browser LOG     [Booking Pagination Service] Filter: for_censorship == 0
+[03:08:27.256] Browser LOG     [Booking Pagination Service] Querying booking collection: booking
+[03:08:27.256] Browser LOG     [Booking Pagination Service] Filter: for_censorship == 0
+[03:08:27.256] Browser LOG     [Booking Pagination Service] Snapshot received, found 39 booking documents
+[03:08:27.256] Browser LOG     [Booking Pagination Service] Found 39 bookings
+[03:08:27.256] Browser LOG     [Booking Censorship] First load, skipping notifications
+[03:08:27.256] Browser LOG     [Booking Pagination Service] Snapshot received, found 39 booking documents
+[03:08:27.256] Browser LOG     [Booking Pagination Service] Found 39 bookings
+[03:08:27.256] Browser LOG     [Booking Censorship] Processing docChanges...
+[03:08:30.284] Browser LOG     Department check: {"allowedRoutes":["/sam-booking","/sam-wishlist"],"department":"SAM","pathname":"/"}
+[03:08:30.284] Browser LOG     Redirecting to department default: /sam-booking
+[03:08:30.284] Browser LOG     Department check: {"allowedRoutes":["/sam-booking","/sam-wishlist"],"department":"SAM","pathname":"/sam-booking"}
+[03:08:30.284] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/sam-booking color: rgb(120, 120, 120) color: inherit {"dp":"/sam-booking","o":"http://localhost:3000/sam-booking","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767775962486}
+[03:08:30.502] Browser LOG     [Booking Pagination Service] Querying booking collection: booking
+[03:08:30.502] Browser LOG     [Booking Pagination Service] Filter: for_censorship == 0
+[03:08:30.502] Browser LOG     [Booking Pagination Service] Querying booking collection: booking
+[03:08:30.502] Browser LOG     [Booking Pagination Service] Filter: for_censorship == 0
+[03:08:30.502] Browser LOG     [Booking Pagination Service] Snapshot received, found 39 booking documents
+[03:08:30.502] Browser LOG     [Booking Pagination Service] Found 39 bookings
+[03:08:30.502] Browser LOG     [Booking Censorship] First load, skipping notifications
+[03:08:30.502] Browser LOG     [Booking Pagination Service] Snapshot received, found 39 booking documents
+[03:08:30.502] Browser LOG     [Booking Pagination Service] Found 39 bookings
+[03:08:30.502] Browser LOG     [Booking Censorship] Processing docChanges...
+[03:08:31.145] Browser LOG     Department check: {"allowedRoutes":["/sam-booking","/sam-wishlist"],"department":"SAM","pathname":"/sam-wishlist"}
+[03:08:31.145] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/sam-wishlist color: rgb(120, 120, 120) color: inherit {"dp":"/sam-wishlist","o":"http://localhost:3000/sam-wishlist","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767775963346}
+[03:08:31.376] Browser LOG     [Wishlist Pagination Service] Querying wishlist collection: wishlist
+[03:08:31.376] Browser LOG     [Wishlist Pagination Service] Filter: AppName == Wedflix (case-insensitive), deleted == false
+[03:08:31.376] Browser LOG     [Wishlist Pagination Service] Querying wishlist collection: wishlist
+[03:08:31.376] Browser LOG     [Wishlist Pagination Service] Filter: AppName == Wedflix (case-insensitive), deleted == false
+[03:08:31.376] Browser LOG     [Wishlist Pagination Service] Snapshot received, found 228 wishlist documents
+[03:08:31.376] Browser LOG     [Wishlist Pagination Service] After filtering by AppName, found 5 documents
+[03:08:31.376] Browser LOG     [Wishlist Pagination Service] Grouped into 3 unique products
+[03:08:31.376] Browser LOG     [Wishlist Pagination Service] Fetching details for 3 products
+[03:08:31.376] Browser LOG     [Wishlist Pagination Service] Snapshot received, found 228 wishlist documents
+[03:08:31.376] Browser LOG     [Wishlist Pagination Service] After filtering by AppName, found 5 documents
+[03:08:31.376] Browser LOG     [Wishlist Pagination Service] Grouped into 3 unique products
+[03:08:31.376] Browser LOG     [Wishlist Pagination Service] Fetching details for 3 products
+[03:09:51.863] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:09:51.863] Browser WARN    [2026-01-07T08:54:04.160Z]  @firebase/firestore: Firestore (12.6.0): enableIndexedDbPersistence() will be deprecated in the future, you can use `FirestoreSettings.cache` instead.
+[03:09:52.157] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[03:09:52.157] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/sam-wishlist","route":"/sam-wishlist"}
+[03:09:52.157] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/sam-wishlist color: rgb(120, 120, 120) color: inherit {"dp":"/sam-wishlist","o":"http://localhost:3000/sam-wishlist","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767776044354}
+[03:09:52.670] Browser LOG     Auth state changed: {"tenantId":"command-center-4d90p","uid":"IVb5PiVAIAgfcVqI4w4tglzHldv2","user":"authenticated"}
+[03:09:52.670] Browser LOG     Auth state changed - user authenticated: eugene.lozon@aix.ph IVb5PiVAIAgfcVqI4w4tglzHldv2
+[03:09:52.670] Browser LOG     Looking for user doc at: command-center/command-center-rep5o/command_center_users/IVb5PiVAIAgfcVqI4w4tglzHldv2
+[03:09:53.957] Browser LOG     [Wishlist Pagination Service] Querying wishlist collection: wishlist
+[03:09:53.957] Browser LOG     [Wishlist Pagination Service] Filter: AppName == Wedflix (case-insensitive), deleted == false
+[03:09:53.957] Browser LOG     User document found in tenant path
+[03:09:53.957] Browser LOG     Department check: {"allowedRoutes":["/","/companies","/products"],"department":"ADMIN","pathname":"/sam-wishlist"}
+[03:09:53.957] Browser LOG     Redirecting to department default: /
+[03:09:53.957] Browser LOG     Department check: {"allowedRoutes":["/","/companies","/products"],"department":"ADMIN","pathname":"/"}
+[03:09:53.957] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767776046162}
+[03:09:54.473] Browser LOG     [Booking Pagination Service] Querying booking collection: booking
+[03:09:54.473] Browser LOG     [Booking Pagination Service] Filter: for_censorship == 0
+[03:09:54.473] Browser LOG     [Booking Pagination Service] Querying booking collection: booking
+[03:09:54.473] Browser LOG     [Booking Pagination Service] Filter: for_censorship == 0
+[03:09:54.473] Browser LOG     [Booking Pagination Service] Snapshot received, found 39 booking documents
+[03:09:54.473] Browser LOG     [Booking Pagination Service] Found 39 bookings
+[03:09:54.473] Browser LOG     [Booking Censorship] First load, skipping notifications
+[03:09:54.473] Browser LOG     [Booking Pagination Service] Snapshot received, found 39 booking documents
+[03:09:54.473] Browser LOG     [Booking Pagination Service] Found 39 bookings
+[03:09:54.473] Browser LOG     [Booking Censorship] Processing docChanges...
+[03:09:56.668] Browser LOG     Department check: {"allowedRoutes":["/sam-booking","/sam-wishlist"],"department":"SAM","pathname":"/"}
+[03:09:56.668] Browser LOG     Redirecting to department default: /sam-booking
+[03:09:56.668] Browser LOG     Department check: {"allowedRoutes":["/sam-booking","/sam-wishlist"],"department":"SAM","pathname":"/sam-booking"}
+[03:09:56.668] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/sam-booking color: rgb(120, 120, 120) color: inherit {"dp":"/sam-booking","o":"http://localhost:3000/sam-booking","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767776048865}
+[03:09:56.893] Browser LOG     [Booking Pagination Service] Querying booking collection: booking
+[03:09:56.893] Browser LOG     [Booking Pagination Service] Filter: for_censorship == 0
+[03:09:56.893] Browser LOG     [Booking Pagination Service] Querying booking collection: booking
+[03:09:56.893] Browser LOG     [Booking Pagination Service] Filter: for_censorship == 0
+[03:09:56.893] Browser LOG     [Booking Pagination Service] Snapshot received, found 39 booking documents
+[03:09:56.893] Browser LOG     [Booking Pagination Service] Found 39 bookings
+[03:09:56.893] Browser LOG     [Booking Censorship] First load, skipping notifications
+[03:09:56.893] Browser LOG     [Booking Pagination Service] Snapshot received, found 39 booking documents
+[03:09:56.893] Browser LOG     [Booking Pagination Service] Found 39 bookings
+[03:09:56.893] Browser LOG     [Booking Censorship] Processing docChanges...
+[03:09:58.429] Browser LOG     Department check: {"allowedRoutes":["/sam-booking","/sam-wishlist"],"department":"SAM","pathname":"/sam-wishlist"}
+[03:09:58.429] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/sam-wishlist color: rgb(120, 120, 120) color: inherit {"dp":"/sam-wishlist","o":"http://localhost:3000/sam-wishlist","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767776050630}
+[03:09:58.699] Browser LOG     [Wishlist Pagination Service] Querying wishlist collection: wishlist
+[03:09:58.699] Browser LOG     [Wishlist Pagination Service] Filter: AppName == Wedflix (case-insensitive), deleted == false
+[03:09:58.699] Browser LOG     [Wishlist Pagination Service] Querying wishlist collection: wishlist
+[03:09:58.699] Browser LOG     [Wishlist Pagination Service] Filter: AppName == Wedflix (case-insensitive), deleted == false
+[03:09:58.699] Browser LOG     [Wishlist Pagination Service] Snapshot received, found 228 wishlist documents
+[03:09:58.699] Browser LOG     [Wishlist Pagination Service] After filtering by AppName, found 5 documents
+[03:09:58.699] Browser LOG     [Wishlist Pagination Service] Grouped into 3 unique products
+[03:09:58.699] Browser LOG     [Wishlist Pagination Service] Fetching details for 3 products
+[03:09:58.699] Browser LOG     [Wishlist Pagination Service] Snapshot received, found 228 wishlist documents
+[03:09:58.699] Browser LOG     [Wishlist Pagination Service] After filtering by AppName, found 5 documents
+[03:09:58.699] Browser LOG     [Wishlist Pagination Service] Grouped into 3 unique products
+[03:09:58.699] Browser LOG     [Wishlist Pagination Service] Fetching details for 3 products
+[03:10:00.500] Browser LOG     [Wishlist Users Service] Fetching users for product FoWXsucchqJU9IZSzA1c in Wedflix
+[03:10:00.704] Browser LOG     [Wishlist Users Service] Found 3 wishlist entries for product FoWXsucchqJU9IZSzA1c in Wedflix
+[03:10:00.704] Browser LOG     [Wishlist Users Service] Found 3 unique users for product FoWXsucchqJU9IZSzA1c
+[03:10:00.960] Browser WARN    [Wishlist Users Service] User 2PaVPXHjDUZmgxIuFWKBZwgjPxb2 not found in wedflix_users
+[03:10:00.960] Browser LOG     [Wishlist Users Service] Successfully fetched 3 users for product FoWXsucchqJU9IZSzA1c
+[03:11:46.862] Server  LOG     ✓ Compiled in 96ms
+[03:12:02.271] Server  WARN    [2026-01-07T08:56:14.579Z]  @firebase/firestore: "Firestore (12.6.0): enableIndexedDbPersistence() will be deprecated in the future, you can use `FirestoreSettings.cache` instead."
+[03:12:02.722] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:12:02.875] Browser WARN    [2026-01-07T08:56:15.072Z]  @firebase/firestore: Firestore (12.6.0): enableIndexedDbPersistence() will be deprecated in the future, you can use `FirestoreSettings.cache` instead.
+[03:12:03.092] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[03:12:03.092] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/sam-wishlist","route":"/sam-wishlist"}
+[03:12:03.092] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/sam-wishlist color: rgb(120, 120, 120) color: inherit {"dp":"/sam-wishlist","o":"http://localhost:3000/sam-wishlist","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767776175282}
+[03:12:03.508] Browser LOG     Auth state changed: {"tenantId":"command-center-4d90p","uid":"IVb5PiVAIAgfcVqI4w4tglzHldv2","user":"authenticated"}
+[03:12:03.508] Browser LOG     Auth state changed - user authenticated: eugene.lozon@aix.ph IVb5PiVAIAgfcVqI4w4tglzHldv2
+[03:12:03.508] Browser LOG     Looking for user doc at: command-center/command-center-rep5o/command_center_users/IVb5PiVAIAgfcVqI4w4tglzHldv2
+[03:12:04.810] Browser LOG     [Wishlist Pagination Service] Querying wishlist collection: wishlist
+[03:12:04.810] Browser LOG     [Wishlist Pagination Service] Filter: AppName == Wedflix (case-insensitive), deleted == false
+[03:12:04.810] Browser LOG     User document found in tenant path
+[03:12:04.810] Browser LOG     Department check: {"allowedRoutes":["/","/companies","/products"],"department":"ADMIN","pathname":"/sam-wishlist"}
+[03:12:04.810] Browser LOG     Redirecting to department default: /
+[03:12:04.810] Browser LOG     Department check: {"allowedRoutes":["/","/companies","/products"],"department":"ADMIN","pathname":"/"}
+[03:12:04.810] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767776177010}
+[03:12:05.238] Browser LOG     [Booking Pagination Service] Querying booking collection: booking
+[03:12:05.238] Browser LOG     [Booking Pagination Service] Filter: for_censorship == 0
+[03:12:05.238] Browser LOG     [Booking Pagination Service] Querying booking collection: booking
+[03:12:05.238] Browser LOG     [Booking Pagination Service] Filter: for_censorship == 0
+[03:12:05.238] Browser LOG     [Booking Pagination Service] Snapshot received, found 39 booking documents
+[03:12:05.238] Browser LOG     [Booking Pagination Service] Found 39 bookings
+[03:12:05.238] Browser LOG     [Booking Censorship] First load, skipping notifications
+[03:12:05.238] Browser LOG     [Booking Pagination Service] Snapshot received, found 39 booking documents
+[03:12:05.238] Browser LOG     [Booking Pagination Service] Found 39 bookings
+[03:12:05.238] Browser LOG     [Booking Censorship] Processing docChanges...
+[03:12:07.861] Browser LOG     Department check: {"allowedRoutes":["/sam-booking","/sam-wishlist"],"department":"SAM","pathname":"/"}
+[03:12:07.861] Browser LOG     Redirecting to department default: /sam-booking
+[03:12:07.861] Browser LOG     Department check: {"allowedRoutes":["/sam-booking","/sam-wishlist"],"department":"SAM","pathname":"/sam-booking"}
+[03:12:07.861] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/sam-booking color: rgb(120, 120, 120) color: inherit {"dp":"/sam-booking","o":"http://localhost:3000/sam-booking","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767776180064}
+[03:12:08.081] Browser LOG     [Booking Pagination Service] Querying booking collection: booking
+[03:12:08.081] Browser LOG     [Booking Pagination Service] Filter: for_censorship == 0
+[03:12:08.081] Browser LOG     [Booking Pagination Service] Querying booking collection: booking
+[03:12:08.081] Browser LOG     [Booking Pagination Service] Filter: for_censorship == 0
+[03:12:08.081] Browser LOG     [Booking Pagination Service] Snapshot received, found 39 booking documents
+[03:12:08.081] Browser LOG     [Booking Pagination Service] Found 39 bookings
+[03:12:08.081] Browser LOG     [Booking Censorship] First load, skipping notifications
+[03:12:08.081] Browser LOG     [Booking Pagination Service] Snapshot received, found 39 booking documents
+[03:12:08.081] Browser LOG     [Booking Pagination Service] Found 39 bookings
+[03:12:08.081] Browser LOG     [Booking Censorship] Processing docChanges...
+[03:12:08.901] Browser LOG     Department check: {"allowedRoutes":["/sam-booking","/sam-wishlist"],"department":"SAM","pathname":"/sam-wishlist"}
+[03:12:08.901] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/sam-wishlist color: rgb(120, 120, 120) color: inherit {"dp":"/sam-wishlist","o":"http://localhost:3000/sam-wishlist","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767776181102}
+[03:12:09.188] Browser LOG     [Wishlist Pagination Service] Querying wishlist collection: wishlist
+[03:12:09.188] Browser LOG     [Wishlist Pagination Service] Filter: AppName == Wedflix (case-insensitive), deleted == false
+[03:12:09.188] Browser LOG     [Wishlist Pagination Service] Querying wishlist collection: wishlist
+[03:12:09.188] Browser LOG     [Wishlist Pagination Service] Filter: AppName == Wedflix (case-insensitive), deleted == false
+[03:12:09.188] Browser LOG     [Wishlist Pagination Service] Snapshot received, found 228 wishlist documents
+[03:12:09.188] Browser LOG     [Wishlist Pagination Service] After filtering by AppName, found 5 documents
+[03:12:09.188] Browser LOG     [Wishlist Pagination Service] Grouped into 3 unique products
+[03:12:09.188] Browser LOG     [Wishlist Pagination Service] Fetching details for 3 products
+[03:12:09.188] Browser LOG     [Wishlist Pagination Service] Snapshot received, found 228 wishlist documents
+[03:12:09.188] Browser LOG     [Wishlist Pagination Service] After filtering by AppName, found 5 documents
+[03:12:09.188] Browser LOG     [Wishlist Pagination Service] Grouped into 3 unique products
+[03:12:09.188] Browser LOG     [Wishlist Pagination Service] Fetching details for 3 products
+[03:12:26.830] Browser LOG     [Wishlist Users Service] Fetching users for product 1Y8PdEH1banjuxte1C5K in Wedflix
+[03:12:27.034] Browser LOG     [Wishlist Users Service] Found 1 wishlist entries for product 1Y8PdEH1banjuxte1C5K in Wedflix
+[03:12:27.034] Browser LOG     [Wishlist Users Service] Found 1 unique users for product 1Y8PdEH1banjuxte1C5K
+[03:12:27.302] Browser LOG     [Wishlist Users Service] Successfully fetched 1 users for product 1Y8PdEH1banjuxte1C5K
+[03:12:28.921] Browser LOG     [Wishlist Users Service] Fetching users for product FoWXsucchqJU9IZSzA1c in Wedflix
+[03:12:29.090] Browser LOG     [Wishlist Users Service] Found 3 wishlist entries for product FoWXsucchqJU9IZSzA1c in Wedflix
+[03:12:29.090] Browser LOG     [Wishlist Users Service] Found 3 unique users for product FoWXsucchqJU9IZSzA1c
+[03:12:29.374] Browser WARN    [Wishlist Users Service] User 2PaVPXHjDUZmgxIuFWKBZwgjPxb2 not found in wedflix_users
+[03:12:29.374] Browser LOG     [Wishlist Users Service] Successfully fetched 3 users for product FoWXsucchqJU9IZSzA1c
+[03:12:47.841] Browser LOG     [Wishlist Pagination Service] Snapshot received, found 227 wishlist documents
+[03:12:47.841] Browser LOG     [Wishlist Pagination Service] After filtering by AppName, found 4 documents
+[03:12:47.841] Browser LOG     [Wishlist Pagination Service] Grouped into 3 unique products
+[03:12:47.841] Browser LOG     [Wishlist Pagination Service] Fetching details for 3 products
+[03:12:47.841] Browser LOG     [Wishlist Pagination Service] Snapshot received, found 227 wishlist documents
+[03:12:47.841] Browser LOG     [Wishlist Pagination Service] After filtering by AppName, found 4 documents
+[03:12:47.841] Browser LOG     [Wishlist Pagination Service] Grouped into 3 unique products
+[03:12:47.841] Browser LOG     [Wishlist Pagination Service] Fetching details for 3 products

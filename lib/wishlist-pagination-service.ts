@@ -192,9 +192,9 @@ async function fetchProductDetails(items: GroupedWishlistItem[]): Promise<Groupe
         const product: Product = {
           id: productId,
           name: productData.name || "Unknown Product",
-          image: productData.media[0].url || "/placeholder.jpg",
+          image: productData.media?.[0]?.url || "/placeholder.jpg",
           priority: productData.priority || 0,
-          location: productData.location || "Unknown Location"
+          location: productData.specs_rental?.location || "Unknown Location"
         }
         return { productId, product }
       }

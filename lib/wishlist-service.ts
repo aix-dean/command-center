@@ -22,7 +22,6 @@ interface Product {
   id: string
   name: string
   image: string
-  priority: number
   location?: string
 }
 
@@ -130,9 +129,8 @@ async function fetchProductDetails(items: GroupedWishlistItem[]): Promise<Groupe
         const product: Product = {
           id: productId,
           name: productData.name || "Unknown Product",
-          image: productData.media[0].url || "/placeholder.jpg",
-          priority: productData.priority || 0,
-          location: productData.specs_rental.location || "Unknown Location"
+          image: productData.media?.[0]?.url || "/placeholder.jpg",
+          location: productData.specs_rental?.location || "Unknown Location"
         }
         return { productId, product }
       }
