@@ -45,12 +45,15 @@ export default function CompaniesPage() {
     const fetchCompanies = async () => {
       try {
         const db = getFirestoreDb()
+        const collectionPath = 'companies'
+        console.log(`[Companies] Querying tenant collection: ${collectionPath}`)
         const q = query(
-          collection(db, "companies"),
+          collection(db, collectionPath),
           orderBy("created_at", "desc")
         )
 
         const unsubscribe = onSnapshot(q, (querySnapshot) => {
+          console.log(`[Companies] Snapshot received, found ${querySnapshot.size} documents`)
           const fetchedCompanies: Company[] = []
           querySnapshot.forEach((doc) => {
             const data = doc.data()
