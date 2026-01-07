@@ -28,7 +28,7 @@ const departmentDefaults: Record<Department, string> = {
 // Routes allowed for each department
 const departmentRoutes: Record<Department, string[]> = {
   ADMIN: ['/', '/companies', '/products'],
-  SAM: ['/sam-booking'],
+  SAM: ['/sam-booking', '/sam-wishlist'],
 };
 
 export function DepartmentProvider({ children }: { children: React.ReactNode }) {

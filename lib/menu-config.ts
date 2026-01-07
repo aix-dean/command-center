@@ -1,4 +1,4 @@
-import { Building2, Package, Home, Eye } from 'lucide-react';
+import { Building2, Package, Home, Eye, Heart } from 'lucide-react';
 import { Department, MenuItem } from '@/contexts/department-context';
 
 export const menuConfig: Record<Department, MenuItem[]> = {
@@ -9,5 +9,6 @@ export const menuConfig: Record<Department, MenuItem[]> = {
   ],
   SAM: [
     { href: '/sam-booking', label: 'Booking Censorship', icon: Eye },
+    { href: '/sam-wishlist', label: 'Wishlist', icon: Heart },
   ],
 };
