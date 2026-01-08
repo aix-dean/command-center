@@ -1,6 +1,7 @@
 'use client'
 
 import { useState } from 'react'
+import { useRouter } from 'next/navigation'
 import { useForm } from 'react-hook-form'
 import { zodResolver } from '@hookform/resolvers/zod'
 import * as z from 'zod'
@@ -29,6 +30,7 @@ type RegisterFormData = z.infer<typeof registerSchema>
 
 export function RegisterForm() {
   const { signUp } = useAuth()
+  const router = useRouter()
   const [isLoading, setIsLoading] = useState(false)
   const [error, setError] = useState<string | null>(null)
 
@@ -47,6 +49,8 @@ export function RegisterForm() {
 
     try {
       await signUp(data.email, data.password)
+      // Navigate to IT user management page after successful registration
+      router.push('/it/user-management')
     } catch (err) {
       setError(err instanceof Error ? err.message : 'An error occurred during sign up')
     } finally {

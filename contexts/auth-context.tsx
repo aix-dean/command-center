@@ -84,7 +84,7 @@ export const AuthProvider: React.FC<AuthProviderProps> = ({ children }) => {
             await setDoc(newUserDocRef, {
               email: user.email,
               uid: user.uid,
-              type: "COMMAND_CENTER",
+              roles: ["IT_USER"],
               createdAt: new Date()
             })
             setTenant('command-center-rep5o')

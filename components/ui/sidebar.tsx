@@ -341,7 +341,7 @@ function SidebarInput({
 }
 
 function SidebarHeader({ className, ...props }: React.ComponentProps<'div'>) {
-  const { department, setDepartment } = useDepartment()
+  const { department, setDepartment, allowedDepartments } = useDepartment()
 
   return (
     <div
@@ -363,29 +363,39 @@ function SidebarHeader({ className, ...props }: React.ComponentProps<'div'>) {
           </Button>
         </DropdownMenuTrigger>
         <DropdownMenuContent align="start" className="w-48">
-          <DropdownMenuItem
-            onClick={() => setDepartment('ADMIN')}
-            className="flex items-center gap-2"
-          >
-            <UserIcon className="h-4 w-4" />
-            ADMIN
-          </DropdownMenuItem>
-          <DropdownMenuSeparator />
-          <DropdownMenuItem
-            onClick={() => setDepartment('SAM')}
-            className="flex items-center gap-2"
-          >
-            <UserIcon className="h-4 w-4" />
-            SAM
-          </DropdownMenuItem>
-          <DropdownMenuSeparator />
-          <DropdownMenuItem
-            onClick={() => setDepartment('IT')}
-            className="flex items-center gap-2"
-          >
-            <UserIcon className="h-4 w-4" />
-            I.T.
-          </DropdownMenuItem>
+          {allowedDepartments.includes('ADMIN') && (
+            <>
+              <DropdownMenuItem
+                onClick={() => setDepartment('ADMIN')}
+                className="flex items-center gap-2"
+              >
+                <UserIcon className="h-4 w-4" />
+                ADMIN
+              </DropdownMenuItem>
+              <DropdownMenuSeparator />
+            </>
+          )}
+          {allowedDepartments.includes('SAM') && (
+            <>
+              <DropdownMenuItem
+                onClick={() => setDepartment('SAM')}
+                className="flex items-center gap-2"
+              >
+                <UserIcon className="h-4 w-4" />
+                SAM
+              </DropdownMenuItem>
+              <DropdownMenuSeparator />
+            </>
+          )}
+          {allowedDepartments.includes('IT') && (
+            <DropdownMenuItem
+              onClick={() => setDepartment('IT')}
+              className="flex items-center gap-2"
+            >
+              <UserIcon className="h-4 w-4" />
+              I.T.
+            </DropdownMenuItem>
+          )}
         </DropdownMenuContent>
       </DropdownMenu>
     </div>
