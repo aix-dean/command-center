@@ -396,3 +396,15 @@ Import traces:
 [03:22:46.005] Browser LOG     User document found in tenant path
 [03:22:46.005] Browser LOG     Updating user document with tenant
 [03:22:49.388] Browser LOG     Department check: {"allowedDepartments":["IT"],"allowedRoutes":["/it/user-management"],"department":"IT","pathname":"/it/user-management","userRoles":["IT_USER"]}
+[04:31:35.766] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./command-center/lib/utils.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[04:31:36.231] Server  WARN    [2026-01-08T06:41:53.329Z]  @firebase/firestore: "Firestore (12.6.0): enableIndexedDbPersistence() will be deprecated in the future, you can use `FirestoreSettings.cache` instead."
+[04:31:36.421] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[04:31:36.816] Browser WARN    [2026-01-08T06:41:53.561Z]  @firebase/firestore: Firestore (12.6.0): enableIndexedDbPersistence() will be deprecated in the future, you can use `FirestoreSettings.cache` instead.
+[04:31:36.816] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[04:31:36.816] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/it/user-management","route":"/it/user-management"}
+[04:31:36.816] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/it/user-management color: rgb(120, 120, 120) color: inherit {"dp":"/it/user-management","o":"http://localhost:3000/it/user-management","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767854513612}
+[04:31:38.821] Browser LOG     Auth state changed: {"tenantId":"command-center-rep5o","uid":"v6gStECR2YSadhBUiVfmPZVhRFG2","user":"authenticated"}
+[04:31:38.821] Browser LOG     Auth state changed - user authenticated: cc4@gmail.com v6gStECR2YSadhBUiVfmPZVhRFG2
+[04:31:38.821] Browser LOG     Looking for user doc at: command_center_users/v6gStECR2YSadhBUiVfmPZVhRFG2
+[04:31:38.821] Browser LOG     User document found in tenant path
+[04:31:38.821] Browser LOG     Department check: {"allowedDepartments":["IT"],"allowedRoutes":["/it/user-management"],"department":"IT","pathname":"/it/user-management","userRoles":["IT_USER"]}
