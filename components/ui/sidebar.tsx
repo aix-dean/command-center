@@ -3,13 +3,14 @@
 import * as React from 'react'
 import { Slot } from '@radix-ui/react-slot'
 import { cva, VariantProps } from 'class-variance-authority'
-import { PanelLeftIcon } from 'lucide-react'
+import { PanelLeftIcon, ChevronDownIcon, UserIcon } from 'lucide-react'
 
 import { useIsMobile } from '@/hooks/use-mobile'
 import { cn } from '@/lib/utils'
 import { Button } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
 import { Separator } from '@/components/ui/separator'
+import { useDepartment } from '@/contexts/department-context'
 import {
   Sheet,
   SheetContent,
@@ -24,6 +25,13 @@ import {
   TooltipProvider,
   TooltipTrigger,
 } from '@/components/ui/tooltip'
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuSeparator,
+  DropdownMenuTrigger,
+} from '@/components/ui/dropdown-menu'
 
 const SIDEBAR_COOKIE_NAME = 'sidebar_state'
 const SIDEBAR_COOKIE_MAX_AGE = 60 * 60 * 24 * 7
@@ -333,13 +341,64 @@ function SidebarInput({
 }
 
 function SidebarHeader({ className, ...props }: React.ComponentProps<'div'>) {
+  const { department, setDepartment, allowedDepartments } = useDepartment()
+
   return (
     <div
       data-slot="sidebar-header"
       data-sidebar="header"
       className={cn('flex flex-col gap-2 p-2', className)}
       {...props}
-    />
+    >
+      <DropdownMenu>
+        <DropdownMenuTrigger asChild>
+          <Button
+            variant="outline"
+            size="sm"
+            className="w-fit gap-2 hover:bg-sidebar-accent hover:text-sidebar-accent-foreground border-sidebar-border"
+          >
+            <UserIcon className="h-4 w-4" />
+            {department}
+            <ChevronDownIcon className="h-4 w-4" />
+          </Button>
+        </DropdownMenuTrigger>
+        <DropdownMenuContent align="start" className="w-48">
+          {allowedDepartments.includes('ADMIN') && (
+            <>
+              <DropdownMenuItem
+                onClick={() => setDepartment('ADMIN')}
+                className="flex items-center gap-2"
+              >
+                <UserIcon className="h-4 w-4" />
+                ADMIN
+              </DropdownMenuItem>
+              <DropdownMenuSeparator />
+            </>
+          )}
+          {allowedDepartments.includes('SAM') && (
+            <>
+              <DropdownMenuItem
+                onClick={() => setDepartment('SAM')}
+                className="flex items-center gap-2"
+              >
+                <UserIcon className="h-4 w-4" />
+                SAM
+              </DropdownMenuItem>
+              <DropdownMenuSeparator />
+            </>
+          )}
+          {allowedDepartments.includes('IT') && (
+            <DropdownMenuItem
+              onClick={() => setDepartment('IT')}
+              className="flex items-center gap-2"
+            >
+              <UserIcon className="h-4 w-4" />
+              I.T.
+            </DropdownMenuItem>
+          )}
+        </DropdownMenuContent>
+      </DropdownMenu>
+    </div>
   )
 }
 
@@ -348,7 +407,7 @@ function SidebarFooter({ className, ...props }: React.ComponentProps<'div'>) {
     <div
       data-slot="sidebar-footer"
       data-sidebar="footer"
-      className={cn('flex flex-col gap-2 p-2', className)}
+      className={cn('flex flex-col gap-2 px-4 py-2', className)}
       {...props}
     />
   )

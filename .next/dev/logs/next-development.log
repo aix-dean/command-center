@@ -1,377 +1,410 @@
-[00:00:00.582] Server  LOG      ✓ Ready in 356ms
-[00:00:03.619] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:03.867] Browser LOG     [v0] Checking environment variables...
-[00:00:03.867] Browser LOG     [v0] All environment variables present
-[00:00:03.867] Browser LOG     [v0] Starting Firebase initialization...
-[00:00:03.867] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:00:03.867] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:00:03.867] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1764040258853}
-[00:00:03.867] Browser LOG     [v0] Creating new Firebase app...
-[00:00:03.867] Browser LOG     [v0] Firebase app created
-[00:00:03.968] Browser LOG     [v0] Getting Firestore instance...
-[00:00:03.968] Browser LOG     [v0] Firestore instance obtained
-[00:00:04.633] Browser LOG     [v0] Snapshot received, found 41 documents
-[00:00:04.883] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:05.099] Browser LOG     [v0] Checking environment variables...
-[00:00:05.099] Browser LOG     [v0] All environment variables present
-[00:00:05.099] Browser LOG     [v0] Starting Firebase initialization...
-[00:00:05.099] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:00:05.099] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:00:05.099] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1764040260082}
-[00:00:05.099] Browser LOG     [v0] Creating new Firebase app...
-[00:00:05.099] Browser LOG     [v0] Firebase app created
-[00:00:05.200] Browser LOG     [v0] Getting Firestore instance...
-[00:00:05.200] Browser LOG     [v0] Firestore instance obtained
-[00:00:05.710] Browser LOG     [v0] Snapshot received, found 41 documents
-[00:00:23.152] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:23.372] Browser LOG     [v0] Checking environment variables...
-[00:00:23.372] Browser LOG     [v0] All environment variables present
-[00:00:23.372] Browser LOG     [v0] Starting Firebase initialization...
-[00:00:23.372] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:00:23.372] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:00:23.372] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1764040278354}
-[00:00:23.372] Browser LOG     [v0] Creating new Firebase app...
-[00:00:23.372] Browser LOG     [v0] Firebase app created
-[00:00:23.472] Browser LOG     [v0] Getting Firestore instance...
-[00:00:23.472] Browser LOG     [v0] Firestore instance obtained
-[00:00:24.033] Browser LOG     [v0] Snapshot received, found 41 documents
-[00:00:51.185] Server  LOG      ✓ Compiled in 59ms
-[00:01:09.113] Server  LOG      ✓ Compiled in 0ms
-[00:01:09.229] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:01:09.460] Browser LOG     [v0] Checking environment variables...
-[00:01:09.460] Browser LOG     [v0] All environment variables present
-[00:01:09.460] Browser LOG     [v0] Starting Firebase initialization...
-[00:01:09.460] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:01:09.460] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:01:09.460] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1764040324445}
-[00:01:09.460] Browser LOG     [v0] Creating new Firebase app...
-[00:01:09.460] Browser LOG     [v0] Firebase app created
-[00:01:09.561] Browser LOG     [v0] Getting Firestore instance...
-[00:01:09.561] Browser LOG     [v0] Firestore instance obtained
-[00:01:10.117] Browser LOG     [v0] Snapshot received, found 41 documents
-[00:01:10.117] Browser LOG     [v0] firstLoadRef.current: true
-[00:01:10.117] Browser LOG     [v0] First load, skipping notifications
-[00:04:55.758] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:04:55.977] Browser LOG     [v0] Checking environment variables...
-[00:04:55.977] Browser LOG     [v0] All environment variables present
-[00:04:55.977] Browser LOG     [v0] Starting Firebase initialization...
-[00:04:55.977] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:04:55.977] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:04:55.977] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1764040550963}
-[00:04:55.977] Browser LOG     [v0] Creating new Firebase app...
-[00:04:55.977] Browser LOG     [v0] Firebase app created
-[00:04:56.078] Browser LOG     [v0] Getting Firestore instance...
-[00:04:56.078] Browser LOG     [v0] Firestore instance obtained
-[00:04:57.684] Browser LOG     [v0] Snapshot received, found 41 documents
-[00:04:57.684] Browser LOG     [v0] firstLoadRef.current: true
-[00:04:57.684] Browser LOG     [v0] First load, skipping notifications
-[00:05:01.998] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:05:02.223] Browser LOG     [v0] Checking environment variables...
-[00:05:02.223] Browser LOG     [v0] All environment variables present
-[00:05:02.223] Browser LOG     [v0] Starting Firebase initialization...
-[00:05:02.223] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:05:02.223] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:05:02.223] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1764040557208}
-[00:05:02.223] Browser LOG     [v0] Creating new Firebase app...
-[00:05:02.223] Browser LOG     [v0] Firebase app created
-[00:05:02.324] Browser LOG     [v0] Getting Firestore instance...
-[00:05:02.324] Browser LOG     [v0] Firestore instance obtained
-[00:05:03.165] Browser LOG     [v0] Snapshot received, found 41 documents
-[00:05:03.165] Browser LOG     [v0] firstLoadRef.current: true
-[00:05:03.165] Browser LOG     [v0] First load, skipping notifications
-[00:05:17.741] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:05:17.962] Browser LOG     [v0] Checking environment variables...
-[00:05:17.962] Browser LOG     [v0] All environment variables present
-[00:05:17.962] Browser LOG     [v0] Starting Firebase initialization...
-[00:05:17.962] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:05:17.962] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:05:17.962] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1764040572946}
-[00:05:17.962] Browser LOG     [v0] Creating new Firebase app...
-[00:05:17.962] Browser LOG     [v0] Firebase app created
-[00:05:18.065] Browser LOG     [v0] Getting Firestore instance...
-[00:05:18.065] Browser LOG     [v0] Firestore instance obtained
-[00:05:18.656] Browser LOG     [v0] Snapshot received, found 41 documents
-[00:05:18.656] Browser LOG     [v0] firstLoadRef.current: true
-[00:05:18.656] Browser LOG     [v0] First load, skipping notifications
-[00:05:46.472] Browser LOG     [v0] Snapshot received, found 42 documents
-[00:05:46.472] Browser LOG     [v0] firstLoadRef.current: false
-[00:05:46.472] Browser LOG     [v0] Processing docChanges...
-[00:05:46.472] Browser LOG     [v0] Document change: added for booking: 123
-[00:05:46.472] Browser LOG     [v0] Showing toast for new booking
-[00:05:46.472] Browser ERROR   Error extracting filename: {}
-[00:05:46.472] Browser ERROR   Error extracting filename: {}
-[00:05:54.164] Browser ERROR   Error extracting filename: {}
-[00:05:54.164] Browser ERROR   Error extracting filename: {}
-[00:06:06.684] Browser LOG     [v0] Snapshot received, found 41 documents
-[00:06:06.684] Browser LOG     [v0] firstLoadRef.current: false
-[00:06:06.684] Browser LOG     [v0] Processing docChanges...
-[00:06:06.684] Browser LOG     [v0] Document change: removed for booking: 123
-[00:06:08.684] Browser LOG     [v0] Snapshot received, found 42 documents
-[00:06:08.684] Browser LOG     [v0] firstLoadRef.current: false
-[00:06:08.684] Browser LOG     [v0] Processing docChanges...
-[00:06:08.684] Browser LOG     [v0] Document change: added for booking: 123
-[00:06:08.684] Browser LOG     [v0] Showing toast for new booking
-[00:06:08.684] Browser ERROR   Error extracting filename: {}
-[00:06:08.684] Browser ERROR   Error extracting filename: {}
-[00:06:40.465] Browser LOG     [v0] Snapshot received, found 43 documents
-[00:06:40.465] Browser LOG     [v0] firstLoadRef.current: false
-[00:06:40.465] Browser LOG     [v0] Processing docChanges...
-[00:06:40.465] Browser LOG     [v0] Document change: added for booking: RV-1763992151433
-[00:06:40.465] Browser LOG     [v0] Showing toast for new booking
-[00:06:40.465] Browser ERROR   Error extracting filename: {}
-[00:06:40.465] Browser ERROR   Error extracting filename: {}
-[00:06:43.450] Browser LOG     [v0] Snapshot received, found 42 documents
-[00:06:43.450] Browser LOG     [v0] firstLoadRef.current: false
-[00:06:43.450] Browser LOG     [v0] Processing docChanges...
-[00:06:43.450] Browser LOG     [v0] Document change: removed for booking: RV-1763992151433
-[00:06:43.450] Browser ERROR   Error extracting filename: {}
-[00:06:43.450] Browser ERROR   Error extracting filename: {}
-[00:06:48.989] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:06:49.210] Browser LOG     [v0] Checking environment variables...
-[00:06:49.210] Browser LOG     [v0] All environment variables present
-[00:06:49.210] Browser LOG     [v0] Starting Firebase initialization...
-[00:06:49.210] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:06:49.210] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:06:49.210] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1764040664197}
-[00:06:49.210] Browser LOG     [v0] Creating new Firebase app...
-[00:06:49.210] Browser LOG     [v0] Firebase app created
-[00:06:49.312] Browser LOG     [v0] Getting Firestore instance...
-[00:06:49.312] Browser LOG     [v0] Firestore instance obtained
-[00:06:49.606] Browser LOG     [v0] Snapshot received, found 42 documents
-[00:06:49.606] Browser LOG     [v0] firstLoadRef.current: true
-[00:06:49.606] Browser LOG     [v0] First load, skipping notifications
-[00:06:49.606] Browser ERROR   Error extracting filename: {}
-[00:06:49.606] Browser ERROR   Error extracting filename: {}
-[00:08:03.053] Server  ERROR    ⨯ Error: The default export is not a React Component in "/page"
-[00:08:03.312] Server  ERROR    ⨯ Error: The default export is not a React Component in "/page"
-[00:08:03.664] Server  ERROR    ⨯ Error: The default export is not a React Component in "/page"
-[00:08:03.968] Server  ERROR    ⨯ Error: The default export is not a React Component in "/page"
-[00:08:04.471] Browser ERROR   uncaughtError: Error: The default export is not a React Component in "/page"
-[00:08:24.772] Server  LOG      ✓ Compiled in 62ms
-[00:08:44.908] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:08:45.126] Browser LOG     [v0] Checking environment variables...
-[00:08:45.126] Browser LOG     [v0] All environment variables present
-[00:08:45.126] Browser LOG     [v0] Starting Firebase initialization...
-[00:08:45.126] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:08:45.126] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:08:45.126] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1764040780112}
-[00:08:45.126] Browser LOG     [v0] Creating new Firebase app...
-[00:08:45.126] Browser LOG     [v0] Firebase app created
-[00:08:45.227] Browser LOG     [v0] Getting Firestore instance...
-[00:08:45.228] Browser LOG     [v0] Firestore instance obtained
-[00:08:46.006] Browser LOG     [v0] Snapshot received, found 42 documents
-[00:08:46.006] Browser LOG     [v0] firstLoadRef.current: true
-[00:08:46.006] Browser LOG     [v0] First load, skipping notifications
-[00:08:46.006] Browser ERROR   Error extracting filename: {}
-[00:08:46.006] Browser ERROR   Error extracting filename: {}
-[00:08:51.684] Browser LOG     [v0] Snapshot received, found 41 documents
-[00:08:51.684] Browser LOG     [v0] firstLoadRef.current: false
-[00:08:51.684] Browser LOG     [v0] Processing docChanges...
-[00:08:51.684] Browser LOG     [v0] Document change: removed for booking: 123
-[00:08:52.684] Browser LOG     [v0] Snapshot received, found 42 documents
-[00:08:52.684] Browser LOG     [v0] firstLoadRef.current: false
-[00:08:52.684] Browser LOG     [v0] Processing docChanges...
-[00:08:52.684] Browser LOG     [v0] Document change: added for booking: 123
-[00:08:52.684] Browser LOG     [v0] Showing toast for new booking
-[00:08:52.684] Browser ERROR   Error extracting filename: {}
-[00:08:52.684] Browser ERROR   Error extracting filename: {}
-[00:08:55.014] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:08:55.230] Browser LOG     [v0] Checking environment variables...
-[00:08:55.230] Browser LOG     [v0] All environment variables present
-[00:08:55.230] Browser LOG     [v0] Starting Firebase initialization...
-[00:08:55.230] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:08:55.230] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:08:55.230] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1764040790215}
-[00:08:55.230] Browser LOG     [v0] Creating new Firebase app...
-[00:08:55.230] Browser LOG     [v0] Firebase app created
-[00:08:55.330] Browser LOG     [v0] Getting Firestore instance...
-[00:08:55.330] Browser LOG     [v0] Firestore instance obtained
-[00:08:55.880] Browser LOG     [v0] Snapshot received, found 42 documents
-[00:08:55.880] Browser LOG     [v0] firstLoadRef.current: true
-[00:08:55.880] Browser LOG     [v0] First load, skipping notifications
-[00:08:55.880] Browser ERROR   Error extracting filename: {}
-[00:08:55.880] Browser ERROR   Error extracting filename: {}
-[00:09:16.513] Server  LOG      ✓ Compiled in 44ms
-[00:09:16.593] Browser ERROR   Error extracting filename: {}
-[00:09:16.593] Browser ERROR   Error extracting filename: {}
-[00:09:59.684] Browser LOG     [v0] Snapshot received, found 41 documents
-[00:09:59.684] Browser LOG     [v0] firstLoadRef.current: false
-[00:09:59.684] Browser LOG     [v0] Processing docChanges...
-[00:09:59.684] Browser LOG     [v0] Document change: removed for booking: 123
-[00:10:02.684] Browser LOG     [v0] Snapshot received, found 42 documents
-[00:10:02.684] Browser LOG     [v0] firstLoadRef.current: false
-[00:10:02.684] Browser LOG     [v0] Processing docChanges...
-[00:10:02.684] Browser LOG     [v0] Document change: added for booking: 123
-[00:10:02.684] Browser LOG     [v0] Showing toast for new booking
-[00:10:02.684] Browser ERROR   Error extracting filename: {}
-[00:10:02.684] Browser ERROR   Error extracting filename: {}
-[00:10:22.174] Browser ERROR   Error extracting filename: {}
-[00:10:22.174] Browser ERROR   Error extracting filename: {}
-[00:10:27.684] Browser LOG     [v0] Snapshot received, found 41 documents
-[00:10:27.684] Browser LOG     [v0] firstLoadRef.current: false
-[00:10:27.684] Browser LOG     [v0] Processing docChanges...
-[00:10:27.684] Browser LOG     [v0] Document change: removed for booking: 123
-[00:10:31.684] Browser LOG     [v0] Snapshot received, found 42 documents
-[00:10:31.684] Browser LOG     [v0] firstLoadRef.current: false
-[00:10:31.684] Browser LOG     [v0] Processing docChanges...
-[00:10:31.684] Browser LOG     [v0] Document change: added for booking: 123
-[00:10:31.684] Browser LOG     [v0] Showing toast for new booking
-[00:10:31.684] Browser ERROR   Error extracting filename: {}
-[00:10:31.684] Browser ERROR   Error extracting filename: {}
-[00:10:34.808] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:10:35.030] Browser LOG     [v0] Checking environment variables...
-[00:10:35.030] Browser LOG     [v0] All environment variables present
-[00:10:35.030] Browser LOG     [v0] Starting Firebase initialization...
-[00:10:35.030] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:10:35.030] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:10:35.030] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1764040890014}
-[00:10:35.030] Browser LOG     [v0] Creating new Firebase app...
-[00:10:35.030] Browser LOG     [v0] Firebase app created
-[00:10:35.131] Browser LOG     [v0] Getting Firestore instance...
-[00:10:35.131] Browser LOG     [v0] Firestore instance obtained
-[00:10:35.962] Browser LOG     [v0] Snapshot received, found 42 documents
-[00:10:35.962] Browser LOG     [v0] firstLoadRef.current: true
-[00:10:35.962] Browser LOG     [v0] First load, skipping notifications
-[00:10:35.962] Browser ERROR   Error extracting filename: {}
-[00:10:35.962] Browser ERROR   Error extracting filename: {}
-[00:11:03.684] Browser LOG     [v0] Snapshot received, found 41 documents
-[00:11:03.684] Browser LOG     [v0] firstLoadRef.current: false
-[00:11:03.684] Browser LOG     [v0] Processing docChanges...
-[00:11:03.684] Browser LOG     [v0] Document change: removed for booking: 123
-[00:11:07.567] Browser LOG     [v0] Snapshot received, found 42 documents
-[00:11:07.567] Browser LOG     [v0] firstLoadRef.current: false
-[00:11:07.567] Browser LOG     [v0] Processing docChanges...
-[00:11:07.567] Browser LOG     [v0] Document change: added for booking: 123
-[00:11:07.567] Browser LOG     [v0] Showing toast for new booking
-[00:11:07.567] Browser ERROR   Error extracting filename: {}
-[00:11:07.567] Browser ERROR   Error extracting filename: {}
-[00:11:12.926] Browser ERROR   Error extracting filename: {}
-[00:11:12.926] Browser ERROR   Error extracting filename: {}
-[00:11:23.040] Browser LOG     [v0] Snapshot received, found 43 documents
-[00:11:23.040] Browser LOG     [v0] firstLoadRef.current: false
-[00:11:23.040] Browser LOG     [v0] Processing docChanges...
-[00:11:23.040] Browser LOG     [v0] Document change: added for booking: RV-1763992151433
-[00:11:23.040] Browser LOG     [v0] Showing toast for new booking
-[00:11:23.040] Browser ERROR   Error extracting filename: {}
-[00:11:23.040] Browser ERROR   Error extracting filename: {}
-[00:11:25.962] Browser LOG     [v0] Snapshot received, found 42 documents
-[00:11:25.962] Browser LOG     [v0] firstLoadRef.current: false
-[00:11:25.962] Browser LOG     [v0] Processing docChanges...
-[00:11:25.962] Browser LOG     [v0] Document change: removed for booking: RV-1763992151433
-[00:11:25.962] Browser ERROR   Error extracting filename: {}
-[00:11:25.962] Browser ERROR   Error extracting filename: {}
-[00:11:27.876] Browser ERROR   Error extracting filename: {}
-[00:11:27.876] Browser ERROR   Error extracting filename: {}
-[00:12:11.150] Server  ERROR    ⨯ Error: The default export is not a React Component in "/page"
-[00:12:11.426] Server  ERROR    ⨯ Error: The default export is not a React Component in "/page"
-[00:12:11.786] Server  ERROR    ⨯ Error: The default export is not a React Component in "/page"
-[00:12:12.105] Server  ERROR    ⨯ Error: The default export is not a React Component in "/page"
-[00:12:12.370] Server  ERROR    ⨯ Error: The default export is not a React Component in "/page"
-[00:12:12.636] Server  ERROR    ⨯ Error: The default export is not a React Component in "/page"
-[00:12:12.772] Browser ERROR   uncaughtError: Error: The default export is not a React Component in "/page"
-[00:13:07.356] Server  LOG      ✓ Compiled in 54ms
-[00:13:19.824] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:13:20.053] Browser LOG     [v0] Checking environment variables...
-[00:13:20.053] Browser LOG     [v0] All environment variables present
-[00:13:20.053] Browser LOG     [v0] Starting Firebase initialization...
-[00:13:20.053] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:13:20.053] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:13:20.053] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1764041055046}
-[00:13:20.053] Browser LOG     [v0] Creating new Firebase app...
-[00:13:20.053] Browser LOG     [v0] Firebase app created
-[00:13:20.154] Browser LOG     [v0] Getting Firestore instance...
-[00:13:20.154] Browser LOG     [v0] Firestore instance obtained
-[00:13:20.826] Browser LOG     [v0] Snapshot received, found 42 documents
-[00:13:20.826] Browser LOG     [v0] firstLoadRef.current: true
-[00:13:20.826] Browser LOG     [v0] First load, skipping notifications
-[00:13:20.826] Browser ERROR   Error extracting filename: {}
-[00:13:20.826] Browser ERROR   Error extracting filename: {}
-[00:13:21.560] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:13:21.778] Browser LOG     [v0] Checking environment variables...
-[00:13:21.778] Browser LOG     [v0] All environment variables present
-[00:13:21.778] Browser LOG     [v0] Starting Firebase initialization...
-[00:13:21.778] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:13:21.778] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:13:21.778] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1764041056762}
-[00:13:21.778] Browser LOG     [v0] Creating new Firebase app...
-[00:13:21.778] Browser LOG     [v0] Firebase app created
-[00:13:21.879] Browser LOG     [v0] Getting Firestore instance...
-[00:13:21.879] Browser LOG     [v0] Firestore instance obtained
-[00:13:22.500] Browser LOG     [v0] Snapshot received, found 42 documents
-[00:13:22.500] Browser LOG     [v0] firstLoadRef.current: true
-[00:13:22.500] Browser LOG     [v0] First load, skipping notifications
-[00:13:22.500] Browser ERROR   Error extracting filename: {}
-[00:13:22.500] Browser ERROR   Error extracting filename: {}
-[00:13:29.684] Browser LOG     [v0] Snapshot received, found 43 documents
-[00:13:29.684] Browser LOG     [v0] firstLoadRef.current: false
-[00:13:29.684] Browser LOG     [v0] Processing docChanges...
-[00:13:29.684] Browser LOG     [v0] Document change: added for booking: RV-1763992151433
-[00:13:29.684] Browser LOG     [v0] Showing toast for new booking
-[00:13:29.684] Browser ERROR   Error extracting filename: {}
-[00:13:29.684] Browser ERROR   Error extracting filename: {}
-[00:13:36.684] Browser LOG     [v0] Snapshot received, found 42 documents
-[00:13:36.684] Browser LOG     [v0] firstLoadRef.current: false
-[00:13:36.684] Browser LOG     [v0] Processing docChanges...
-[00:13:36.684] Browser LOG     [v0] Document change: removed for booking: RV-1763992151433
-[00:13:36.684] Browser ERROR   Error extracting filename: {}
-[00:13:36.684] Browser ERROR   Error extracting filename: {}
-[00:13:40.684] Browser LOG     [v0] Snapshot received, found 43 documents
-[00:13:40.684] Browser LOG     [v0] firstLoadRef.current: false
-[00:13:40.684] Browser LOG     [v0] Processing docChanges...
-[00:13:40.684] Browser LOG     [v0] Document change: added for booking: RV-1763992151433
-[00:13:40.684] Browser LOG     [v0] Showing toast for new booking
-[00:13:40.684] Browser ERROR   Error extracting filename: {}
-[00:13:40.684] Browser ERROR   Error extracting filename: {}
-[00:14:08.847] Server  ERROR    ⨯ Error: The default export is not a React Component in "/page"
-[00:14:09.099] Server  ERROR    ⨯ Error: The default export is not a React Component in "/page"
-[00:14:09.418] Server  ERROR    ⨯ Error: The default export is not a React Component in "/page"
-[00:14:09.670] Server  ERROR    ⨯ Error: The default export is not a React Component in "/page"
-[00:14:09.957] Server  ERROR    ⨯ Error: The default export is not a React Component in "/page"
-[00:14:10.200] Server  ERROR    ⨯ Error: The default export is not a React Component in "/page"
-[00:14:10.320] Browser ERROR   uncaughtError: Error: The default export is not a React Component in "/page"
-[00:14:18.792] Server  ERROR    ⨯ Error: The default export is not a React Component in "/page"
-[00:14:19.031] Server  ERROR    ⨯ Error: The default export is not a React Component in "/page"
-[00:14:19.113] Browser ERROR   uncaughtError: Error: The default export is not a React Component in "/page"
-[00:14:20.918] Server  ERROR    ⨯ Error: The default export is not a React Component in "/page"
-[00:14:21.163] Server  ERROR    ⨯ Error: The default export is not a React Component in "/page"
-[00:14:21.412] Server  ERROR    ⨯ Error: The default export is not a React Component in "/page"
-[00:14:21.644] Server  ERROR    ⨯ Error: The default export is not a React Component in "/page"
-[00:14:21.888] Server  ERROR    ⨯ Error: The default export is not a React Component in "/page"
-[00:14:22.125] Server  ERROR    ⨯ Error: The default export is not a React Component in "/page"
-[00:14:22.206] Browser ERROR   uncaughtError: Error: The default export is not a React Component in "/page"
-[00:14:30.692] Server  LOG      ✓ Compiled in 69ms
-[00:14:31.147] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:14:31.429] Browser LOG     [v0] Checking environment variables...
-[00:14:31.429] Browser LOG     [v0] All environment variables present
-[00:14:31.429] Browser LOG     [v0] Starting Firebase initialization...
-[00:14:31.429] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:14:31.429] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:14:31.429] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1764041126418}
-[00:14:31.429] Browser LOG     [v0] Creating new Firebase app...
-[00:14:31.429] Browser LOG     [v0] Firebase app created
-[00:14:31.529] Browser LOG     [v0] Getting Firestore instance...
-[00:14:31.529] Browser LOG     [v0] Firestore instance obtained
-[00:14:31.960] Browser LOG     [v0] Snapshot received, found 43 documents
-[00:14:31.960] Browser LOG     [v0] firstLoadRef.current: true
-[00:14:31.960] Browser LOG     [v0] First load, skipping notifications
-[00:14:31.960] Browser ERROR   Error extracting filename: {}
-[00:14:31.960] Browser ERROR   Error extracting filename: {}
-[00:14:39.684] Browser LOG     [v0] Snapshot received, found 42 documents
-[00:14:39.684] Browser LOG     [v0] firstLoadRef.current: false
-[00:14:39.684] Browser LOG     [v0] Processing docChanges...
-[00:14:39.684] Browser LOG     [v0] Document change: removed for booking: RV-1763992151433
-[00:14:39.684] Browser ERROR   Error extracting filename: {}
-[00:14:39.684] Browser ERROR   Error extracting filename: {}
-[00:14:41.941] Browser LOG     [v0] Snapshot received, found 43 documents
-[00:14:41.941] Browser LOG     [v0] firstLoadRef.current: false
-[00:14:41.941] Browser LOG     [v0] Processing docChanges...
-[00:14:41.941] Browser LOG     [v0] Document change: added for booking: RV-1763992151433
-[00:14:41.941] Browser LOG     [v0] Showing toast for new booking
-[00:14:41.941] Browser ERROR   Error extracting filename: {}
-[00:14:41.941] Browser ERROR   Error extracting filename: {}
-[00:14:45.748] Browser ERROR   Error extracting filename: {}
-[00:14:45.749] Browser ERROR   Error extracting filename: {}
-[00:14:51.113] Browser LOG     [v0] Snapshot received, found 42 documents
-[00:14:51.113] Browser LOG     [v0] firstLoadRef.current: false
-[00:14:51.113] Browser LOG     [v0] Processing docChanges...
-[00:14:51.113] Browser LOG     [v0] Document change: removed for booking: 123
+[00:00:03.223] Server  LOG     ✓ Ready in 2.6s
+[00:00:30.865] Server  WARN    [2026-01-08T02:10:47.963Z]  @firebase/firestore: "Firestore (12.6.0): enableIndexedDbPersistence() will be deprecated in the future, you can use `FirestoreSettings.cache` instead."
+[00:00:31.072] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:31.215] Browser WARN    [2026-01-08T02:10:48.176Z]  @firebase/firestore: Firestore (12.6.0): enableIndexedDbPersistence() will be deprecated in the future, you can use `FirestoreSettings.cache` instead.
+[00:00:31.215] Browser LOG     [Booking Censorship] Querying tenant collection: booking
+[00:00:31.215] Browser LOG     [Booking Censorship] Filter: for_censorship == 0
+[00:00:31.215] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:31.215] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:00:31.215] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767838248213}
+[00:00:32.670] Browser LOG     Auth state changed: {"tenantId":"command-center-rep5o","uid":"FEg18ykOfQOEoqfPxX6PcjOwgLf2","user":"authenticated"}
+[00:00:32.670] Browser LOG     Auth state changed - user authenticated: cc@gmail.com FEg18ykOfQOEoqfPxX6PcjOwgLf2
+[00:00:32.670] Browser LOG     Looking for user doc at: command_center_users/FEg18ykOfQOEoqfPxX6PcjOwgLf2
+[00:00:32.670] Browser LOG     [Booking Censorship] Snapshot received, found 101 documents
+[00:00:32.670] Browser LOG     [Booking Censorship] firstLoadRef.current: true
+[00:00:32.670] Browser LOG     [Booking Censorship] First load, skipping notifications
+[00:00:33.177] Browser LOG     User document found in tenant path
+[00:00:33.177] Browser LOG     Department check: {"allowedDepartments":["ADMIN","SAM","IT"],"allowedRoutes":["/","/companies","/products"],"department":"ADMIN","pathname":"/","userRole":"COMMAND_CENTER"}
+[00:19:37.891] Browser LOG     Department check: {"allowedDepartments":["ADMIN","SAM","IT"],"allowedRoutes":["/it/user-management"],"department":"IT","pathname":"/","userRole":"COMMAND_CENTER"}
+[00:19:37.891] Browser LOG     Redirecting to department default: /it/user-management
+[00:19:38.022] Browser LOG     Department check: {"allowedDepartments":["ADMIN","SAM","IT"],"allowedRoutes":["/it/user-management"],"department":"IT","pathname":"/it/user-management","userRole":"COMMAND_CENTER"}
+[00:19:38.022] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/it/user-management color: rgb(120, 120, 120) color: inherit {"dp":"/it/user-management","o":"http://localhost:3000/it/user-management","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767839395009}
+[01:27:14.929] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./command-center/contexts/auth-context.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[01:27:15.175] Server  WARN    [2026-01-08T03:37:32.273Z]  @firebase/firestore: "Firestore (12.6.0): enableIndexedDbPersistence() will be deprecated in the future, you can use `FirestoreSettings.cache` instead."
+[01:27:15.204] Server  LOG     ✓ Compiled in 1059ms
+[01:27:15.421] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:27:15.583] Browser WARN    [2026-01-08T03:37:32.528Z]  @firebase/firestore: Firestore (12.6.0): enableIndexedDbPersistence() will be deprecated in the future, you can use `FirestoreSettings.cache` instead.
+[01:27:15.583] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:27:15.583] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/it/user-management","route":"/it/user-management"}
+[01:27:15.583] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/it/user-management color: rgb(120, 120, 120) color: inherit {"dp":"/it/user-management","o":"http://localhost:3000/it/user-management","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767843452580}
+[01:27:16.272] Browser LOG     Auth state changed: {"tenantId":"command-center-rep5o","uid":"FEg18ykOfQOEoqfPxX6PcjOwgLf2","user":"authenticated"}
+[01:27:16.272] Browser LOG     Auth state changed - user authenticated: cc@gmail.com FEg18ykOfQOEoqfPxX6PcjOwgLf2
+[01:27:16.272] Browser LOG     Looking for user doc at: command_center_users/FEg18ykOfQOEoqfPxX6PcjOwgLf2
+[01:27:16.797] Browser LOG     User document found in tenant path
+[01:27:16.797] Browser LOG     Department check: {"allowedDepartments":["SAM"],"allowedRoutes":["/","/companies","/products"],"department":"ADMIN","pathname":"/it/user-management","userRole":"SAM_USER"}
+[01:27:16.797] Browser LOG     User cannot access current department, redirecting to first allowed department
+[01:27:16.797] Browser LOG     Department check: {"allowedDepartments":["SAM"],"allowedRoutes":["/sam-booking"],"department":"SAM","pathname":"/it/user-management","userRole":"SAM_USER"}
+[01:27:16.797] Browser LOG     Redirecting to department default: /sam-booking
+[01:27:17.952] Browser LOG     [Booking Censorship] Querying tenant collection: booking
+[01:27:17.952] Browser LOG     [Booking Censorship] Filter: for_censorship == 0
+[01:27:17.952] Browser LOG     Department check: {"allowedDepartments":["SAM"],"allowedRoutes":["/sam-booking"],"department":"SAM","pathname":"/sam-booking","userRole":"SAM_USER"}
+[01:27:17.952] Browser LOG     [Booking Censorship] Querying tenant collection: booking
+[01:27:17.952] Browser LOG     [Booking Censorship] Filter: for_censorship == 0
+[01:27:17.952] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/sam-booking color: rgb(120, 120, 120) color: inherit {"dp":"/sam-booking","o":"http://localhost:3000/sam-booking","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767843454845}
+[01:27:17.952] Browser LOG     [Booking Censorship] Snapshot received, found 101 documents
+[01:27:17.952] Browser LOG     [Booking Censorship] firstLoadRef.current: true
+[01:27:17.952] Browser LOG     [Booking Censorship] First load, skipping notifications
+[01:27:24.602] Server  LOG     ✓ Compiled in 111ms
+[01:27:24.688] Browser ERROR   uncaughtError: ReferenceError: userRole is not defined
+[01:27:30.544] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:27:30.562] Server  LOG     ✓ Compiled in 78ms
+[01:27:30.681] Browser ERROR   uncaughtError: ReferenceError: userRole is not defined
+[01:27:30.819] Server  WARN    [2026-01-08T03:37:47.916Z]  @firebase/firestore: "Firestore (12.6.0): enableIndexedDbPersistence() will be deprecated in the future, you can use `FirestoreSettings.cache` instead."
+[01:27:30.859] Server  ERROR   ⨯ ReferenceError: userRole is not defined
+[01:27:30.985] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:27:31.174] Browser WARN    [2026-01-08T03:37:48.146Z]  @firebase/firestore: Firestore (12.6.0): enableIndexedDbPersistence() will be deprecated in the future, you can use `FirestoreSettings.cache` instead.
+[01:27:31.175] Browser ERROR   uncaughtError: ReferenceError: userRole is not defined
+[01:27:35.429] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:27:35.594] Server  WARN    [2026-01-08T03:37:52.692Z]  @firebase/firestore: "Firestore (12.6.0): enableIndexedDbPersistence() will be deprecated in the future, you can use `FirestoreSettings.cache` instead."
+[01:27:35.609] Server  ERROR   ⨯ ReferenceError: userRole is not defined
+[01:27:35.631] Server  LOG     ✓ Compiled in 74ms
+[01:27:35.741] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:27:35.907] Browser WARN    [2026-01-08T03:37:52.885Z]  @firebase/firestore: Firestore (12.6.0): enableIndexedDbPersistence() will be deprecated in the future, you can use `FirestoreSettings.cache` instead.
+[01:27:35.907] Browser ERROR   uncaughtError: ReferenceError: userRole is not defined
+[01:27:42.536] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:27:42.687] Server  WARN    [2026-01-08T03:37:59.784Z]  @firebase/firestore: "Firestore (12.6.0): enableIndexedDbPersistence() will be deprecated in the future, you can use `FirestoreSettings.cache` instead."
+[01:27:42.709] Server  ERROR   ⨯ ReferenceError: userRole is not defined
+[01:27:42.721] Server  LOG     ✓ Compiled in 117ms
+[01:27:42.852] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:27:43.005] Browser WARN    [2026-01-08T03:37:59.987Z]  @firebase/firestore: Firestore (12.6.0): enableIndexedDbPersistence() will be deprecated in the future, you can use `FirestoreSettings.cache` instead.
+[01:27:43.006] Browser ERROR   uncaughtError: ReferenceError: userRole is not defined
+[01:27:47.299] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:27:47.463] Server  WARN    [2026-01-08T03:38:04.561Z]  @firebase/firestore: "Firestore (12.6.0): enableIndexedDbPersistence() will be deprecated in the future, you can use `FirestoreSettings.cache` instead."
+[01:27:47.500] Server  LOG     ✓ Compiled in 70ms
+[01:27:47.597] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:27:47.743] Browser WARN    [2026-01-08T03:38:04.713Z]  @firebase/firestore: Firestore (12.6.0): enableIndexedDbPersistence() will be deprecated in the future, you can use `FirestoreSettings.cache` instead.
+[01:27:47.743] Browser LOG     [Booking Censorship] Querying tenant collection: booking
+[01:27:47.743] Browser LOG     [Booking Censorship] Filter: for_censorship == 0
+[01:27:47.743] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:27:47.743] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/sam-booking","route":"/sam-booking"}
+[01:27:47.743] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/sam-booking color: rgb(120, 120, 120) color: inherit {"dp":"/sam-booking","o":"http://localhost:3000/sam-booking","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767843484741}
+[01:27:48.075] Browser LOG     Auth state changed: {"tenantId":"command-center-rep5o","uid":"FEg18ykOfQOEoqfPxX6PcjOwgLf2","user":"authenticated"}
+[01:27:48.075] Browser LOG     Auth state changed - user authenticated: cc@gmail.com FEg18ykOfQOEoqfPxX6PcjOwgLf2
+[01:27:48.075] Browser LOG     Looking for user doc at: command_center_users/FEg18ykOfQOEoqfPxX6PcjOwgLf2
+[01:27:48.075] Browser LOG     [Booking Censorship] Snapshot received, found 101 documents
+[01:27:48.075] Browser LOG     [Booking Censorship] firstLoadRef.current: true
+[01:27:48.075] Browser LOG     [Booking Censorship] First load, skipping notifications
+[01:27:48.415] Browser LOG     User document found in tenant path
+[01:27:48.415] Browser LOG     Department check: {"allowedDepartments":["SAM"],"allowedRoutes":["/","/companies","/products"],"department":"ADMIN","pathname":"/sam-booking","userRoles":["SAM_USER"]}
+[01:27:48.415] Browser LOG     User cannot access current department, redirecting to first allowed department
+[01:27:48.415] Browser LOG     Department check: {"allowedDepartments":["SAM"],"allowedRoutes":["/sam-booking"],"department":"SAM","pathname":"/sam-booking","userRoles":["SAM_USER"]}
+[01:28:17.511] Browser ERROR   ./command-center/app/it/user-management/page.tsx:13:10
+Ecmascript file had an error
+  11 | import { Checkbox } from "@/components/ui/checkbox";
+  12 | import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/popover";
+> 13 | import { Button } from "@/components/ui/button";
+     |          ^^^^^^
+  14 | import { useToast } from "@/hooks/use-toast";
+  15 |
+  16 | interface User {
+
+the name `Button` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./command-center/app/it/user-management/page.tsx [Client Component Browser]
+    ./command-center/app/it/user-management/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./command-center/app/it/user-management/page.tsx [Client Component SSR]
+    ./command-center/app/it/user-management/page.tsx [Server Component]
+[01:28:18.903] Browser ERROR   ./command-center/app/it/user-management/page.tsx:13:10
+Ecmascript file had an error
+  11 | import { Checkbox } from "@/components/ui/checkbox";
+  12 | import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/popover";
+> 13 | import { Button } from "@/components/ui/button";
+     |          ^^^^^^
+  14 | import { useToast } from "@/hooks/use-toast";
+  15 |
+  16 | interface User {
+
+the name `Button` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./command-center/app/it/user-management/page.tsx [Client Component Browser]
+    ./command-center/app/it/user-management/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./command-center/app/it/user-management/page.tsx [Client Component SSR]
+    ./command-center/app/it/user-management/page.tsx [Server Component]
+[01:28:27.452] Server  LOG     ✓ Compiled in 54ms
+[01:28:35.044] Server  LOG     ✓ Compiled in 134ms
+[01:31:30.889] Browser WARN    User with roles SAM_USER cannot access department ADMIN
+[01:31:34.249] Browser WARN    User with roles SAM_USER cannot access department IT
+[01:31:42.172] Browser WARN    User with roles SAM_USER cannot access department IT
+[01:31:47.266] Browser LOG     Starting logout process
+[01:31:47.266] Browser LOG     Auth state changed: {"tenantId":"command-center-rep5o","user":"not authenticated"}
+[01:31:47.266] Browser LOG     Auth state changed - user signed out
+[01:31:47.267] Browser LOG     Logout completed
+[01:31:47.267] Browser LOG     Navigation to /login initiated
+[01:31:47.434] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/login color: rgb(120, 120, 120) color: inherit {"dp":"/login","o":"http://localhost:3000/login","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767843724415}
+[01:31:49.349] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/register color: rgb(120, 120, 120) color: inherit {"dp":"/register","o":"http://localhost:3000/register","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767843726342}
+[01:34:16.975] Browser LOG     Auth state changed: {"tenantId":"command-center-rep5o","uid":"I9O6RGSJvdUwP93C4JfL8nI3lnG2","user":"authenticated"}
+[01:34:16.975] Browser LOG     Auth state changed - user authenticated: cc1@gmail.com I9O6RGSJvdUwP93C4JfL8nI3lnG2
+[01:34:16.975] Browser LOG     Looking for user doc at: command_center_users/I9O6RGSJvdUwP93C4JfL8nI3lnG2
+[01:34:16.975] Browser LOG     Department check: {"allowedDepartments":[],"allowedRoutes":["/sam-booking"],"department":"SAM","pathname":"/register","userRoles":[]}
+[01:34:16.975] Browser LOG     Redirecting to department default: /sam-booking
+[01:34:16.975] Browser LOG     [Booking Censorship] Querying tenant collection: booking
+[01:34:16.975] Browser LOG     [Booking Censorship] Filter: for_censorship == 0
+[01:34:16.975] Browser LOG     Department check: {"allowedDepartments":[],"allowedRoutes":["/sam-booking"],"department":"SAM","pathname":"/sam-booking","userRoles":[]}
+[01:34:16.975] Browser LOG     [Booking Censorship] Querying tenant collection: booking
+[01:34:16.975] Browser LOG     [Booking Censorship] Filter: for_censorship == 0
+[01:34:16.975] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/sam-booking color: rgb(120, 120, 120) color: inherit {"dp":"/sam-booking","o":"http://localhost:3000/sam-booking","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767843873907}
+[01:34:16.975] Browser LOG     [Booking Censorship] Snapshot received, found 101 documents
+[01:34:16.975] Browser LOG     [Booking Censorship] firstLoadRef.current: true
+[01:34:16.975] Browser LOG     [Booking Censorship] First load, skipping notifications
+[01:34:18.531] Browser LOG     User document not found in tenant path, checking old paths
+[01:34:18.531] Browser LOG     Checking old path: command-center/command-center-rep5o/command_center_users/I9O6RGSJvdUwP93C4JfL8nI3lnG2
+[01:34:18.885] Browser LOG     Checking old path: command_center_users/I9O6RGSJvdUwP93C4JfL8nI3lnG2
+[01:34:19.519] Browser LOG     Checking old path: users/I9O6RGSJvdUwP93C4JfL8nI3lnG2
+[01:34:20.201] Browser LOG     No existing user document found, creating new one
+[01:34:29.855] Browser LOG     Department check: {"allowedDepartments":[],"allowedRoutes":["/it/user-management"],"department":"IT","pathname":"/sam-booking","userRoles":[]}
+[01:34:29.855] Browser LOG     Redirecting to department default: /it/user-management
+[01:34:30.000] Browser LOG     Department check: {"allowedDepartments":[],"allowedRoutes":["/it/user-management"],"department":"IT","pathname":"/it/user-management","userRoles":[]}
+[01:34:30.000] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/it/user-management color: rgb(120, 120, 120) color: inherit {"dp":"/it/user-management","o":"http://localhost:3000/it/user-management","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767843886990}
+[01:34:32.600] Browser LOG     Department check: {"allowedDepartments":[],"allowedRoutes":["/sam-booking"],"department":"SAM","pathname":"/it/user-management","userRoles":[]}
+[01:34:32.600] Browser LOG     Redirecting to department default: /sam-booking
+[01:34:32.600] Browser LOG     [Booking Censorship] Querying tenant collection: booking
+[01:34:32.600] Browser LOG     [Booking Censorship] Filter: for_censorship == 0
+[01:34:32.600] Browser LOG     Department check: {"allowedDepartments":[],"allowedRoutes":["/sam-booking"],"department":"SAM","pathname":"/sam-booking","userRoles":[]}
+[01:34:32.600] Browser LOG     [Booking Censorship] Querying tenant collection: booking
+[01:34:32.600] Browser LOG     [Booking Censorship] Filter: for_censorship == 0
+[01:34:32.600] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/sam-booking color: rgb(120, 120, 120) color: inherit {"dp":"/sam-booking","o":"http://localhost:3000/sam-booking","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767843889532}
+[01:34:32.600] Browser LOG     [Booking Censorship] Snapshot received, found 101 documents
+[01:34:32.600] Browser LOG     [Booking Censorship] firstLoadRef.current: true
+[01:34:32.600] Browser LOG     [Booking Censorship] First load, skipping notifications
+[01:34:33.831] Browser LOG     Department check: {"allowedDepartments":[],"allowedRoutes":["/","/companies","/products"],"department":"ADMIN","pathname":"/sam-booking","userRoles":[]}
+[01:34:33.831] Browser LOG     Redirecting to department default: /
+[01:34:33.831] Browser LOG     [Booking Censorship] Querying tenant collection: booking
+[01:34:33.831] Browser LOG     [Booking Censorship] Filter: for_censorship == 0
+[01:34:33.831] Browser LOG     Department check: {"allowedDepartments":[],"allowedRoutes":["/","/companies","/products"],"department":"ADMIN","pathname":"/","userRoles":[]}
+[01:34:33.831] Browser LOG     [Booking Censorship] Querying tenant collection: booking
+[01:34:33.831] Browser LOG     [Booking Censorship] Filter: for_censorship == 0
+[01:34:33.831] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767843890743}
+[01:34:33.831] Browser LOG     [Booking Censorship] Snapshot received, found 101 documents
+[01:34:33.831] Browser LOG     [Booking Censorship] firstLoadRef.current: true
+[01:34:33.831] Browser LOG     [Booking Censorship] First load, skipping notifications
+[01:35:03.907] Browser LOG     Department check: {"allowedDepartments":[],"allowedRoutes":["/it/user-management"],"department":"IT","pathname":"/","userRoles":[]}
+[01:35:03.908] Browser LOG     Redirecting to department default: /it/user-management
+[01:35:03.908] Browser LOG     Department check: {"allowedDepartments":[],"allowedRoutes":["/it/user-management"],"department":"IT","pathname":"/it/user-management","userRoles":[]}
+[01:35:03.908] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/it/user-management color: rgb(120, 120, 120) color: inherit {"dp":"/it/user-management","o":"http://localhost:3000/it/user-management","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767843920894}
+[01:35:38.312] Server  LOG     ✓ Compiled in 73ms
+[01:35:42.746] Server  LOG     ✓ Compiled in 105ms
+[01:35:47.167] Server  LOG     ✓ Compiled in 54ms
+[01:35:59.810] Browser LOG     Starting logout process
+[01:35:59.810] Browser LOG     Auth state changed: {"tenantId":"command-center-rep5o","user":"not authenticated"}
+[01:35:59.810] Browser LOG     Auth state changed - user signed out
+[01:35:59.810] Browser LOG     Logout completed
+[01:35:59.810] Browser LOG     Navigation to /login initiated
+[01:35:59.810] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/login color: rgb(120, 120, 120) color: inherit {"dp":"/login","o":"http://localhost:3000/login","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767843976802}
+[01:36:05.428] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/register color: rgb(120, 120, 120) color: inherit {"dp":"/register","o":"http://localhost:3000/register","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767843982421}
+[01:36:16.505] Browser LOG     Auth state changed: {"tenantId":"command-center-rep5o","uid":"Go3t1Sxa4UchurEUWa8FFkGfTD32","user":"authenticated"}
+[01:36:16.506] Browser LOG     Auth state changed - user authenticated: cc2@gmail.com Go3t1Sxa4UchurEUWa8FFkGfTD32
+[01:36:16.506] Browser LOG     Looking for user doc at: command_center_users/Go3t1Sxa4UchurEUWa8FFkGfTD32
+[01:36:16.506] Browser LOG     Department check: {"allowedDepartments":[],"allowedRoutes":["/it/user-management"],"department":"IT","pathname":"/register","userRoles":[]}
+[01:36:16.506] Browser LOG     Redirecting to department default: /it/user-management
+[01:36:16.506] Browser LOG     Department check: {"allowedDepartments":[],"allowedRoutes":["/it/user-management"],"department":"IT","pathname":"/it/user-management","userRoles":[]}
+[01:36:16.506] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/it/user-management color: rgb(120, 120, 120) color: inherit {"dp":"/it/user-management","o":"http://localhost:3000/it/user-management","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767843993496}
+[01:36:17.946] Browser LOG     User document not found in tenant path, checking old paths
+[01:36:17.946] Browser LOG     Checking old path: command-center/command-center-rep5o/command_center_users/Go3t1Sxa4UchurEUWa8FFkGfTD32
+[01:36:18.285] Browser LOG     Checking old path: command_center_users/Go3t1Sxa4UchurEUWa8FFkGfTD32
+[01:36:18.921] Browser LOG     Checking old path: users/Go3t1Sxa4UchurEUWa8FFkGfTD32
+[01:36:19.603] Browser LOG     No existing user document found, creating new one
+[01:36:26.122] Browser LOG     Department check: {"allowedDepartments":[],"allowedRoutes":["/","/companies","/products"],"department":"ADMIN","pathname":"/it/user-management","userRoles":[]}
+[01:36:26.122] Browser LOG     Redirecting to department default: /
+[01:36:26.122] Browser LOG     [Booking Censorship] Querying tenant collection: booking
+[01:36:26.122] Browser LOG     [Booking Censorship] Filter: for_censorship == 0
+[01:36:26.122] Browser LOG     Department check: {"allowedDepartments":[],"allowedRoutes":["/","/companies","/products"],"department":"ADMIN","pathname":"/","userRoles":[]}
+[01:36:26.122] Browser LOG     [Booking Censorship] Querying tenant collection: booking
+[01:36:26.122] Browser LOG     [Booking Censorship] Filter: for_censorship == 0
+[01:36:26.122] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767844003058}
+[01:36:26.122] Browser LOG     [Booking Censorship] Snapshot received, found 101 documents
+[01:36:26.122] Browser LOG     [Booking Censorship] firstLoadRef.current: true
+[01:36:26.122] Browser LOG     [Booking Censorship] First load, skipping notifications
+[01:36:27.559] Browser LOG     Department check: {"allowedDepartments":[],"allowedRoutes":["/it/user-management"],"department":"IT","pathname":"/","userRoles":[]}
+[01:36:27.559] Browser LOG     Redirecting to department default: /it/user-management
+[01:36:27.559] Browser LOG     Department check: {"allowedDepartments":[],"allowedRoutes":["/it/user-management"],"department":"IT","pathname":"/it/user-management","userRoles":[]}
+[01:36:27.559] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/it/user-management color: rgb(120, 120, 120) color: inherit {"dp":"/it/user-management","o":"http://localhost:3000/it/user-management","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767844004556}
+[01:36:28.642] Browser LOG     Department check: {"allowedDepartments":[],"allowedRoutes":["/sam-booking"],"department":"SAM","pathname":"/it/user-management","userRoles":[]}
+[01:36:28.642] Browser LOG     Redirecting to department default: /sam-booking
+[01:36:28.642] Browser LOG     [Booking Censorship] Querying tenant collection: booking
+[01:36:28.642] Browser LOG     [Booking Censorship] Filter: for_censorship == 0
+[01:36:28.642] Browser LOG     Department check: {"allowedDepartments":[],"allowedRoutes":["/sam-booking"],"department":"SAM","pathname":"/sam-booking","userRoles":[]}
+[01:36:28.642] Browser LOG     [Booking Censorship] Querying tenant collection: booking
+[01:36:28.643] Browser LOG     [Booking Censorship] Filter: for_censorship == 0
+[01:36:28.643] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/sam-booking color: rgb(120, 120, 120) color: inherit {"dp":"/sam-booking","o":"http://localhost:3000/sam-booking","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767844005596}
+[01:36:28.643] Browser LOG     [Booking Censorship] Snapshot received, found 101 documents
+[01:36:28.643] Browser LOG     [Booking Censorship] firstLoadRef.current: true
+[01:36:28.643] Browser LOG     [Booking Censorship] First load, skipping notifications
+[01:36:29.934] Browser LOG     Department check: {"allowedDepartments":[],"allowedRoutes":["/it/user-management"],"department":"IT","pathname":"/sam-booking","userRoles":[]}
+[01:36:29.934] Browser LOG     Redirecting to department default: /it/user-management
+[01:36:29.934] Browser LOG     Department check: {"allowedDepartments":[],"allowedRoutes":["/it/user-management"],"department":"IT","pathname":"/it/user-management","userRoles":[]}
+[01:36:29.934] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/it/user-management color: rgb(120, 120, 120) color: inherit {"dp":"/it/user-management","o":"http://localhost:3000/it/user-management","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767844006929}
+[01:38:14.597] Server  LOG     ✓ Compiled in 70ms
+[01:38:15.809] Browser LOG     Department check: {"allowedDepartments":[],"allowedRoutes":["/","/companies","/products"],"department":"ADMIN","pathname":"/it/user-management","userRoles":[]}
+[01:38:15.809] Browser LOG     Redirecting to department default: /
+[01:38:15.809] Browser LOG     [Booking Censorship] Querying tenant collection: booking
+[01:38:15.809] Browser LOG     [Booking Censorship] Filter: for_censorship == 0
+[01:38:15.809] Browser LOG     Department check: {"allowedDepartments":[],"allowedRoutes":["/","/companies","/products"],"department":"ADMIN","pathname":"/","userRoles":[]}
+[01:38:15.809] Browser LOG     [Booking Censorship] Querying tenant collection: booking
+[01:38:15.809] Browser LOG     [Booking Censorship] Filter: for_censorship == 0
+[01:38:15.809] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767844111713}
+[01:38:15.809] Browser LOG     [Booking Censorship] Snapshot received, found 101 documents
+[01:38:15.809] Browser LOG     [Booking Censorship] firstLoadRef.current: true
+[01:38:15.809] Browser LOG     [Booking Censorship] First load, skipping notifications
+[01:38:17.816] Browser LOG     Department check: {"allowedDepartments":["IT"],"allowedRoutes":["/","/companies","/products"],"department":"ADMIN","pathname":"/","userRoles":["IT_USER"]}
+[01:38:17.816] Browser LOG     User cannot access current department, redirecting to first allowed department
+[01:38:17.816] Browser LOG     Department check: {"allowedDepartments":["IT"],"allowedRoutes":["/it/user-management"],"department":"IT","pathname":"/","userRoles":["IT_USER"]}
+[01:38:17.816] Browser LOG     Redirecting to department default: /it/user-management
+[01:38:17.816] Browser LOG     Department check: {"allowedDepartments":["IT"],"allowedRoutes":["/it/user-management"],"department":"IT","pathname":"/it/user-management","userRoles":["IT_USER"]}
+[01:38:17.816] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/it/user-management color: rgb(120, 120, 120) color: inherit {"dp":"/it/user-management","o":"http://localhost:3000/it/user-management","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767844114084}
+[01:38:22.951] Server  LOG     ✓ Compiled in 138ms
+[03:06:31.388] Server  LOG     ✓ Compiled in 81ms
+[03:06:39.638] Server  LOG     ✓ Compiled in 87ms
+[03:08:20.951] Server  WARN    [2026-01-08T05:18:38.049Z]  @firebase/firestore: "Firestore (12.6.0): enableIndexedDbPersistence() will be deprecated in the future, you can use `FirestoreSettings.cache` instead."
+[03:08:21.115] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:08:21.274] Browser WARN    [2026-01-08T05:18:38.222Z]  @firebase/firestore: Firestore (12.6.0): enableIndexedDbPersistence() will be deprecated in the future, you can use `FirestoreSettings.cache` instead.
+[03:08:21.274] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[03:08:21.274] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/it/user-management","route":"/it/user-management"}
+[03:08:21.274] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/it/user-management color: rgb(120, 120, 120) color: inherit {"dp":"/it/user-management","o":"http://localhost:3000/it/user-management","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767849518269}
+[03:08:21.907] Browser LOG     Auth state changed: {"tenantId":"command-center-rep5o","uid":"Go3t1Sxa4UchurEUWa8FFkGfTD32","user":"authenticated"}
+[03:08:21.907] Browser LOG     Auth state changed - user authenticated: cc2@gmail.com Go3t1Sxa4UchurEUWa8FFkGfTD32
+[03:08:21.907] Browser LOG     Looking for user doc at: command_center_users/Go3t1Sxa4UchurEUWa8FFkGfTD32
+[03:08:23.757] Browser LOG     User document found in tenant path
+[03:08:23.757] Browser LOG     Updating user document with tenant
+[03:08:25.768] Browser LOG     Department check: {"allowedDepartments":["IT","ADMIN","SAM"],"allowedRoutes":["/","/companies","/products"],"department":"ADMIN","pathname":"/it/user-management","userRoles":["IT_USER","COMMAND_CENTER","SAM_USER"]}
+[03:08:25.768] Browser LOG     Redirecting to department default: /
+[03:08:25.768] Browser LOG     [Booking Censorship] Querying tenant collection: booking
+[03:08:25.768] Browser LOG     [Booking Censorship] Filter: for_censorship == 0
+[03:08:25.768] Browser LOG     Department check: {"allowedDepartments":["IT","ADMIN","SAM"],"allowedRoutes":["/","/companies","/products"],"department":"ADMIN","pathname":"/","userRoles":["IT_USER","COMMAND_CENTER","SAM_USER"]}
+[03:08:25.768] Browser LOG     [Booking Censorship] Querying tenant collection: booking
+[03:08:25.768] Browser LOG     [Booking Censorship] Filter: for_censorship == 0
+[03:08:25.768] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767849522677}
+[03:08:25.768] Browser LOG     [Booking Censorship] Snapshot received, found 101 documents
+[03:08:25.768] Browser LOG     [Booking Censorship] firstLoadRef.current: true
+[03:08:25.768] Browser LOG     [Booking Censorship] First load, skipping notifications
+[03:08:28.175] Browser LOG     Department check: {"allowedDepartments":["IT","ADMIN","SAM"],"allowedRoutes":["/it/user-management"],"department":"IT","pathname":"/","userRoles":["IT_USER","COMMAND_CENTER","SAM_USER"]}
+[03:08:28.175] Browser LOG     Redirecting to department default: /it/user-management
+[03:08:28.175] Browser LOG     Department check: {"allowedDepartments":["IT","ADMIN","SAM"],"allowedRoutes":["/it/user-management"],"department":"IT","pathname":"/it/user-management","userRoles":["IT_USER","COMMAND_CENTER","SAM_USER"]}
+[03:08:28.175] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/it/user-management color: rgb(120, 120, 120) color: inherit {"dp":"/it/user-management","o":"http://localhost:3000/it/user-management","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767849525171}
+[03:08:32.957] Browser LOG     Department check: {"allowedDepartments":["IT","ADMIN","SAM"],"allowedRoutes":["/it/user-management"],"department":"IT","pathname":"/it/user-management","userRoles":["IT_USER","COMMAND_CENTER"]}
+[03:08:33.820] Browser LOG     Department check: {"allowedDepartments":["IT"],"allowedRoutes":["/it/user-management"],"department":"IT","pathname":"/it/user-management","userRoles":["IT_USER"]}
+[03:08:40.637] Browser LOG     Department check: {"allowedDepartments":["IT","ADMIN","SAM"],"allowedRoutes":["/it/user-management"],"department":"IT","pathname":"/it/user-management","userRoles":["IT_USER","COMMAND_CENTER"]}
+[03:08:48.490] Browser LOG     Department check: {"allowedDepartments":["IT"],"allowedRoutes":["/it/user-management"],"department":"IT","pathname":"/it/user-management","userRoles":["IT_USER"]}
+[03:08:50.410] Browser LOG     Department check: {"allowedDepartments":["IT","SAM"],"allowedRoutes":["/it/user-management"],"department":"IT","pathname":"/it/user-management","userRoles":["IT_USER","SAM_USER"]}
+[03:08:54.425] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:08:54.425] Browser WARN    [2026-01-08T05:19:11.521Z]  @firebase/firestore: Firestore (12.6.0): enableIndexedDbPersistence() will be deprecated in the future, you can use `FirestoreSettings.cache` instead.
+[03:08:54.567] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:08:54.707] Browser WARN    [2026-01-08T05:19:11.678Z]  @firebase/firestore: Firestore (12.6.0): enableIndexedDbPersistence() will be deprecated in the future, you can use `FirestoreSettings.cache` instead.
+[03:08:54.707] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[03:08:54.707] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/it/user-management","route":"/it/user-management"}
+[03:08:54.707] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/it/user-management color: rgb(120, 120, 120) color: inherit {"dp":"/it/user-management","o":"http://localhost:3000/it/user-management","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767849551696}
+[03:08:55.006] Browser LOG     Auth state changed: {"tenantId":"command-center-rep5o","uid":"Go3t1Sxa4UchurEUWa8FFkGfTD32","user":"authenticated"}
+[03:08:55.006] Browser LOG     Auth state changed - user authenticated: cc2@gmail.com Go3t1Sxa4UchurEUWa8FFkGfTD32
+[03:08:55.006] Browser LOG     Looking for user doc at: command_center_users/Go3t1Sxa4UchurEUWa8FFkGfTD32
+[03:08:57.488] Browser LOG     User document found in tenant path
+[03:08:57.488] Browser LOG     Department check: {"allowedDepartments":["IT","SAM"],"allowedRoutes":["/it/user-management"],"department":"IT","pathname":"/it/user-management","userRoles":["IT_USER","SAM_USER"]}
+[03:08:57.488] Browser LOG     Department check: {"allowedDepartments":["IT","SAM"],"allowedRoutes":["/sam-booking"],"department":"SAM","pathname":"/it/user-management","userRoles":["IT_USER","SAM_USER"]}
+[03:08:57.488] Browser LOG     Redirecting to department default: /sam-booking
+[03:08:57.488] Browser LOG     [Booking Censorship] Querying tenant collection: booking
+[03:08:57.488] Browser LOG     [Booking Censorship] Filter: for_censorship == 0
+[03:08:57.488] Browser LOG     Department check: {"allowedDepartments":["IT","SAM"],"allowedRoutes":["/sam-booking"],"department":"SAM","pathname":"/sam-booking","userRoles":["IT_USER","SAM_USER"]}
+[03:08:57.488] Browser LOG     [Booking Censorship] Querying tenant collection: booking
+[03:08:57.488] Browser LOG     [Booking Censorship] Filter: for_censorship == 0
+[03:08:57.488] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/sam-booking color: rgb(120, 120, 120) color: inherit {"dp":"/sam-booking","o":"http://localhost:3000/sam-booking","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767849554399}
+[03:08:57.488] Browser LOG     [Booking Censorship] Snapshot received, found 101 documents
+[03:08:57.488] Browser LOG     [Booking Censorship] firstLoadRef.current: true
+[03:08:57.488] Browser LOG     [Booking Censorship] First load, skipping notifications
+[03:08:59.191] Browser LOG     Department check: {"allowedDepartments":["IT","SAM"],"allowedRoutes":["/it/user-management"],"department":"IT","pathname":"/sam-booking","userRoles":["IT_USER","SAM_USER"]}
+[03:08:59.191] Browser LOG     Redirecting to department default: /it/user-management
+[03:08:59.192] Browser LOG     Department check: {"allowedDepartments":["IT","SAM"],"allowedRoutes":["/it/user-management"],"department":"IT","pathname":"/it/user-management","userRoles":["IT_USER","SAM_USER"]}
+[03:08:59.192] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/it/user-management color: rgb(120, 120, 120) color: inherit {"dp":"/it/user-management","o":"http://localhost:3000/it/user-management","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767849556176}
+[03:09:51.385] Server  LOG     ✓ Compiled in 60ms
+[03:09:57.299] Server  LOG     ✓ Compiled in 54ms
+[03:12:10.215] Browser LOG     Starting logout process
+[03:12:10.215] Browser LOG     Auth state changed: {"tenantId":"command-center-rep5o","user":"not authenticated"}
+[03:12:10.215] Browser LOG     Auth state changed - user signed out
+[03:12:10.215] Browser LOG     Logout completed
+[03:12:10.215] Browser LOG     Navigation to /login initiated
+[03:12:10.359] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/login color: rgb(120, 120, 120) color: inherit {"dp":"/login","o":"http://localhost:3000/login","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767849747341}
+[03:12:12.006] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/register color: rgb(120, 120, 120) color: inherit {"dp":"/register","o":"http://localhost:3000/register","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767849748999}
+[03:12:21.798] Browser LOG     Auth state changed: {"tenantId":"command-center-rep5o","uid":"1FRntjZDrFOLHkGHSGUPTOh9CUi1","user":"authenticated"}
+[03:12:21.798] Browser LOG     Auth state changed - user authenticated: cc3@gmail.com 1FRntjZDrFOLHkGHSGUPTOh9CUi1
+[03:12:21.798] Browser LOG     Looking for user doc at: command_center_users/1FRntjZDrFOLHkGHSGUPTOh9CUi1
+[03:12:21.798] Browser LOG     Department check: {"allowedDepartments":[],"allowedRoutes":["/it/user-management"],"department":"IT","pathname":"/register","userRoles":[]}
+[03:12:21.798] Browser LOG     Redirecting to department default: /it/user-management
+[03:12:21.907] Browser LOG     Department check: {"allowedDepartments":[],"allowedRoutes":["/it/user-management"],"department":"IT","pathname":"/it/user-management","userRoles":[]}
+[03:12:21.908] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/it/user-management color: rgb(120, 120, 120) color: inherit {"dp":"/it/user-management","o":"http://localhost:3000/it/user-management","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767849758902}
+[03:12:24.032] Browser LOG     User document not found in tenant path, checking old paths
+[03:12:24.032] Browser LOG     Checking old path: command-center/command-center-rep5o/command_center_users/1FRntjZDrFOLHkGHSGUPTOh9CUi1
+[03:12:24.388] Browser LOG     Checking old path: command_center_users/1FRntjZDrFOLHkGHSGUPTOh9CUi1
+[03:12:24.388] Browser LOG     Checking old path: users/1FRntjZDrFOLHkGHSGUPTOh9CUi1
+[03:12:25.060] Browser LOG     No existing user document found, creating new one
+[03:12:25.060] Browser LOG     Department check: {"allowedDepartments":["IT"],"allowedRoutes":["/it/user-management"],"department":"IT","pathname":"/it/user-management","userRoles":["IT_USER"]}
+[03:12:36.989] Server  WARN    [2026-01-08T05:22:54.086Z]  @firebase/firestore: "Firestore (12.6.0): enableIndexedDbPersistence() will be deprecated in the future, you can use `FirestoreSettings.cache` instead."
+[03:12:37.142] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:12:37.286] Browser WARN    [2026-01-08T05:22:54.249Z]  @firebase/firestore: Firestore (12.6.0): enableIndexedDbPersistence() will be deprecated in the future, you can use `FirestoreSettings.cache` instead.
+[03:12:37.286] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[03:12:37.286] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/it/user-management","route":"/it/user-management"}
+[03:12:37.286] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/it/user-management color: rgb(120, 120, 120) color: inherit {"dp":"/it/user-management","o":"http://localhost:3000/it/user-management","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767849774282}
+[03:12:37.551] Browser LOG     Auth state changed: {"tenantId":"command-center-rep5o","uid":"1FRntjZDrFOLHkGHSGUPTOh9CUi1","user":"authenticated"}
+[03:12:37.551] Browser LOG     Auth state changed - user authenticated: cc3@gmail.com 1FRntjZDrFOLHkGHSGUPTOh9CUi1
+[03:12:37.551] Browser LOG     Looking for user doc at: command_center_users/1FRntjZDrFOLHkGHSGUPTOh9CUi1
+[03:12:39.094] Browser LOG     User document found in tenant path
+[03:12:39.095] Browser LOG     Updating user document with tenant
+[03:12:40.112] Browser LOG     Department check: {"allowedDepartments":["IT"],"allowedRoutes":["/it/user-management"],"department":"IT","pathname":"/it/user-management","userRoles":["IT_USER"]}
+[03:13:23.195] Server  LOG     ✓ Compiled in 63ms
+[03:13:31.260] Server  LOG     ✓ Compiled in 83ms
+[03:17:09.883] Browser LOG     Starting logout process
+[03:17:09.883] Browser LOG     Auth state changed: {"tenantId":"command-center-rep5o","user":"not authenticated"}
+[03:17:09.883] Browser LOG     Auth state changed - user signed out
+[03:17:09.883] Browser LOG     Logout completed
+[03:17:09.883] Browser LOG     Navigation to /login initiated
+[03:17:09.883] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/login color: rgb(120, 120, 120) color: inherit {"dp":"/login","o":"http://localhost:3000/login","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767850046866}
+[03:17:11.298] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/register color: rgb(120, 120, 120) color: inherit {"dp":"/register","o":"http://localhost:3000/register","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767850048291}
+[03:17:20.130] Browser LOG     Auth state changed: {"tenantId":"command-center-rep5o","uid":"v6gStECR2YSadhBUiVfmPZVhRFG2","user":"authenticated"}
+[03:17:20.130] Browser LOG     Auth state changed - user authenticated: cc4@gmail.com v6gStECR2YSadhBUiVfmPZVhRFG2
+[03:17:20.130] Browser LOG     Looking for user doc at: command_center_users/v6gStECR2YSadhBUiVfmPZVhRFG2
+[03:17:20.130] Browser LOG     Department check: {"allowedDepartments":[],"allowedRoutes":["/it/user-management"],"department":"IT","pathname":"/register","userRoles":[]}
+[03:17:20.130] Browser LOG     Redirecting to department default: /it/user-management
+[03:17:20.232] Browser LOG     Department check: {"allowedDepartments":[],"allowedRoutes":["/it/user-management"],"department":"IT","pathname":"/it/user-management","userRoles":[]}
+[03:17:20.233] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/it/user-management color: rgb(120, 120, 120) color: inherit {"dp":"/it/user-management","o":"http://localhost:3000/it/user-management","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767850057213}
+[03:17:22.373] Browser LOG     User document not found in tenant path, checking old paths
+[03:17:22.373] Browser LOG     Checking old path: command-center/command-center-rep5o/command_center_users/v6gStECR2YSadhBUiVfmPZVhRFG2
+[03:17:22.728] Browser LOG     Checking old path: command_center_users/v6gStECR2YSadhBUiVfmPZVhRFG2
+[03:17:22.728] Browser LOG     Checking old path: users/v6gStECR2YSadhBUiVfmPZVhRFG2
+[03:17:23.418] Browser LOG     No existing user document found, creating new one
+[03:17:23.418] Browser LOG     Department check: {"allowedDepartments":["IT"],"allowedRoutes":["/it/user-management"],"department":"IT","pathname":"/it/user-management","userRoles":["IT_USER"]}
+[03:18:04.271] Server  LOG     ✓ Compiled in 96ms
+[03:18:20.160] Server  LOG     ✓ Compiled in 62ms
+[03:18:28.845] Server  LOG     ✓ Compiled in 68ms
+[03:18:36.731] Server  LOG     ✓ Compiled in 59ms
+[03:18:44.724] Server  LOG     ✓ Compiled in 65ms
+[03:19:00.985] Server  LOG     ✓ Compiled in 53ms
+[03:19:17.717] Server  LOG     ✓ Compiled in 61ms
+[03:19:26.425] Server  LOG     ✓ Compiled in 87ms
+[03:22:42.952] Server  WARN    [2026-01-08T05:33:00.051Z]  @firebase/firestore: "Firestore (12.6.0): enableIndexedDbPersistence() will be deprecated in the future, you can use `FirestoreSettings.cache` instead."
+[03:22:43.118] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:22:43.259] Browser WARN    [2026-01-08T05:33:00.222Z]  @firebase/firestore: Firestore (12.6.0): enableIndexedDbPersistence() will be deprecated in the future, you can use `FirestoreSettings.cache` instead.
+[03:22:43.259] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[03:22:43.259] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/it/user-management","route":"/it/user-management"}
+[03:22:43.259] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/it/user-management color: rgb(120, 120, 120) color: inherit {"dp":"/it/user-management","o":"http://localhost:3000/it/user-management","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767850380257}
+[03:22:43.732] Browser LOG     Auth state changed: {"tenantId":"command-center-rep5o","uid":"v6gStECR2YSadhBUiVfmPZVhRFG2","user":"authenticated"}
+[03:22:43.732] Browser LOG     Auth state changed - user authenticated: cc4@gmail.com v6gStECR2YSadhBUiVfmPZVhRFG2
+[03:22:43.732] Browser LOG     Looking for user doc at: command_center_users/v6gStECR2YSadhBUiVfmPZVhRFG2
+[03:22:46.005] Browser LOG     User document found in tenant path
+[03:22:46.005] Browser LOG     Updating user document with tenant
+[03:22:49.388] Browser LOG     Department check: {"allowedDepartments":["IT"],"allowedRoutes":["/it/user-management"],"department":"IT","pathname":"/it/user-management","userRoles":["IT_USER"]}
+[04:31:35.766] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./command-center/lib/utils.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[04:31:36.231] Server  WARN    [2026-01-08T06:41:53.329Z]  @firebase/firestore: "Firestore (12.6.0): enableIndexedDbPersistence() will be deprecated in the future, you can use `FirestoreSettings.cache` instead."
+[04:31:36.421] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[04:31:36.816] Browser WARN    [2026-01-08T06:41:53.561Z]  @firebase/firestore: Firestore (12.6.0): enableIndexedDbPersistence() will be deprecated in the future, you can use `FirestoreSettings.cache` instead.
+[04:31:36.816] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[04:31:36.816] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/it/user-management","route":"/it/user-management"}
+[04:31:36.816] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/it/user-management color: rgb(120, 120, 120) color: inherit {"dp":"/it/user-management","o":"http://localhost:3000/it/user-management","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767854513612}
+[04:31:38.821] Browser LOG     Auth state changed: {"tenantId":"command-center-rep5o","uid":"v6gStECR2YSadhBUiVfmPZVhRFG2","user":"authenticated"}
+[04:31:38.821] Browser LOG     Auth state changed - user authenticated: cc4@gmail.com v6gStECR2YSadhBUiVfmPZVhRFG2
+[04:31:38.821] Browser LOG     Looking for user doc at: command_center_users/v6gStECR2YSadhBUiVfmPZVhRFG2
+[04:31:38.821] Browser LOG     User document found in tenant path
+[04:31:38.821] Browser LOG     Department check: {"allowedDepartments":["IT"],"allowedRoutes":["/it/user-management"],"department":"IT","pathname":"/it/user-management","userRoles":["IT_USER"]}
