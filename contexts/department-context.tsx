@@ -27,7 +27,7 @@ const departmentDefaults: Record<Department, string> = {
 
 // Routes allowed for each department
 const departmentRoutes: Record<Department, string[]> = {
-  ADMIN: ['/', '/companies', '/products'],
+  ADMIN: ['/', '/companies', '/products', '/price-configurations'],
   SAM: ['/sam-booking'],
 };
 
