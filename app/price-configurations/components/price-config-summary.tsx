@@ -18,7 +18,7 @@ export function PriceConfigSummary({ regularPrice, premiumPrice }: PriceConfigSu
         </CardHeader>
         <CardContent>
           <div className="text-2xl font-bold">₱{regularPrice.toLocaleString()}</div>
-          <p className="text-xs text-muted-foreground">Current regular price per unit</p>
+          <p className="text-xs text-muted-foreground">Current regular price per square foot</p>
         </CardContent>
       </Card>
       
@@ -29,7 +29,7 @@ export function PriceConfigSummary({ regularPrice, premiumPrice }: PriceConfigSu
         </CardHeader>
         <CardContent>
           <div className="text-2xl font-bold">₱{premiumPrice.toLocaleString()}</div>
-          <p className="text-xs text-muted-foreground">Current premium price per unit</p>
+          <p className="text-xs text-muted-foreground">Current premium price per square foot</p>
         </CardContent>
       </Card>
     </div>
